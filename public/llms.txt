@@ -6,8 +6,9 @@
 
 - [飞行能力基因检测](https://sanshibio.com/flight-ability)：LDHA、DRD4、CRY1、MSTN、F-KER、LRP8、GSR、CASK 等 8 项飞行能力相关基因检测，评估赛鸽耐力、归巢、导航、肌力、羽翼与智商潜力。
 - [赛鸽病毒检测](https://sanshibio.com/virus-detection)：鸽新城疫、鸽疱疹、鸽圆环、鸽腺病毒、鸽痘、鹦鹉热衣原体、沙门氏菌、毛滴虫等 10 种病原体荧光定量 PCR 早筛。
+- [赛鸽亲子鉴定](https://sanshibio.com/paternity)：基于 58 个 SNP 位点亲权比对，科学确认鸽子父子/母子关系，用于血统认证、育种管理与参赛资格验证。
 - [产品中心](https://sanshibio.com/products)：便携式实时荧光定量 PCR 仪 Q162D、全自动核酸提取仪 ES08，及热启动 Taq 酶、qPCR 试剂盒等分子诊断试剂。
-- [检测服务](https://sanshibio.com/services)：赛鸽基因身份证（58 SNP 位点）、AB 鸽检测、亲缘鉴定、幼鸽性别鉴定、PCR 技术培训。
+- [检测服务](https://sanshibio.com/services)：赛鸽基因身份证（58 SNP 位点）、AB 鸽检测、亲子鉴定、幼鸽性别鉴定、PCR 技术培训。
 
 ## 关于
 

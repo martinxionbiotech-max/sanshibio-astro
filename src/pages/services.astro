@@ -20,9 +20,10 @@ const services = [
   },
   {
     icon: '👨‍👩‍👧',
-    name: '亲缘鉴定',
-    points: ['亲子关系鉴定', '血统溯源与谱系确认', '辅助引种与系谱管理'],
-    desc: '鉴定赛鸽亲子关系与血缘，为引种、系谱建立与育种配对提供科学依据。',
+    name: '亲子鉴定',
+    href: '/paternity',
+    points: ['58 个 SNP 位点亲权比对', '亲权指数与累计亲权概率计算', '血统认证、育种管理与参赛资格验证'],
+    desc: '基于孟德尔遗传定律，科学确认鸽子父子/母子关系，为血统认证与育种记录提供权威依据。',
   },
   {
     icon: '♂♀',
@@ -77,6 +78,9 @@ const breadcrumbLd = {
               </li>
             ))}
           </ul>
+          {s.href && (
+            <a href={s.href} class="mt-4 inline-block text-sm font-medium text-brand-600 hover:underline">了解更多 →</a>
+          )}
         </div>
       ))}
     </div>

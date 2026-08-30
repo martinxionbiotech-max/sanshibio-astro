@@ -1,0 +1,157 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = '赛鸽亲子鉴定｜DNA亲权鉴定·血统认证 - 三狮生物';
+const description =
+  '三狮生物赛鸽亲子鉴定，基于孟德尔遗传定律，通过58个SNP基因位点比对，科学确认鸽子亲子关系（父子/母子），计算亲权指数与累计亲权概率，用于血统认证、育种记录与赛事资格验证。';
+
+const scenarios = [
+  { icon: '🪪', name: '血统认证', desc: '验证名鸽血统真伪，杜绝虚假血统书与血统炒作。' },
+  { icon: '🐣', name: '育种记录管理', desc: '确认配对繁殖结果，防止「串种」与育种记录错乱。' },
+  { icon: '🏆', name: '参赛资格验证', desc: '验证参赛鸽血统真实性，保障赛事公平。' },
+  { icon: '📦', name: '引种溯源', desc: '确认引进种鸽的血统归属与亲本来源。' },
+  { icon: '🌳', name: '鸽系谱系建立', desc: '为新鸽系建立可靠、可追溯的谱系档案。' },
+  { icon: '🛡️', name: '防顶替·防串换', desc: '防止同名鸽、顶替鸽，维护交易与竞赛秩序。' },
+];
+
+const faqJson = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: '赛鸽亲子鉴定需要什么样本？', acceptedAnswer: { '@type': 'Answer', text: '拔取胸腹部羽毛 4-6 根（子代与疑似亲本均需提供），风干后放入无污染自封袋，按客服指引快递至实验室即可，无需采血或伤害鸽子。' } },
+    { '@type': 'Question', name: '只提供父鸽或母鸽单方可以鉴定吗？', acceptedAnswer: { '@type': 'Answer', text: '可以。若只提供父鸽或母鸽单方，可进行单亲鉴定；若能同时提供父母双方，鉴定结论的确认概率更高、更可靠。' } },
+    { '@type': 'Question', name: '亲子鉴定的准确率有多高？', acceptedAnswer: { '@type': 'Answer', text: '通过 58 个高多态性 SNP 基因位点比对，排除亲子关系时结论明确；确认亲子关系时累计亲权概率可达 99.99% 以上，准确性极高。' } },
+    { '@type': 'Question', name: '多久可以出具报告？', acceptedAnswer: { '@type': 'Answer', text: '样本寄达实验室后，一般数个工作日内即可出具包含亲权指数与结论的检测报告。' } },
+  ],
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.com/' },
+    { '@type': 'ListItem', position: 2, name: '亲子鉴定' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
+  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 亲子鉴定
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">赛鸽亲子鉴定</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        基于孟德尔遗传定律与 58 个 SNP 基因位点比对，科学确认鸽子之间的亲子关系，为血统认证、育种管理与赛事公平提供权威依据。
+      </p>
+    </div>
+  </section>
+
+  <!-- 概述 + 原理 -->
+  <section class="container-site py-16">
+    <div class="grid gap-10 lg:grid-cols-3">
+      <div class="lg:col-span-2 prose-sanshi">
+        <h2 class="text-2xl font-bold">什么是赛鸽亲子鉴定？</h2>
+        <p>
+          赛鸽亲子鉴定（亲权鉴定）是通过 DNA 分子标记比对，科学确认鸽子之间是否存在<b>父子 / 母子关系</b>的检测服务。
+          在赛鸽育种与交易中，血统是价值核心，而传统仅凭足环、血统书或外观的认定方式，
+          存在造假、串换、记录错乱等风险。亲子鉴定以基因证据取代主观判断，让「血统」真正可验证、可追溯。
+        </p>
+        <h2 class="mt-10 text-2xl font-bold">检测原理</h2>
+        <p>
+          亲子鉴定的科学基础是<b>孟德尔遗传定律</b>：子代的基因一半遗传自父鸽、一半遗传自母鸽。
+          检测时选取多个高度多态的基因位点（SNP 单核苷酸多态性位点），分别比对子代与疑似亲本的等位基因：
+        </p>
+        <ul class="list-disc pl-5 space-y-2 text-slate-600">
+          <li><b>排除亲子关系：</b>若疑似亲本不具备子代「必须继承」的等位基因，即可直接排除其亲缘关系，结论明确可靠。</li>
+          <li><b>确认亲子关系：</b>若子代与疑似亲本的等位基因完全符合遗传规律，则计算<b>亲权指数（PI）</b>与<b>累计亲权概率</b>，达到置信阈值即可确认亲子关系。</li>
+        </ul>
+        <p>
+          三狮生物选取 <b>58 个独家 SNP 基因位点</b>进行比对，位点更多、多态性更高，检测结果快速、精准、高效。
+        </p>
+        <h2 class="mt-10 text-2xl font-bold">检测报告内容</h2>
+        <ul class="list-disc pl-5 space-y-2 text-slate-600">
+          <li>检测位点信息与基因型分型结果</li>
+          <li>子代与疑似亲本在各基因位点的等位基因比对</li>
+          <li>亲权指数（PI）与累计亲权概率（CPP）</li>
+          <li>最终结论：<b>支持 / 排除</b>亲子关系</li>
+        </ul>
+      </div>
+      <div class="card h-fit">
+        <h3 class="mb-4 text-sm font-semibold text-slate-900">采样方式</h3>
+        <ul class="space-y-3 text-sm text-slate-600">
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>拔取胸腹部羽毛 4-6 根</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>风干后装入无污染自封袋</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>子代与疑似亲本均需采样</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>无需采血，幼鸽即可检测</li>
+        </ul>
+        <div class="mt-6 rounded-xl bg-brand-50 p-4 text-sm text-brand-800">
+          <p class="font-semibold">技术优势</p>
+          <p class="mt-1">58 个 SNP 位点 · 累计亲权概率 ≥99.99% · 快速精准</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 应用场景 -->
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">应用场景</span>
+        <h2 class="section-title mt-3">亲子鉴定的六大用途</h2>
+      </div>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {scenarios.map((s) => (
+          <div class="card">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">{s.icon}</span>
+              <h3 class="font-semibold text-slate-900">{s.name}</h3>
+            </div>
+            <p class="mt-2 text-sm text-slate-600">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 流程 -->
+  <section class="container-site py-16">
+    <div class="text-center">
+      <span class="badge">服务流程</span>
+      <h2 class="section-title mt-3">四步完成亲子鉴定</h2>
+    </div>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {[
+        ['1', '咨询下单', '确定鉴定对象与项目并下单'],
+        ['2', '羽毛采样', '子代与疑似亲本分别拔取羽毛'],
+        ['3', '实验室鉴定', 'DNA 提取与 58 位点比对'],
+        ['4', '出具报告', '含亲权概率的鉴定结论'],
+      ].map(([n, t, d]) => (
+        <div class="card text-center">
+          <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">{n}</div>
+          <h3 class="mt-3 font-semibold text-slate-900">{t}</h3>
+          <p class="mt-2 text-sm text-slate-500">{d}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-slate-50 py-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">常见问题</h2>
+      <div class="mt-8 space-y-4">
+        {faqJson.mainEntity.map((q) => (
+          <div class="card">
+            <h3 class="font-semibold text-slate-900">{q.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center">
+        <a href="/contact" class="btn-primary">预约亲子鉴定</a>
+      </div>
+    </div>
+  </section>
+</Layout>
