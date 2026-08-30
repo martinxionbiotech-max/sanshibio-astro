@@ -2,9 +2,9 @@
 import PageBanner from '../components/PageBanner.astro';
 import Layout from '../layouts/Layout.astro';
 
-const title = '赛鸽病毒检测｜10种病原体荧光定量PCR早筛 - 三狮生物';
+const title = '赛鸽病毒检测｜11种病原体荧光定量PCR早筛 - 三狮生物';
 const description =
-  '三狮生物赛鸽病原体检测，覆盖鸽新城疫、鸽疱疹、鸽圆环、鸽腺病毒、鸽痘病毒、鹦鹉热衣原体、沙门氏菌、毛滴虫等10种常见病原体，荧光定量PCR精准早筛，守护鸽群健康。';
+  '三狮生物赛鸽病原体检测，覆盖鸽新城疫、鸽疱疹、鸽圆环、鸽腺病毒、鸽痘病毒、鸽微RNA病毒、鹦鹉热衣原体、沙门氏菌、毛滴虫等11种常见病原体，荧光定量PCR精准早筛，守护鸽群健康。';
 
 const pathogens = [
   { name: '鸽新城疫病毒', type: '病毒', cat: '副黏病毒', harm: '高度传染，引起呼吸道、消化道与神经系统症状，死亡率高，是赛鸽最严重的传染病之一。', note: '赛前与引种必检项目' },
@@ -13,6 +13,7 @@ const pathogens = [
   { name: '鸽腺病毒', type: '病毒', cat: '腺病毒', harm: '引起肝炎、肠炎（青年鸽病），表现为呕吐、腹泻、食欲废绝。', note: '幼鸽常见病原' },
   { name: '鸽轮状病毒', type: '病毒', cat: '轮状病毒', harm: '引起肠道感染与腹泻，幼鸽易感，影响消化吸收。', note: '肠道病原筛查' },
   { name: '鸽痘病毒', type: '病毒', cat: '痘病毒', harm: '引起皮肤型与黏膜型痘疹，影响飞行与进食，黏膜型可致窒息。', note: '已有荧光定量PCR检测团标' },
+  { name: '鸽微RNA病毒', type: '病毒', cat: '微RNA病毒', harm: '2013年新发现的肠道相关病毒，2024年首次在中国大陆信鸽中证实，致病性未明，多见于轻度腹泻信鸽。', note: '新发病毒，监测排查' },
   { name: '鹦鹉热衣原体', type: '衣原体', cat: '衣原体', harm: '人畜共患病病原，引起呼吸道感染、结膜炎，可通过气溶胶感染人。', note: '人畜共患，重点防控' },
   { name: '白色念珠菌', type: '真菌', cat: '真菌', harm: '引起念珠菌病（鹅口疮），嗉囊炎、口腔黏膜白斑，消化不良。', note: '嗉囊消化道病原' },
   { name: '沙门氏菌', type: '细菌', cat: '肠杆菌', harm: '引起副伤寒，表现为关节炎、腹泻、神经症状，也是人畜共患病原。', note: '人畜共患，重点防控' },
@@ -41,7 +42,7 @@ const breadcrumbLd = {
 ---
 
 <Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
-  <PageBanner title="赛鸽病毒病原体检测" description="覆盖 10 种赛鸽常见病原体，采用荧光定量 PCR 技术精准早筛，做到「早发现、早隔离、早防控」，守护鸽群健康与赛绩稳定。" breadcrumb="病毒检测" />
+  <PageBanner title="赛鸽病毒病原体检测" description="覆盖 11 种赛鸽常见病原体，采用荧光定量 PCR 技术精准早筛，做到「早发现、早隔离、早防控」，守护鸽群健康与赛绩稳定。" breadcrumb="病毒检测" />
 
   <section class="container-site py-16">
     <div class="grid gap-10 lg:grid-cols-3">
@@ -86,7 +87,7 @@ const breadcrumbLd = {
     <div class="container-site">
       <div class="text-center">
         <span class="badge">检测项目</span>
-        <h2 class="section-title mt-3">10 种常见病原体</h2>
+        <h2 class="section-title mt-3">11 种常见病原体</h2>
         <p class="mt-3 text-slate-600">病毒 · 衣原体 · 真菌 · 细菌 · 原虫全覆盖</p>
       </div>
       <div class="mt-10 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
