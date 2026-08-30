@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const title = '赛鸽基因检测知识库｜育种·疫病·血统科普 - 三狮生物';
+const description =
+  '三狮生物赛鸽知识库：赛鸽飞行能力基因、病毒防控、亲子鉴定、羽毛采样等专业科普文章，帮助鸽友科学育种、精准选育、健康养鸽。';
+---
+
+<Layout title={title} description={description}>
+  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 知识库
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">赛鸽基因检测知识库</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        聚焦赛鸽育种基因、疫病防控与血统鉴定的专业科普，助力科学养鸽。
+      </p>
+    </div>
+  </section>
+
+  <section class="container-site py-16">
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {posts.map((post) => (
+        <a href={`/blog/${post.id}/`} class="card group hover:border-brand-300 hover:shadow-md transition">
+          <div class="flex items-center gap-2">
+            <span class="rounded-full bg-brand-50 px-2 py-0.5 text-xs text-brand-700">{post.data.category}</span>
+            <span class="text-xs text-slate-400">{post.data.pubDate.toISOString().slice(0, 10)}</span>
+          </div>
+          <h2 class="mt-3 font-semibold text-slate-900 group-hover:text-brand-700">{post.data.title}</h2>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600">{post.data.description}</p>
+          <span class="mt-4 inline-block text-sm font-medium text-brand-600">阅读全文 →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

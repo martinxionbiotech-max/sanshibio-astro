@@ -8,4 +8,13 @@
   <url><loc>https://sanshibio.com/services</loc><priority>0.8</priority></url>
   <url><loc>https://sanshibio.com/about</loc><priority>0.7</priority></url>
   <url><loc>https://sanshibio.com/contact</loc><priority>0.7</priority></url>
+  <url><loc>https://sanshibio.com/blog/</loc><priority>0.8</priority></url>
+  <url><loc>https://sanshibio.com/blog/ldha-endurance-gene/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/drd4-homing-gene/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/cry1-navigation-gene/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/mstn-muscle-gene/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/newcastle-disease-control/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/salmonella-paratyphoid/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/paternity-test-guide/</loc><priority>0.6</priority></url>
+  <url><loc>https://sanshibio.com/blog/feather-sampling-guide/</loc><priority>0.6</priority></url>
 </urlset>

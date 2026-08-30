@@ -1,6 +1,6 @@
 # 三狮生物 (Sanshi Bio)
 
-> 河北三狮生物科技有限公司 — 以基因检测技术为核心的高新技术企业，专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。
+> 河北三狮生物科技有限公司 — 以基因检测技术为核心的高新技术企业，专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。坐落于石家庄国际生物医药产业园，ISO9001 认证，300+ 产品，22 项专利。
 
 ## 核心业务
 
@@ -10,7 +10,18 @@
 - [产品中心](https://sanshibio.com/products)：便携式实时荧光定量 PCR 仪 Q162D、全自动核酸提取仪 ES08，及热启动 Taq 酶、qPCR 试剂盒等分子诊断试剂。
 - [检测服务](https://sanshibio.com/services)：赛鸽基因身份证（58 SNP 位点）、AB 鸽检测、亲子鉴定、幼鸽性别鉴定、PCR 技术培训。
 
+## 知识库
+
+- [赛鸽耐力基因 LDHA 详解](https://sanshibio.com/blog/ldha-endurance-gene/)：乳酸代谢与长途飞行耐受能力。
+- [赛鸽归巢基因 DRD4 详解](https://sanshibio.com/blog/drd4-homing-gene/)：多巴胺系统与归巢毅力。
+- [赛鸽导航基因 CRY1 详解](https://sanshibio.com/blog/cry1-navigation-gene/)：隐花色素与地磁感知。
+- [赛鸽肌力基因 MSTN 详解](https://sanshibio.com/blog/mstn-muscle-gene/)：肌肉生长抑素与飞行速度。
+- [赛鸽新城疫防控全指南](https://sanshibio.com/blog/newcastle-disease-control/)：症状识别与科学防控。
+- [赛鸽沙门氏菌（副伤寒）防控](https://sanshibio.com/blog/salmonella-paratyphoid/)：识别、诊断与防控要点。
+- [赛鸽亲子鉴定全指南](https://sanshibio.com/blog/paternity-test-guide/)：原理、流程与血统认证。
+- [赛鸽基因检测羽毛采样全流程](https://sanshibio.com/blog/feather-sampling-guide/)：从采样到报告解读。
+
 ## 关于
 
-- [关于三狮](https://sanshibio.com/about)：公司简介、三位一体产业布局、荣誉资质。
-- [联系我们](https://sanshibio.com/contact)：总部电话 0311-82970259，邮箱 sanshibio@126.com。
+- [关于三狮](https://sanshibio.com/about)：公司简介、三位一体产业布局、荣誉资质、质控体系。
+- [联系我们](https://sanshibio.com/contact)：总部电话 0311-82970259，邮箱 sanshibio@126.com，地址石家庄高新区太行南大街509号国械堂高端医疗器械产业园A-5栋702室。

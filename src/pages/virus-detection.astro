@@ -142,6 +142,26 @@ const breadcrumbLd = {
     </div>
   </section>
 
+  <!-- 延伸阅读 -->
+  <section class="container-site py-16">
+    <div class="text-center">
+      <span class="badge">延伸阅读</span>
+      <h2 class="section-title mt-3">疫病防控科普</h2>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {[
+        ['赛鸽新城疫防控全指南', '症状识别与科学防控', '/blog/newcastle-disease-control/'],
+        ['赛鸽沙门氏菌（副伤寒）防控', '识别、诊断与防控要点', '/blog/salmonella-paratyphoid/'],
+        ['羽毛采样全流程', '从采样到报告解读', '/blog/feather-sampling-guide/'],
+      ].map(([t, d, href]) => (
+        <a href={href} class="card group hover:border-brand-300 transition">
+          <h3 class="font-semibold text-slate-900 group-hover:text-brand-700">{t}</h3>
+          <p class="mt-2 text-sm text-slate-500">{d}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
   <section class="bg-slate-50 py-16">
     <div class="container-site max-w-3xl">
       <h2 class="section-title text-center">常见问题</h2>

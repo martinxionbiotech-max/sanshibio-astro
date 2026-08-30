@@ -152,8 +152,36 @@ const description =
     </div>
   </section>
 
+  <!-- 知识库 -->
+  <section class="bg-slate-50 py-20">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">知识库</span>
+        <h2 class="section-title mt-3">赛鸽基因检测专业科普</h2>
+        <p class="mt-3 text-slate-600">从基因科学到疫病防控，助力科学养鸽</p>
+      </div>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          ['赛鸽耐力基因 LDHA 详解', '乳酸代谢与长途飞行耐受', '/blog/ldha-endurance-gene/'],
+          ['赛鸽归巢基因 DRD4 详解', '多巴胺系统与归巢毅力', '/blog/drd4-homing-gene/'],
+          ['赛鸽导航基因 CRY1 详解', '隐花色素与地磁感知', '/blog/cry1-navigation-gene/'],
+          ['赛鸽新城疫防控全指南', '症状识别与科学防控', '/blog/newcastle-disease-control/'],
+        ].map(([t, d, href]) => (
+          <a href={href} class="card group hover:border-brand-300 hover:shadow-md transition">
+            <h3 class="font-semibold text-slate-900 group-hover:text-brand-700">{t}</h3>
+            <p class="mt-2 text-sm text-slate-500">{d}</p>
+            <span class="mt-3 inline-block text-sm font-medium text-brand-600">阅读 →</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-8 text-center">
+        <a href="/blog/" class="btn-outline">查看全部科普文章</a>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
-  <section class="container-site pb-20">
+  <section class="container-site py-20">
     <div class="rounded-3xl bg-gradient-to-r from-brand-700 to-deep-600 px-8 py-12 text-center text-white sm:px-12">
       <h2 class="text-2xl font-bold sm:text-3xl">准备开启科学育种之路？</h2>
       <p class="mt-3 text-brand-50">设备、试剂、培训一条龙，三狮生物为您提供全流程分子检测支持。</p>

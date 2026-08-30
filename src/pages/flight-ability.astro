@@ -157,6 +157,28 @@ const breadcrumbLd = {
     </div>
   </section>
 
+  <!-- 延伸阅读 -->
+  <section class="container-site py-16">
+    <div class="text-center">
+      <span class="badge">延伸阅读</span>
+      <h2 class="section-title mt-3">深入了解各项基因</h2>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {[
+        ['赛鸽耐力基因 LDHA 详解', '乳酸代谢与长途飞行耐受', '/blog/ldha-endurance-gene/'],
+        ['赛鸽归巢基因 DRD4 详解', '多巴胺系统与归巢毅力', '/blog/drd4-homing-gene/'],
+        ['赛鸽导航基因 CRY1 详解', '隐花色素与地磁感知', '/blog/cry1-navigation-gene/'],
+        ['赛鸽肌力基因 MSTN 详解', '肌肉生长抑素与飞行速度', '/blog/mstn-muscle-gene/'],
+        ['羽毛采样全流程', '从采样到报告解读', '/blog/feather-sampling-guide/'],
+      ].map(([t, d, href]) => (
+        <a href={href} class="card group hover:border-brand-300 transition">
+          <h3 class="font-semibold text-slate-900 group-hover:text-brand-700">{t}</h3>
+          <p class="mt-2 text-sm text-slate-500">{d}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
   <!-- FAQ -->
   <section class="bg-slate-50 py-16">
     <div class="container-site max-w-3xl">
