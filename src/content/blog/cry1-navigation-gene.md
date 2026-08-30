@@ -64,3 +64,7 @@ CRY1 基因编码的隐花色素蛋白，被认为是赛鸽**地磁导航**的�
 ### 导航基因适合参加哪些距离的赛事？
 导航能力对 500 公里以上的远距离赛事尤其关键。参加长距离赛事的鸽友，建议重点结合[耐力基因 LDHA](/blog/ldha-endurance-gene/)与导航基因 CRY1 综合选育。
 
+## 参考资料
+
+- [隐花色素 — 维基百科](https://en.wikipedia.org/wiki/Cryptochrome)
+- [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)

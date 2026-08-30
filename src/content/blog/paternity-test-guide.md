@@ -79,3 +79,7 @@ tags: [亲子鉴定, 血统认证, SNP, 亲权鉴定]
 ### 亲子鉴定和基因身份证有什么区别？
 [基因身份证](/blog/gene-id-card-guide/)是为单羽鸽子建立唯一身份档案，亲子鉴定是确认鸽子之间的亲子关系，两者配合可实现血统的完整溯源。
 
+## 参考资料
+
+- [DNA 分型 — 维基百科](https://en.wikipedia.org/wiki/DNA_profiling)
+- [单核苷酸多态性 — 维基百科](https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism)

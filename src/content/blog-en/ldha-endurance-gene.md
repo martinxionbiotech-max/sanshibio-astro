@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon Endurance Gene LDHA: Lactic Acid Metabolism Explained"
+title: "Racing Pigeon Endurance Gene LDHA: Lactic Acid Explained"
 description: Understand the LDHA (lactate dehydrogenase A) gene in racing pigeons, how lactic acid metabolism drives long-distance endurance, and how to breed for endurance.
 pubDate: 2026-08-25
 category: Flight Genes
@@ -43,3 +43,8 @@ Pluck 4–6 breast feathers — no blood sampling needed, squabs can be tested.
 
 ### Can the endurance gene alone determine race results?
 No. Genes determine potential; results also depend on training, nutrition, weather and disease.
+
+## References
+
+- [Lactate dehydrogenase — Wikipedia](https://en.wikipedia.org/wiki/Lactate_dehydrogenase)
+- [LDHA gene — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3938)

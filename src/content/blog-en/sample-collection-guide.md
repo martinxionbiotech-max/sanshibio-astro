@@ -1,5 +1,5 @@
 ---
-title: "Sample Collection Guide for Racing Pigeons: Feather, Swab and Blood"
+title: "Pigeon Sample Collection Guide: Feather, Swab and Blood"
 description: Step-by-step guidance on collecting feather, swab and blood samples for pigeon genetic and virus testing, with storage and shipping tips for accurate results.
 pubDate: 2026-07-22
 category: Testing Guide
@@ -58,3 +58,8 @@ A single feather with intact pulp usually suffices, but 3–5 are recommended in
 
 ### Does swab sampling hurt the pigeon?
 No, when done correctly. Oral/cloacal swabs collect only surface secretions; be gentle.
+
+## References
+
+- [Feather — Wikipedia](https://en.wikipedia.org/wiki/Feather)
+- [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)

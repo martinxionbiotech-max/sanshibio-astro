@@ -57,3 +57,7 @@ tags: [鹦鹉热衣原体, 人畜共患, 鸽病, 公共卫生]
 ### 感染鹦鹉热有什么人用症状？
 人感染后常见发热、寒战、头痛、干咳、肺炎等类流感症状。如出现相关症状且有接触史，应及时就医并告知医生接触史。
 
+## 参考资料
+
+- [鹦鹉热衣原体 — 维基百科](https://en.wikipedia.org/wiki/Chlamydia_psittaci)
+- [鹦鹉热 — 维基百科](https://en.wikipedia.org/wiki/Psittacosis)

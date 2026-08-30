@@ -81,3 +81,7 @@ tags: [新城疫, 病毒防控, 鸽病, PCR检测]
 ### 新城疫和普通感冒怎么区分？
 两者早期症状有相似处（呼吸道症状），但新城疫常伴绿色水样腹泻、神经症状（歪头、转圈），且传播快、死亡率高。建议通过[荧光定量 PCR 检测](/virus-detection/)确诊，切勿凭经验用药。
 
+## 参考资料
+
+- [新城疫 — 维基百科](https://en.wikipedia.org/wiki/Newcastle_disease)
+- [新城疫 — 世界动物卫生组织(WOAH)](https://www.woah.org/en/disease/newcastle-disease/)

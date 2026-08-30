@@ -55,3 +55,8 @@ It falls in the gray zone (35–40), suggesting low load or sampling error. Re-t
 
 ### How many pathogens can qPCR detect at once?
 Multiplex qPCR detects 2–6 pathogens simultaneously through different fluorescence channels.
+
+## References
+
+- [Real-time PCR — Wikipedia](https://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction)
+- [Polymerase chain reaction — Wikipedia](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)

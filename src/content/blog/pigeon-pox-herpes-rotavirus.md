@@ -58,3 +58,7 @@ tags: [鸽痘, 疱疹病毒, 轮状病毒, 鸽病]
 ### 鸽疱疹病毒能彻底清除吗？
 疱疹病毒呈潜伏感染，难以彻底清除，但可通过减少应激、增强免疫降低复发频率。赛季前建议做[病原体筛查](/virus-detection/)，评估潜伏状态。
 
+## 参考资料
+
+- [禽痘 — 维基百科](https://en.wikipedia.org/wiki/Fowlpox)
+- [轮状病毒 — 维基百科](https://en.wikipedia.org/wiki/Rotavirus)

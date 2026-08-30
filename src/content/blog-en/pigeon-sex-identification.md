@@ -32,3 +32,8 @@ In [Sanshi Bio](/en/about/) testing, the sex locus is included in the **58 SNP l
 
 ### How accurate is gene sexing?
 Extremely accurate (near 100%), far higher than visual or vent inspection.
+
+## References
+
+- [ZW sex-determination system — Wikipedia](https://en.wikipedia.org/wiki/ZW_sex-determination_system)
+- [CHD1 — Wikipedia](https://en.wikipedia.org/wiki/CHD1)

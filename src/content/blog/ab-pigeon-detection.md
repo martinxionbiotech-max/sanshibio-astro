@@ -57,3 +57,7 @@ DNA 是每羽鸽子与生俱来的「唯一标识」，无法伪造、无法顶�
 ### 公棚如何落地 AB 鸽检测？
 建议公棚赛前统一为参赛鸽采样建档，赛后对获奖鸽逐羽核验，配合[亲子鉴定](/paternity/)验证血统，形成完整的防作弊体系。
 
+## 参考资料
+
+- [DNA 分型 — 维基百科](https://en.wikipedia.org/wiki/DNA_profiling)
+- [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)

@@ -1,5 +1,5 @@
 ---
-title: "Speed vs Endurance Racing Pigeons: Gene-Based Breeding Strategy"
+title: "Speed vs Endurance Pigeons: Gene-Based Breeding Strategy"
 description: Explore the genetic differences between speed and endurance racing pigeons, and how LDHA, MSTN and other flight genes guide distance-specific breeder pairing.
 pubDate: 2026-07-21
 category: Flight Genes
@@ -50,3 +50,8 @@ Not necessarily. Genotype reflects tendency, not absolute limits. Long distances
 
 ### Can testing predict race results?
 No — it assesses genetic potential across speed, endurance and navigation, guiding pairing and training. See [flight ability testing](/en/flight-ability/).
+
+## References
+
+- [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)
+- [Rock dove — Wikipedia](https://en.wikipedia.org/wiki/Rock_dove)

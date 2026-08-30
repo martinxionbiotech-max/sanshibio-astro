@@ -67,3 +67,7 @@ tags: [F-KER, 羽翼基因, 羽角蛋白, 飞行能力]
 ### F-KER 指标主要服务什么赛事？
 羽翼指标对雨天、潮湿环境的赛事尤其重要。羽毛防水性与紧密程度好的赛鸽，在恶劣天气下飞行效率更高。
 
+## 参考资料
+
+- [角蛋白 — 维基百科](https://en.wikipedia.org/wiki/Keratin)
+- [羽毛 — 维基百科](https://en.wikipedia.org/wiki/Feather)

@@ -5,9 +5,31 @@ import HomeHero from '../../components/HomeHero.astro';
 const title = 'Sanshi Bio | Racing Pigeon Gene Testing · Virus Detection · Equipment';
 const description =
   'Hebei Sanshi Biotechnology provides racing pigeon flight-ability gene testing, virus detection, and molecular diagnostic reagents & equipment — an integrated equipment + reagents + training solution covering 8 flight genes and 10 pathogens.';
+
+const homepageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: title,
+  description,
+  url: 'https://sanshibio.com/en/',
+  isPartOf: { '@type': 'WebSite', name: 'Sanshi Bio', url: 'https://sanshibio.com/' },
+  about: { '@type': 'Organization', name: 'Hebei Sanshi Biotechnology Co., Ltd.', url: 'https://sanshibio.com/en/about' },
+};
+
+const serviceListLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Sanshi Bio Core Services',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Racing Pigeon Flight Ability Gene Test', url: 'https://sanshibio.com/en/flight-ability' },
+    { '@type': 'ListItem', position: 2, name: 'Racing Pigeon Virus Detection', url: 'https://sanshibio.com/en/virus-detection' },
+    { '@type': 'ListItem', position: 3, name: 'Racing Pigeon Paternity Test', url: 'https://sanshibio.com/en/paternity' },
+    { '@type': 'ListItem', position: 4, name: 'Molecular Diagnostic Reagents & Equipment', url: 'https://sanshibio.com/en/products' },
+  ],
+};
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} jsonLd={[homepageLd, serviceListLd]}>
   <HomeHero />
 
   <!-- 三大核心业务 -->

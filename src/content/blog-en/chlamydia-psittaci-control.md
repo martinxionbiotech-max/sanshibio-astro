@@ -32,3 +32,8 @@ In humans, infection causes fever, chills, headache and dry cough, sometimes pne
 
 ### Does Chlamydia psittaci always infect humans?
 It can transmit via aerosols, but protection (mask, hand washing, ventilation) greatly reduces risk. See [virus detection](/en/virus-detection/) for early diagnosis.
+
+## References
+
+- [Chlamydia psittaci — Wikipedia](https://en.wikipedia.org/wiki/Chlamydia_psittaci)
+- [Psittacosis — Wikipedia](https://en.wikipedia.org/wiki/Psittacosis)

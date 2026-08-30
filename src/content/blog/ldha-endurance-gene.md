@@ -71,3 +71,8 @@ LDHA 编码的**乳酸脱氢酶 A**，是乳酸代谢的关键酶。它能够：
 
 ### 耐力基因能单独决定赛绩吗？
 不能。基因决定的是「潜力」，实际赛绩还受训养、营养、天气、疾病等多因素影响。
+
+## 参考资料
+
+- [乳酸脱氢酶 — 维基百科](https://en.wikipedia.org/wiki/Lactate_dehydrogenase)
+- [LDHA 基因 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3938)

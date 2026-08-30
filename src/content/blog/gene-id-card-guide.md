@@ -55,3 +55,7 @@ tags: [基因身份证, SNP位点, 个体识别, 二代测序]
 ### 基因身份证需要定期更新吗？
 基因身份证一旦建立长期有效，无需更新。建议为所有种鸽与重要赛鸽建立档案，形成完整的鸽群基因档案库。
 
+## 参考资料
+
+- [单核苷酸多态性 — 维基百科](https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism)
+- [DNA 分型 — 维基百科](https://en.wikipedia.org/wiki/DNA_profiling)

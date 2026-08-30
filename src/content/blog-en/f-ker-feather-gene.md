@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon Feather Gene F-KER: Keratin and Feather Quality"
+title: "Racing Pigeon Feather Gene F-KER: Keratin Quality"
 description: Understand the F-KER (feather keratin) gene in racing pigeons, how feather structure affects aerodynamic performance, and breeding for quality feathers.
 pubDate: 2026-07-28
 category: Flight Genes
@@ -29,3 +29,8 @@ In the [flight ability gene test](/en/flight-ability/), F-KER corresponds to the
 
 ### Is feather quality only genetic?
 No. Feather quality is also affected by nutrition (protein and amino acids), moult management and disease. Genes set the foundation; husbandry determines the outcome.
+
+## References
+
+- [Keratin — Wikipedia](https://en.wikipedia.org/wiki/Keratin)
+- [Feather — Wikipedia](https://en.wikipedia.org/wiki/Feather)

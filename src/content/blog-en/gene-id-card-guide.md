@@ -32,3 +32,8 @@ The [Sanshi Bio](/en/about/) gene ID card is built on **next-generation sequenci
 
 ### How does a gene ID card differ from a leg ring?
 A leg ring is a wearable identity that can be swapped or forged; a gene ID card is DNA-based and unforgeable. The two together provide true identity security.
+
+## References
+
+- [Single-nucleotide polymorphism — Wikipedia](https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism)
+- [DNA profiling — Wikipedia](https://en.wikipedia.org/wiki/DNA_profiling)

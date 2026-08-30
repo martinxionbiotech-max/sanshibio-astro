@@ -69,3 +69,8 @@ tags: [试剂盒, 核酸提取, PCR试剂, 检测耗材]
 
 ### 样本采集用什么？
 羽毛样本使用配套采样管（含保存液），拭子使用专用植绒拭子，避免普通棉签残留影响结果。
+
+## 参考资料
+
+- [聚合酶链式反应 — 维基百科](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)
+- [核酸 — 维基百科](https://en.wikipedia.org/wiki/Nucleic_acid)

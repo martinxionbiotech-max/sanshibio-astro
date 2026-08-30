@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon Feather Sampling Guide: From Sampling to Report"
+title: "Pigeon Feather Sampling Guide: From Sample to Report"
 description: A detailed guide to feather sampling for racing pigeon gene testing — sampling standards, shipping notes and report interpretation for accurate results.
 pubDate: 2026-08-01
 category: Testing Guide
@@ -36,3 +36,8 @@ A report includes the test project, results (genotypes or pathogen positive/nega
 
 ### How soon must feathers be shipped?
 Air-dry then ship promptly to avoid DNA degradation. Keep the quill intact and uncontaminated.
+
+## References
+
+- [Feather — Wikipedia](https://en.wikipedia.org/wiki/Feather)
+- [Rock dove — Wikipedia](https://en.wikipedia.org/wiki/Rock_dove)

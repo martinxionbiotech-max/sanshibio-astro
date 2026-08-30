@@ -1,6 +1,6 @@
 ---
-title: "Racing Pigeon Lab Equipment Guide: Tiered Setup for Every Loft"
-description: Tiered equipment lists for hobby lofts, professional lofts and testing labs, covering nucleic acid extractors, PCR cyclers, qPCR instruments and budget references.
+title: "Pigeon Lab Equipment Guide: Tiered Setup for Every Loft"
+description: Tiered equipment lists for hobby, professional and lab setups, covering extractors, PCR cyclers, qPCR instruments and budgets.
 pubDate: 2026-07-16
 category: Testing Guide
 tags: [lab equipment, PCR cycler, nucleic acid extractor, setup]
@@ -51,3 +51,8 @@ For SNP genotyping, standard PCR + electrophoresis or gene chip suffices. qPCR i
 
 ### How often should equipment be calibrated?
 Calibrate pipettes annually; verify PCR cyclers and extractors per manufacturer schedule.
+
+## References
+
+- [Polymerase chain reaction — Wikipedia](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)
+- [Nucleic acid extraction — Wikipedia](https://en.wikipedia.org/wiki/Nucleic_acid_extraction)

@@ -78,3 +78,7 @@ CASK 优良基因型的赛鸽：
 ### 阴雨天定向指标 GSR 重要吗？
 对于常在阴雨、雾霾天气参赛的鸽友，GSR 指标尤为重要。优良基因型的赛鸽在恶劣天气下更能保持定向，不易迷失。
 
+## 参考资料
+
+- [谷胱甘肽还原酶 — 维基百科](https://en.wikipedia.org/wiki/Glutathione_reductase)
+- [LRP8 — 维基百科](https://en.wikipedia.org/wiki/LRP8)

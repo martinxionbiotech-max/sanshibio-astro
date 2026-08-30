@@ -1,6 +1,6 @@
 ---
-title: "Racing Pigeon Memory, Weather Orientation & Intelligence Genes: LRP8, GSR, CASK"
-description: Understand the LRP8 (memory), GSR (bad-weather orientation) and CASK (intelligence) genes in racing pigeons, and how cognition shapes trainability and stability.
+title: "Pigeon Memory & Orientation Genes: LRP8, GSR, CASK"
+description: Understand the LRP8 (memory), GSR (orientation) and CASK (intelligence) genes and how cognition shapes trainability.
 pubDate: 2026-07-25
 category: Flight Genes
 tags: [LRP8, GSR, CASK, cognition, flight ability]
@@ -32,3 +32,8 @@ Beyond physical indicators, three "cognitive" indicators complete the [flight ab
 
 ### Can cognitive indicators be improved by training?
 Yes. Cognition is highly plastic; scientific training amplifies genetic advantage. [Gene testing](/en/flight-ability/) identifies potential, training realizes it.
+
+## References
+
+- [Glutathione reductase — Wikipedia](https://en.wikipedia.org/wiki/Glutathione_reductase)
+- [LRP8 — Wikipedia](https://en.wikipedia.org/wiki/LRP8)

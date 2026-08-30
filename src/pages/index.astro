@@ -5,9 +5,31 @@ import HomeHero from '../components/HomeHero.astro';
 const title = '三狮生物｜赛鸽基因检测·病毒检测·试剂设备一体化方案';
 const description =
   '河北三狮生物科技有限公司专注赛鸽飞行能力基因检测、赛鸽病毒检测及分子诊断试剂设备研发生产，提供设备+试剂+培训一条龙服务，覆盖LDHA、DRD4、CRY1等8项飞行能力基因与10种鸽病原体检测。';
+
+const homepageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: title,
+  description,
+  url: 'https://sanshibio.com/',
+  isPartOf: { '@type': 'WebSite', name: '三狮生物', url: 'https://sanshibio.com/' },
+  about: { '@type': 'Organization', name: '河北三狮生物科技有限公司', url: 'https://sanshibio.com/about' },
+};
+
+const serviceListLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: '三狮生物核心业务',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '赛鸽飞行能力基因检测', url: 'https://sanshibio.com/flight-ability' },
+    { '@type': 'ListItem', position: 2, name: '赛鸽病毒检测', url: 'https://sanshibio.com/virus-detection' },
+    { '@type': 'ListItem', position: 3, name: '赛鸽亲子鉴定', url: 'https://sanshibio.com/paternity' },
+    { '@type': 'ListItem', position: 4, name: '分子诊断试剂与设备', url: 'https://sanshibio.com/products' },
+  ],
+};
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} jsonLd={[homepageLd, serviceListLd]}>
   <HomeHero />
 
   <!-- 三大核心业务 -->

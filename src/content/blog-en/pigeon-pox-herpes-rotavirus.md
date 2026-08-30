@@ -1,5 +1,5 @@
 ---
-title: "Pigeon Pox, Herpesvirus & Rotavirus: Recognizing Three Common Viruses"
+title: "Pigeon Pox, Herpesvirus & Rotavirus: Three Common Viruses"
 description: Understand pigeon poxvirus, herpesvirus and rotavirus — the pathogen features, typical signs and prevention of three common viral diseases in racing pigeons.
 pubDate: 2026-07-19
 category: Virus Control
@@ -37,3 +37,8 @@ Rotavirus attacks the intestines, causing watery diarrhea and dehydration, espec
 
 ### How to prevent pigeon pox?
 Vaccination plus mosquito control and avoiding skin injury. See [virus detection](/en/virus-detection/) for diagnosis.
+
+## References
+
+- [Fowlpox — Wikipedia](https://en.wikipedia.org/wiki/Fowlpox)
+- [Rotavirus — Wikipedia](https://en.wikipedia.org/wiki/Rotavirus)

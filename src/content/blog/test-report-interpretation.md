@@ -77,3 +77,8 @@ author: 三狮生物分子诊断技术团队
 
 ### 报告会泄露我的信息吗？
 不会。检测报告仅提供给委托人本人，样本与数据严格保护，详见[隐私政策](/privacy-policy/)。
+
+## 参考资料
+
+- [实时荧光定量PCR — 维基百科](https://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction)
+- [DNA 分型 — 维基百科](https://en.wikipedia.org/wiki/DNA_profiling)

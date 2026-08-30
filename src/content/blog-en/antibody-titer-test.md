@@ -1,5 +1,5 @@
 ---
-title: "Antibody Titer Testing for Racing Pigeons: Evaluating Vaccine Efficacy"
+title: "Antibody Titer Testing for Pigeons: Evaluating Vaccines"
 description: Learn how antibody titer testing evaluates vaccine efficacy, identifies immunity gaps, and determines the best booster timing for precise flock immunization.
 pubDate: 2026-07-20
 category: Virus Control
@@ -53,3 +53,8 @@ Usually 1–3 working days — see [testing services](/en/services/).
 
 ### When should I test after vaccination?
 Antibodies peak 2–4 weeks post-vaccination; testing then best reflects true response.
+
+## References
+
+- [Antibody — Wikipedia](https://en.wikipedia.org/wiki/Antibody)
+- [Hemagglutination assay — Wikipedia](https://en.wikipedia.org/wiki/Hemagglutination_assay)

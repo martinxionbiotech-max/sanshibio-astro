@@ -33,3 +33,8 @@ Both viruses show vague early signs. [Sanshi Bio virus detection](/en/virus-dete
 
 ### Can circovirus-induced immunosuppression recover?
 The virus is hard to eradicate, but reducing stress, improving nutrition and controlling secondary infections lowers its impact.
+
+## References
+
+- [Circovirus — Wikipedia](https://en.wikipedia.org/wiki/Circovirus)
+- [Adenoviridae — Wikipedia](https://en.wikipedia.org/wiki/Adenoviridae)

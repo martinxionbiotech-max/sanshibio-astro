@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon Breeding & Selection Guide: Gene Testing Meets Experience"
+title: "Pigeon Breeding & Selection: Gene Testing Meets Experience"
 description: A systematic guide to scientific racing pigeon breeding and selection — combining gene testing data with traditional training experience for precise selection.
 pubDate: 2026-07-01
 category: Testing Guide
@@ -37,3 +37,8 @@ Racing pigeon breeding is "art + science". Traditionally, fanciers rely on race 
 
 ### Can gene testing replace race results?
 No. Genes reveal potential; results reflect overall performance. Combine "genes set direction, training realizes potential, experience fills gaps".
+
+## References
+
+- [Rock dove — Wikipedia](https://en.wikipedia.org/wiki/Rock_dove)
+- [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)

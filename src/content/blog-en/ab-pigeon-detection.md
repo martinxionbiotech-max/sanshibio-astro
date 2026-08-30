@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon AB Pigeon Detection: DNA ID Against Substitution"
+title: "Racing Pigeon AB Detection: DNA ID vs Substitution"
 description: Understand AB pigeon detection — how 58-locus DNA identification prevents same-name substitution and ensures fairness in racing pigeon competition.
 pubDate: 2026-07-07
 category: Bloodline
@@ -33,3 +33,8 @@ DNA is each pigeon&rsquo;s inborn, unforgeable identity.
 
 ### Does AB pigeon detection require a pre-race profile?
 Yes. Establish a 58-locus profile before the race, then re-sample winners for comparison.
+
+## References
+
+- [DNA profiling — Wikipedia](https://en.wikipedia.org/wiki/DNA_profiling)
+- [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)

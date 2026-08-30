@@ -72,3 +72,8 @@ tags: [实验室设备, PCR仪, 核酸提取仪, 设备配置]
 
 ### 如何防止交叉污染？
 严格执行"样本处理—扩增—检测"三区物理隔离，单向流动，配合 UV 消毒与一次性耗材。
+
+## 参考资料
+
+- [聚合酶链式反应 — 维基百科](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)
+- [核酸提取 — 维基百科](https://en.wikipedia.org/wiki/Nucleic_acid_extraction)

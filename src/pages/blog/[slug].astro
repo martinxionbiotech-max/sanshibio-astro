@@ -43,7 +43,7 @@ const breadcrumbLd = {
 
 // 从正文提取 FAQ，生成 FAQPage schema（AIO 优化）
 const rawBody: string = post.body ?? '';
-const faqSection = rawBody.match(/##\s*常见问题[\s\S]*$/);
+const faqSection = rawBody.match(/##\s*常见问题([\s\S]*?)(?=\n##\s|\s*$)/);
 let faqPage = null;
 if (faqSection) {
   const qa = [...faqSection[0].matchAll(/###\s+(.+?)\n([\s\S]+?)(?=\n###\s|\s*$)/g)];

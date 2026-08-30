@@ -68,3 +68,7 @@ MSTN 活性低的个体，肌肉发育更充分，胸肌体积与力量更强，
 ### 速度赛和耐力赛的选育重点有何不同？
 短中距离速度赛优先关注肌力指标（MSTN），长距离耐力赛优先关注耐力（LDHA）与导航（[CRY1](/blog/cry1-navigation-gene/)）指标。
 
+## 参考资料
+
+- [肌肉生长抑制素 — 维基百科](https://en.wikipedia.org/wiki/Myostatin)
+- [MSTN 基因 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2660)

@@ -1,6 +1,6 @@
 ---
-title: "Racing Pigeon Navigation Gene CRY1: Cryptochrome and Magnetic Sensing"
-description: Understand the CRY1 (cryptochrome) gene in racing pigeons, the circadian and geomagnetic sensing mechanisms behind navigation, and breeding for directional accuracy.
+title: "Racing Pigeon Navigation Gene CRY1: Magnetic Sensing"
+description: Understand the CRY1 gene in racing pigeons, the geomagnetic sensing behind navigation, and breeding for directional accuracy.
 pubDate: 2026-08-18
 category: Flight Genes
 tags: [CRY1, navigation, magnetic sensing, flight ability]
@@ -36,3 +36,8 @@ For 500 km+ long-distance races, navigation is a core indicator. Pigeons with fa
 
 ### Is navigation determined by CRY1 alone?
 No. Navigation involves multiple mechanisms (geomagnetic, solar, olfactory, visual). CRY1 is one core indicator in [flight ability testing](/en/flight-ability/).
+
+## References
+
+- [Cryptochrome — Wikipedia](https://en.wikipedia.org/wiki/Cryptochrome)
+- [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)

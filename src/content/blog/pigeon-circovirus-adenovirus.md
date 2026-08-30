@@ -58,3 +58,7 @@ tags: [圆环病毒, 腺病毒, 免疫抑制, 鸽病]
 ### 腺病毒「青年鸽病」如何预防？
 青年鸽病重在管理：控制鸽舍密度、保持卫生、避免应激、科学免疫。发病时及时隔离，配合兽医治疗。[早期筛查](/virus-detection/)可提前预警。
 
+## 参考资料
+
+- [圆环病毒 — 维基百科](https://en.wikipedia.org/wiki/Circovirus)
+- [腺病毒科 — 维基百科](https://en.wikipedia.org/wiki/Adenoviridae)

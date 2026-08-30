@@ -58,3 +58,7 @@ tags: [育种, 选育, 基因检测, 种鸽配对]
 ### 什么时候开始建立基因档案最合适？
 越早越好。建议从种鸽开始建立[基因身份证](/blog/gene-id-card-guide/)，幼鸽阶段即做[飞行能力基因检测](/flight-ability/)评估潜质，逐步积累数据，让选育从「凭感觉」走向「有依据」。
 
+## 参考资料
+
+- [原鸽 — 维基百科](https://en.wikipedia.org/wiki/Rock_dove)
+- [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)

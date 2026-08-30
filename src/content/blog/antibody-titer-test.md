@@ -62,3 +62,8 @@ tags: [抗体检测, 免疫评估, 疫苗, 抗体滴度]
 
 ### 幼鸽需要检测吗？
 需要。幼鸽首次免疫后检测，可验证母源抗体干扰是否消退、免疫是否建立，为后续免疫程序提供依据。
+
+## 参考资料
+
+- [抗体 — 维基百科](https://en.wikipedia.org/wiki/Antibody)
+- [血凝试验 — 维基百科](https://en.wikipedia.org/wiki/Hemagglutination_assay)

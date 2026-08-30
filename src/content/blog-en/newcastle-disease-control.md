@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon Newcastle Disease: Symptoms, Spread & Control Guide"
+title: "Pigeon Newcastle Disease: Symptoms, Spread & Control"
 description: A complete guide to Newcastle disease in racing pigeons — pathogen, clinical signs, transmission and control, plus the value of real-time PCR early detection.
 pubDate: 2026-08-12
 category: Virus Control
@@ -34,3 +34,8 @@ Newcastle disease spreads fast. [Sanshi Bio virus detection](/en/virus-detection
 
 ### Can Newcastle disease be cured?
 No specific cure exists. Prevention (vaccination + biosecurity) is key. Early [detection](/en/virus-detection/) minimizes loss.
+
+## References
+
+- [Newcastle disease — Wikipedia](https://en.wikipedia.org/wiki/Newcastle_disease)
+- [Newcastle disease — WOAH](https://www.woah.org/en/disease/newcastle-disease/)

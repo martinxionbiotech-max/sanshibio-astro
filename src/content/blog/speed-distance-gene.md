@@ -66,3 +66,8 @@ DRD4 与归巢动机和行为稳定性相关，影响赛鸽能否稳定完成长
 
 ### 检测哪些位点最实用？
 建议覆盖 LDHA、MSTN、CRY1、DRD4、F-KER 等核心飞行基因，具体套餐见[飞行能力基因检测](/flight-ability/)。
+
+## 参考资料
+
+- [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)
+- [原鸽 — 维基百科](https://en.wikipedia.org/wiki/Rock_dove)

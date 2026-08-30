@@ -1,6 +1,6 @@
 ---
-title: "Racing Pigeon Molecular Testing Reagent Kits: The Complete Range"
-description: A systematic overview of the reagents needed for racing pigeon molecular testing, from nucleic acid extraction to PCR amplification and rapid test cards, for a complete testing workflow.
+title: "Racing Pigeon Testing Reagent Kits: The Complete Range"
+description: A systematic overview of racing pigeon testing reagents, from nucleic acid extraction to PCR and rapid test cards.
 pubDate: 2026-07-15
 category: Testing Guide
 tags: [reagent kits, DNA extraction, PCR reagents, consumables]
@@ -50,3 +50,8 @@ Yes. [Sanshi Bio](/en/about/) supports per-step reagent purchases, plus an integ
 
 ### How long do reagents last?
 Extraction and PCR reagents typically last 6–12 months at -20°C; test cards about 12 months at room temperature. Follow the label.
+
+## References
+
+- [Polymerase chain reaction — Wikipedia](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)
+- [Nucleic acid — Wikipedia](https://en.wikipedia.org/wiki/Nucleic_acid)

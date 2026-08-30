@@ -64,3 +64,7 @@ DRD4 基因编码的**多巴胺 D4 受体**，是神经细胞接收多巴胺信�
 ### 归巢毅力弱的鸽子还有价值吗？
 归巢毅力弱的鸽子在恶劣天气、逆风等条件下更易迷失，但可能在其他维度（如短距离爆发）有优势。建议结合[肌力基因 MSTN](/blog/mstn-muscle-gene/)等指标综合评估后决定去留。
 
+## 参考资料
+
+- [多巴胺受体 D4 — 维基百科](https://en.wikipedia.org/wiki/Dopamine_receptor_D4)
+- [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)

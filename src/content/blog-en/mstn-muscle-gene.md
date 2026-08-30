@@ -38,3 +38,8 @@ There is a trade-off between muscle mass (speed) and sustained flight (endurance
 
 ### Does more muscle always mean faster flight?
 Not always. Developed muscle boosts burst speed, but excessive mass may hurt endurance. Balance muscle with endurance by race profile.
+
+## References
+
+- [Myostatin — Wikipedia](https://en.wikipedia.org/wiki/Myostatin)
+- [MSTN gene — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2660)

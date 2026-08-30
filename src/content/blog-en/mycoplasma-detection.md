@@ -54,3 +54,8 @@ With proper medication plus breeder purification, mycoplasma can be controlled o
 
 ### Swab with cotton or flocked swabs?
 Use dedicated **flocked swabs** for throat or nasal secretions — higher release rate and accuracy than cotton.
+
+## References
+
+- [Mycoplasma — Wikipedia](https://en.wikipedia.org/wiki/Mycoplasma)
+- [Chronic respiratory disease — Wikipedia](https://en.wikipedia.org/wiki/Chronic_respiratory_disease)

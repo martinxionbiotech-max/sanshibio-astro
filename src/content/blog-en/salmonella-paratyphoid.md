@@ -1,6 +1,6 @@
 ---
-title: "Racing Pigeon Salmonella (Paratyphoid): Signs, Diagnosis & Control"
-description: Understand Salmonella infection (paratyphoid) in racing pigeons — symptoms, diagnosis and control — and the zoonotic risk that makes molecular detection essential.
+title: "Pigeon Salmonella (Paratyphoid): Signs, Diagnosis & Control"
+description: Understand Salmonella (paratyphoid) in racing pigeons, and the zoonotic risk that makes molecular detection essential.
 pubDate: 2026-08-08
 category: Virus Control
 tags: [Salmonella, paratyphoid, pigeon disease, zoonotic]
@@ -29,3 +29,8 @@ Conventional culture is slow and insensitive. [Sanshi Bio virus detection](/en/v
 
 ### Can Salmonella infect humans?
 Yes. It is zoonotic — practice hygiene after handling birds and keep the loft clean.
+
+## References
+
+- [Salmonella — Wikipedia](https://en.wikipedia.org/wiki/Salmonella)
+- [Paratyphoid fever — Wikipedia](https://en.wikipedia.org/wiki/Paratyphoid_fever)

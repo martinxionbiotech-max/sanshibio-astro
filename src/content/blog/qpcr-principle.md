@@ -62,3 +62,8 @@ qPCR 在扩增反应体系中加入**荧光染料或荧光探针**。每个循�
 
 ### 送检需要什么样本？
 呼吸道症状取口腔/咽拭子，消化道症状取泄殖腔拭子，混合送检更全面。详见[采样送检全流程](/blog/sample-collection-guide/)。
+
+## 参考资料
+
+- [实时荧光定量PCR — 维基百科](https://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction)
+- [聚合酶链式反应 — 维基百科](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)

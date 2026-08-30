@@ -1,5 +1,5 @@
 ---
-title: "Racing Pigeon Paternity Test Guide: Principles, Process & Bloodline"
+title: "Pigeon Paternity Test Guide: Principles & Bloodline"
 description: A systematic guide to racing pigeon paternity testing — the science (Mendelian inheritance and SNP loci), process and applications for bloodline certification.
 pubDate: 2026-08-05
 category: Bloodline
@@ -32,3 +32,8 @@ Paternity testing is based on **Mendelian inheritance** — offspring inherit ha
 
 ### Do I need both parents for testing?
 Both parents give a higher confirmation probability; single-parent testing is also possible. See [paternity testing](/en/paternity/).
+
+## References
+
+- [DNA profiling — Wikipedia](https://en.wikipedia.org/wiki/DNA_profiling)
+- [Single-nucleotide polymorphism — Wikipedia](https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism)

@@ -39,3 +39,8 @@ A fungus that proliferates when immunity drops or antibiotics are overused:
 
 ### Does Trichomonas recur?
 Yes. It spreads repeatedly between breeders and squabs via crop milk. Regular testing and crop hygiene are key. See [virus detection](/en/virus-detection/).
+
+## References
+
+- [Trichomonas gallinae — Wikipedia](https://en.wikipedia.org/wiki/Trichomonas_gallinae)
+- [Candida (fungus) — Wikipedia](https://en.wikipedia.org/wiki/Candida_(fungus))

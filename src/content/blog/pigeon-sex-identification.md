@@ -53,3 +53,7 @@ tags: [性别鉴定, 公母鉴定, 幼鸽, 基因检测]
 ### 幼鸽多大可以做性别鉴定？
 幼鸽离巢后即可检测，拔取 4-6 根胸腹部羽毛即可，无需采血。建议早期检测，为配对与留种规划赢得时间。详见[采样指南](/blog/feather-sampling-guide/)。
 
+## 参考资料
+
+- [ZW 性别决定系统 — 维基百科](https://en.wikipedia.org/wiki/ZW_sex-determination_system)
+- [CHD1 基因 — 维基百科](https://en.wikipedia.org/wiki/CHD1)

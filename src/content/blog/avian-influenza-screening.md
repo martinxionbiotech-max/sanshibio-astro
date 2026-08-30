@@ -59,3 +59,8 @@ tags: [禽流感, 病毒筛查, 检疫, PCR检测]
 
 ### 疫苗免疫后还能测出抗体吗？
 可以。免疫后可通过血清学方法检测抗体滴度，评估免疫效果，详见[免疫抗体水平检测](/blog/antibody-titer-test/)。
+
+## 参考资料
+
+- [禽流感 — 维基百科](https://en.wikipedia.org/wiki/Avian_influenza)
+- [禽流感 — 世界动物卫生组织(WOAH)](https://www.woah.org/en/disease/avian-influenza/)

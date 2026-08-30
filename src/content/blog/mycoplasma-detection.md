@@ -63,3 +63,8 @@ tags: [支原体, 慢性呼吸道病, 种鸽净化, 检测]
 
 ### 支原体与病毒混合感染怎么判断？
 通过[多重 PCR 或多种病原联检](/blog/qpcr-principle/)一次筛查多种病原，明确是单一还是混合感染，指导联合用药。
+
+## 参考资料
+
+- [支原体 — 维基百科](https://en.wikipedia.org/wiki/Mycoplasma)
+- [慢性呼吸道病 — 维基百科](https://en.wikipedia.org/wiki/Chronic_respiratory_disease)

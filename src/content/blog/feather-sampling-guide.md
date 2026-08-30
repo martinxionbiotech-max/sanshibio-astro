@@ -67,3 +67,7 @@ tags: [采样流程, 羽毛采样, 检测报告, 基因检测]
 ### 不同鸽子可以装同一个袋子吗？
 不可以。不同鸽子必须分开装袋并标注清楚，防止交叉污染，尤其是[亲子鉴定](/paternity/)时子代与亲本的对应关系必须明确。
 
+## 参考资料
+
+- [羽毛 — 维基百科](https://en.wikipedia.org/wiki/Feather)
+- [原鸽 — 维基百科](https://en.wikipedia.org/wiki/Rock_dove)

@@ -36,3 +36,8 @@ For middle and long-distance races, homing persistence often matters more than a
 
 ### Can homing persistence be improved by training?
 Genes set the potential; scientific training amplifies it. Genetic differences in persistence remain, which is why [gene testing](/en/flight-ability/) is valuable.
+
+## References
+
+- [Dopamine receptor D4 — Wikipedia](https://en.wikipedia.org/wiki/Dopamine_receptor_D4)
+- [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)

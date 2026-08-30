@@ -69,3 +69,8 @@ tags: [采样, 送检流程, 羽毛样本, 拭子]
 
 ### 样本寄丢了怎么办？
 选择有追踪的快递，并保留单号；重要样本建议分批寄送或联系实验室安排上门采样。
+
+## 参考资料
+
+- [羽毛 — 维基百科](https://en.wikipedia.org/wiki/Feather)
+- [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)

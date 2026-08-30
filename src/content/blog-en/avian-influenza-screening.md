@@ -1,6 +1,6 @@
 ---
 title: "Avian Influenza Screening for Racing Pigeons"
-description: Understand avian influenza risk in racing pigeons, clinical signs, detection methods, and how PCR and serological testing support early screening and quarantine.
+description: Understand avian influenza risk in racing pigeons, clinical signs, and how PCR and serology support early screening and quarantine.
 pubDate: 2026-07-18
 category: Virus Control
 tags: [avian influenza, virus screening, quarantine, PCR]
@@ -50,3 +50,8 @@ Yes, often subclinically. Although morbidity and mortality are usually lower tha
 
 ### Swab the throat or cloaca?
 AI affects both respiratory and digestive tracts. Combine oral and cloacal swabs to raise detection rate.
+
+## References
+
+- [Avian influenza — Wikipedia](https://en.wikipedia.org/wiki/Avian_influenza)
+- [Avian influenza — WOAH](https://www.woah.org/en/disease/avian-influenza/)
