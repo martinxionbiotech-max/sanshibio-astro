@@ -15,20 +15,28 @@ const { Content } = await render(post);
 
 const { title, description, pubDate, author, category } = post.data;
 
+const authorName = author || 'Sanshi Bio Molecular Diagnostics Team';
+
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
+  '@id': `https://sanshibio.com/en/blog/${post.id}/#article`,
   headline: title,
   description,
+  image: 'https://sanshibio.com/images/banner-home.png',
   datePublished: pubDate.toISOString(),
-  author: { '@type': 'Organization', name: author, url: 'https://sanshibio.com/en/about' },
-  publisher: {
+  dateModified: pubDate.toISOString(),
+  author: {
     '@type': 'Organization',
-    name: 'Hebei Sanshi Biotechnology Co., Ltd.',
-    url: 'https://sanshibio.com',
-    logo: { '@type': 'ImageObject', url: 'https://sanshibio.com/images/logo.png' },
+    name: authorName,
+    url: 'https://sanshibio.com/en/about',
   },
-  mainEntityOfPage: `https://sanshibio.com/en/blog/${post.id}/`,
+  publisher: { '@id': 'https://sanshibio.com/#organization' },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `https://sanshibio.com/en/blog/${post.id}/#webpage`,
+  },
+  inLanguage: 'en',
 };
 
 const breadcrumbLd = {
@@ -78,7 +86,7 @@ const allJsonLd = [articleLd, ...(faqPage ? [faqPage] : []), breadcrumbLd];
       <span class="badge">{category}</span>
       <h1 class="mt-4 text-3xl font-bold sm:text-4xl">{title}</h1>
       <div class="mt-4 flex items-center justify-center gap-4 text-sm text-slate-500">
-        <span>{author}</span>
+        <span>{authorName}</span>
         <span>·</span>
         <time datetime={pubDate.toISOString()}>{pubDate.toISOString().slice(0, 10)}</time>
       </div>

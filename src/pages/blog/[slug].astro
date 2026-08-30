@@ -18,17 +18,24 @@ const { title, description, pubDate, author, category } = post.data;
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
+  '@id': `https://sanshibio.com/blog/${post.id}/#article`,
   headline: title,
   description,
+  image: 'https://sanshibio.com/images/banner-home.png',
   datePublished: pubDate.toISOString(),
-  author: { '@type': 'Organization', name: author, url: 'https://sanshibio.com/about' },
-  publisher: {
-    '@type': 'Organization',
-    name: '河北三狮生物科技有限公司',
-    url: 'https://sanshibio.com',
-    logo: { '@type': 'ImageObject', url: 'https://sanshibio.com/images/logo.png' },
+  dateModified: pubDate.toISOString(),
+  author: {
+    '@type': 'Person',
+    name: author,
+    jobTitle: '分子诊断技术团队',
+    worksFor: { '@id': 'https://sanshibio.com/#organization' },
   },
-  mainEntityOfPage: `https://sanshibio.com/blog/${post.id}/`,
+  publisher: { '@id': 'https://sanshibio.com/#organization' },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `https://sanshibio.com/blog/${post.id}/#webpage`,
+  },
+  inLanguage: 'zh-CN',
 };
 
 const breadcrumbLd = {

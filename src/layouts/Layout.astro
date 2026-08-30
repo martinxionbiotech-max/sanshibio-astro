@@ -48,6 +48,31 @@ const orgSchema = {
     },
   ],
 };
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${Astro.site}#website`,
+  url: Astro.site?.toString(),
+  name: siteName,
+  description: isEn
+    ? 'Racing pigeon gene testing, pathogen detection and pedigree verification.'
+    : '赛鸽飞行能力基因检测、病原检测与血统鉴定服务。',
+  publisher: { '@id': `${Astro.site}#organization` },
+  inLanguage: isEn ? 'en' : 'zh-CN',
+};
+
+const webpageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${canonical.toString()}#webpage`,
+  url: canonical.toString(),
+  name: title,
+  description: description || '',
+  isPartOf: { '@id': `${Astro.site}#website` },
+  about: { '@id': `${Astro.site}#organization` },
+  inLanguage: isEn ? 'en' : 'zh-CN',
+};
 ---
 
 <!doctype html>
@@ -71,6 +96,8 @@ const orgSchema = {
     <meta property="og:image" content={new URL(ogImage, Astro.site)} />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(webpageSchema)} />
     {
       jsonLd.map((s) => (
         <script type="application/ld+json" set:html={JSON.stringify(s)} />
