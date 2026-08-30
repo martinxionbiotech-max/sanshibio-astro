@@ -1,0 +1,161 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = '赛鸽病毒检测｜10种病原体荧光定量PCR早筛 - 三狮生物';
+const description =
+  '三狮生物赛鸽病原体检测，覆盖鸽新城疫、鸽疱疹、鸽圆环、鸽腺病毒、鸽痘病毒、鹦鹉热衣原体、沙门氏菌、毛滴虫等10种常见病原体，荧光定量PCR精准早筛，守护鸽群健康。';
+
+const pathogens = [
+  { name: '鸽新城疫病毒', type: '病毒', cat: '副黏病毒', harm: '高度传染，引起呼吸道、消化道与神经系统症状，死亡率高，是赛鸽最严重的传染病之一。', note: '赛前与引种必检项目' },
+  { name: '鸽疱疹病毒', type: '病毒', cat: '疱疹病毒', harm: '引起上呼吸道感染与结膜炎，常呈潜伏感染，应激或免疫力下降时复发。', note: '隐性感染筛查' },
+  { name: '鸽圆环病毒', type: '病毒', cat: '圆环病毒', harm: '引起免疫抑制，导致幼鸽病、生长不良，易继发其他病原感染。', note: '免疫状态评估' },
+  { name: '鸽腺病毒', type: '病毒', cat: '腺病毒', harm: '引起肝炎、肠炎（青年鸽病），表现为呕吐、腹泻、食欲废绝。', note: '幼鸽常见病原' },
+  { name: '鸽轮状病毒', type: '病毒', cat: '轮状病毒', harm: '引起肠道感染与腹泻，幼鸽易感，影响消化吸收。', note: '肠道病原筛查' },
+  { name: '鸽痘病毒', type: '病毒', cat: '痘病毒', harm: '引起皮肤型与黏膜型痘疹，影响飞行与进食，黏膜型可致窒息。', note: '已有荧光定量PCR检测团标' },
+  { name: '鹦鹉热衣原体', type: '衣原体', cat: '衣原体', harm: '人畜共患病病原，引起呼吸道感染、结膜炎，可通过气溶胶感染人。', note: '人畜共患，重点防控' },
+  { name: '白色念珠菌', type: '真菌', cat: '真菌', harm: '引起念珠菌病（鹅口疮），嗉囊炎、口腔黏膜白斑，消化不良。', note: '嗉囊消化道病原' },
+  { name: '沙门氏菌', type: '细菌', cat: '肠杆菌', harm: '引起副伤寒，表现为关节炎、腹泻、神经症状，也是人畜共患病原。', note: '人畜共患，重点防控' },
+  { name: '毛滴虫', type: '原虫', cat: '原虫', harm: '引起毛滴虫病，口腔咽喉黄白色假膜、消化不良，种鸽可通过鸽乳传给幼鸽。', note: '常见寄生虫，需定期检测' },
+];
+
+const faqJson = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: '赛鸽病毒检测采用什么方法？', acceptedAnswer: { '@type': 'Answer', text: '采用荧光定量 PCR（qPCR）检测技术，特异性与灵敏度高，可对病原体核酸进行精准定性与定量，实现早期无症状感染筛查。' } },
+    { '@type': 'Question', name: '需要什么样本？', acceptedAnswer: { '@type': 'Answer', text: '可采集口腔拭子、泄殖腔拭子或羽毛样本，按客服指导采集并快递至实验室即可。' } },
+    { '@type': 'Question', name: '什么时候需要做病原体检测？', acceptedAnswer: { '@type': 'Answer', text: '赛前检疫、引种隔离检疫、鸽群出现异常（拉稀、食欲下降、呼吸道症状）时，以及种鸽繁殖前，均建议进行病原体筛查。' } },
+    { '@type': 'Question', name: '检测报告如何解读？', acceptedAnswer: { '@type': 'Answer', text: '报告给出每项病原体的检测结果（阳性/阴性及Ct值），阳性结果建议结合临床症状，并咨询兽医进行隔离与治疗。' } },
+  ],
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.com/' },
+    { '@type': 'ListItem', position: 2, name: '病毒检测' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
+  <section class="bg-gradient-to-br from-deep-600 to-brand-700 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 病毒检测
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">赛鸽病毒病原体检测</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        覆盖 10 种赛鸽常见病原体，采用荧光定量 PCR 技术精准早筛，做到「早发现、早隔离、早防控」，守护鸽群健康与赛绩稳定。
+      </p>
+    </div>
+  </section>
+
+  <section class="container-site py-16">
+    <div class="grid gap-10 lg:grid-cols-3">
+      <div class="lg:col-span-2 prose-sanshi">
+        <h2 class="text-2xl font-bold">为什么需要病原体检测？</h2>
+        <p>
+          传染病是赛鸽成绩的「隐形杀手」。许多病原体（如鸽疱疹病毒、鸽圆环病毒）可呈<b>隐性感染</b>，
+          鸽群外观正常却持续排毒，一旦应激或免疫力下降便集中爆发。传统的临床症状诊断往往滞后，
+          错过最佳防控窗口。
+        </p>
+        <p>
+          荧光定量 PCR 检测通过检测病原体核酸，可在<b>感染早期、尚未出现明显症状时</b>即可检出，
+          灵敏度与特异性远高于常规培养与镜检，是赛前检疫、引种隔离与日常防疫的科学手段。
+        </p>
+        <h2 class="mt-10 text-2xl font-bold">检测技术优势</h2>
+        <ul class="list-disc pl-5 space-y-2 text-slate-600">
+          <li><b>高灵敏度：</b>可检出极低载量的病原体核酸，实现早期筛查。</li>
+          <li><b>高特异性：</b>针对病原体特有基因序列设计引物探针，避免交叉反应。</li>
+          <li><b>定量分析：</b>通过 Ct 值评估病原体载量，辅助判断感染程度。</li>
+          <li><b>快速高效：</b>数小时内即可出具检测报告，满足赛前检疫时效需求。</li>
+        </ul>
+      </div>
+      <div class="card h-fit">
+        <h3 class="mb-4 text-sm font-semibold text-slate-900">建议检测时机</h3>
+        <ul class="space-y-3 text-sm text-slate-600">
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>参赛前检疫</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>引种隔离检疫</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>种鸽繁殖前筛查</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>鸽群异常时诊断</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>公棚入棚健康评估</li>
+        </ul>
+        <div class="mt-6 rounded-xl bg-brand-50 p-4 text-sm text-brand-800">
+          <p class="font-semibold">样本类型</p>
+          <p class="mt-1">口腔拭子 / 泄殖腔拭子 / 羽毛</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10种病原体表 -->
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">检测项目</span>
+        <h2 class="section-title mt-3">10 种常见病原体</h2>
+        <p class="mt-3 text-slate-600">病毒 · 衣原体 · 真菌 · 细菌 · 原虫全覆盖</p>
+      </div>
+      <div class="mt-10 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <table class="table-base min-w-[720px]">
+          <thead>
+            <tr>
+              <th class="w-36">病原体</th>
+              <th class="w-20">类别</th>
+              <th class="w-28">分类</th>
+              <th>主要危害</th>
+              <th class="w-40">防控要点</th>
+            </tr>
+          </thead>
+          <tbody>
+            {pathogens.map((p) => (
+              <tr class="hover:bg-brand-50/40">
+                <td class="font-semibold text-slate-900">{p.name}</td>
+                <td><span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">{p.type}</span></td>
+                <td class="text-slate-600">{p.cat}</td>
+                <td class="text-slate-600">{p.harm}</td>
+                <td class="text-sm text-brand-700">{p.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-site py-16">
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="card">
+        <h3 class="text-lg font-semibold text-slate-900">早发现</h3>
+        <p class="mt-2 text-sm text-slate-600">无症状期即可检出病原体，抢占防控先机。</p>
+      </div>
+      <div class="card">
+        <h3 class="text-lg font-semibold text-slate-900">早隔离</h3>
+        <p class="mt-2 text-sm text-slate-600">及时隔离阳性个体，阻断病原体在鸽群内传播。</p>
+      </div>
+      <div class="card">
+        <h3 class="text-lg font-semibold text-slate-900">早防控</h3>
+        <p class="mt-2 text-sm text-slate-600">结合兽医建议科学用药与环境消杀，降低损失。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">常见问题</h2>
+      <div class="mt-8 space-y-4">
+        {faqJson.mainEntity.map((q) => (
+          <div class="card">
+            <h3 class="font-semibold text-slate-900">{q.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center">
+        <a href="/contact" class="btn-primary">预约病原体检测</a>
+      </div>
+    </div>
+  </section>
+</Layout>

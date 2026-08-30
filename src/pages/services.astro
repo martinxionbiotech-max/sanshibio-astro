@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = '检测服务｜基因身份证·AB鸽·亲缘·性别鉴定 - 三狮生物';
+const description =
+  '三狮生物赛鸽检测服务：基因身份证（58个SNP位点二代测序）、AB鸽检测、亲缘鉴定、幼鸽性别鉴定，以及PCR检测技术培训，覆盖赛鸽身份确认、血统溯源与科学育种全流程。';
+
+const services = [
+  {
+    icon: '🪪',
+    name: '赛鸽基因身份证',
+    points: ['采用二代基因测序技术，检测快速、精准高效', '选取 58 个独家 SNP 位点（57 个 SNP 位点 + 性别位点）', '检测流程自动化，完整羽毛样本放入设备即可完成', '为赛鸽建立唯一、可追溯的基因身份档案'],
+    desc: '为每羽赛鸽建立独一无二的基因身份档案，用于身份确认、防作弊、参赛登记与血统管理。',
+  },
+  {
+    icon: '🧬',
+    name: 'AB 鸽检测 / DNA 个体识别',
+    points: ['58 个基因位点个体识别', '亲缘鉴定、AB 鸽鉴定', '科学、高效、稳定地对个体身份进行鉴定', '尤其适用于赛鸽比赛中鸽子的身份确定'],
+    desc: '通过多基因位点比对，精准识别赛鸽个体身份，防止「AB 鸽」（同名顶替鸽）作弊，保障赛事公平。',
+  },
+  {
+    icon: '👨‍👩‍👧',
+    name: '亲缘鉴定',
+    points: ['亲子关系鉴定', '血统溯源与谱系确认', '辅助引种与系谱管理'],
+    desc: '鉴定赛鸽亲子关系与血缘，为引种、系谱建立与育种配对提供科学依据。',
+  },
+  {
+    icon: '♂♀',
+    name: '幼鸽性别（公母）鉴定',
+    points: ['幼鸟即可精准区分公母', '雌雄基因检测，结果准确可靠', '早期规划配对与留种'],
+    desc: '通过性别基因检测，在幼鸽阶段即可精准鉴定公母，避免传统外观判断误差。',
+  },
+  {
+    icon: '🎓',
+    name: 'PCR 检测技术培训',
+    points: ['面向鸽友与已有设备的用户', '熟悉实验流程，提升检测效率', '掌握操作技巧，规避检测失误'],
+    desc: '三狮生物建立有基因检测（PCR 检测）培训班，帮助有志于鸽子基因检测的鸽友系统掌握实验操作。',
+  },
+];
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.com/' },
+    { '@type': 'ListItem', position: 2, name: '检测服务' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 检测服务
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">检测服务</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        从身份确认到血统溯源，从性别鉴定到技术培训，覆盖赛鸽科学育种与赛事管理的全流程检测服务。
+      </p>
+    </div>
+  </section>
+
+  <section class="container-site py-16">
+    <div class="grid gap-6 md:grid-cols-2">
+      {services.map((s) => (
+        <div class="card">
+          <div class="flex items-center gap-3">
+            <span class="text-3xl">{s.icon}</span>
+            <h2 class="text-xl font-semibold text-slate-900">{s.name}</h2>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">{s.desc}</p>
+          <ul class="mt-4 space-y-2">
+            {s.points.map((p) => (
+              <li class="flex gap-2 text-sm text-slate-600">
+                <span class="text-brand-600">✓</span>{p}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">服务流程</span>
+        <h2 class="section-title mt-3">标准化检测服务流程</h2>
+      </div>
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          ['1', '咨询下单', '确定检测项目并下单'],
+          ['2', '羽毛采样', '拔取4-6根胸腹部羽毛风干'],
+          ['3', '实验室鉴定', 'DNA 提取与基因检测'],
+          ['4', '出具报告', '24小时内客服联系并出报告'],
+        ].map(([n, t, d]) => (
+          <div class="card text-center">
+            <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">{n}</div>
+            <h3 class="mt-3 font-semibold text-slate-900">{t}</h3>
+            <p class="mt-2 text-sm text-slate-500">{d}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center">
+        <a href="/contact" class="btn-primary">咨询检测服务</a>
+      </div>
+    </div>
+  </section>
+</Layout>

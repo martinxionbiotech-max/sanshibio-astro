@@ -1,0 +1,15 @@
+# 三狮生物 (Sanshi Bio)
+
+> 河北三狮生物科技有限公司 — 以基因检测技术为核心的高新技术企业，专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。
+
+## 核心业务
+
+- [飞行能力基因检测](https://sanshibio.com/flight-ability)：LDHA、DRD4、CRY1、MSTN、F-KER、LRP8、GSR、CASK 等 8 项飞行能力相关基因检测，评估赛鸽耐力、归巢、导航、肌力、羽翼与智商潜力。
+- [赛鸽病毒检测](https://sanshibio.com/virus-detection)：鸽新城疫、鸽疱疹、鸽圆环、鸽腺病毒、鸽痘、鹦鹉热衣原体、沙门氏菌、毛滴虫等 10 种病原体荧光定量 PCR 早筛。
+- [产品中心](https://sanshibio.com/products)：便携式实时荧光定量 PCR 仪 Q162D、全自动核酸提取仪 ES08，及热启动 Taq 酶、qPCR 试剂盒等分子诊断试剂。
+- [检测服务](https://sanshibio.com/services)：赛鸽基因身份证（58 SNP 位点）、AB 鸽检测、亲缘鉴定、幼鸽性别鉴定、PCR 技术培训。
+
+## 关于
+
+- [关于三狮](https://sanshibio.com/about)：公司简介、三位一体产业布局、荣誉资质。
+- [联系我们](https://sanshibio.com/contact)：总部电话 0311-82970259，邮箱 sanshibio@126.com。

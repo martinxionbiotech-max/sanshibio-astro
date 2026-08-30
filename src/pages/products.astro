@@ -1,0 +1,169 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = '产品中心｜赛鸽检测设备与分子诊断试剂 - 三狮生物';
+const description =
+  '三狮生物产品中心：便携式实时荧光定量PCR仪Q162D、全自动核酸提取仪ES08，以及热启动Taq酶、qPCR试剂盒、核酸提取试剂、鸽子鹦鹉公母鉴定试剂盒等分子诊断试剂与设备。';
+
+const devices = [
+  {
+    name: '实时荧光定量 PCR 仪 Q162D',
+    img: '/images/q162d.jpg',
+    sku: 'SSB-Q162D',
+    desc: '便携式实时荧光定量检测及分析系统，双通道双8孔模块设计，可实现一机多用。内嵌7英寸高清TFT彩色触摸屏，WIN10操作系统，自带分析软件，无需电脑即可完成定量分析与报告打印，适用于赛鸽基因检测、病原体检测及动物源性检测等场景。',
+    specs: [
+      ['通量', '双通道 × 8 孔（16 孔）'],
+      ['屏幕', '7 英寸高清 TFT 彩色触摸屏'],
+      ['系统', 'WIN10 操作系统，自带分析软件'],
+      ['温控模块', '美国 MARLOW 定制型半导体温控'],
+      ['形态', '便携式，一机多用，支持报告打印'],
+      ['应用', '赛鸽基因检测 / 病原体检测 / 动物源性检测'],
+    ],
+  },
+  {
+    name: '全自动核酸提取纯化仪 ES08',
+    img: '/images/es08.jpg',
+    sku: 'SSB-ES08',
+    desc: '全自动核酸提取纯化仪，实现样本核酸的自动化提取与纯化，大幅提升样本处理通量与提取质量，与 Q162D 荧光定量 PCR 仪配套构成完整的分子检测流水线。',
+    specs: [
+      ['功能', '自动化核酸提取与纯化'],
+      ['配套', '与 Q162D PCR 仪构成检测流水线'],
+      ['应用', '羽毛 / 拭子 / 组织样本核酸提取'],
+      ['优势', '标准化操作，减少人为误差与交叉污染'],
+    ],
+  },
+];
+
+const reagentLines = [
+  { name: '热启动 Taq 酶', desc: '分子诊断核心酶原料，特异性高、抗污染，适用于 qPCR 与常规 PCR。', tag: '核心原料' },
+  { name: 'QPCR 系列', desc: '实时荧光定量 PCR 预混液及配套试剂，支持探针法与染料法。', tag: 'qPCR' },
+  { name: '普通 PCR 产品', desc: '常规 PCR 扩增用酶与预混体系，覆盖克隆、扩增等基础实验。', tag: '基础试剂' },
+  { name: '逆转录酶系列', desc: 'RNA 逆转录用酶，用于 RNA 病毒检测与基因表达分析。', tag: 'RNA 检测' },
+  { name: '核酸提取试剂', desc: '配套提取试剂盒，适配羽毛、拭子、组织等多种样本。', tag: '前处理' },
+  { name: '核酸污染清除剂 NC', desc: '清除实验台面与移液器具的核酸残留，防止假阳性。', tag: '质控' },
+  { name: '鸽子鹦鹉公母鉴定试剂盒', desc: '禽类性别基因鉴定，幼鸟即可精准区分公母。', tag: '性别鉴定' },
+  { name: '动物源性检测试剂盒', desc: '猪、牛、羊、鸡、马、驴、植物源性成分检测，用于掺假鉴别。', tag: '源性检测' },
+  { name: '植物源基因检测试剂盒', desc: '植物蛋白饮料、果汁、粉丝、淀粉等植物源性成分检测。', tag: '食品检测' },
+  { name: '食品源性成分检测试剂盒', desc: '100+ 种食品真伪与过敏原检测试剂盒，覆盖大豆、花生、麸质等。', tag: '食品安全' },
+];
+
+const productLd = devices.map((d) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  sku: d.sku,
+  name: d.name,
+  description: d.desc,
+  image: `https://sanshibio.com${d.img}`,
+  offers: {
+    '@type': 'Offer',
+    availability: 'https://schema.org/InStock',
+    priceCurrency: 'CNY',
+    url: 'https://sanshibio.com/contact',
+  },
+  manufacturer: { '@type': 'Organization', name: '河北三狮生物科技有限公司' },
+}));
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.com/' },
+    { '@type': 'ListItem', position: 2, name: '产品中心' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[...productLd, breadcrumbLd]}>
+  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 产品中心
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">产品中心</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        检测设备 + 分子诊断试剂 + 配套耗材，为赛鸽基因检测与病原体检测提供「设备 + 试剂 + 培训」一体化方案。
+      </p>
+    </div>
+  </section>
+
+  <!-- 仪器设备 -->
+  <section class="container-site py-16">
+    <div class="text-center">
+      <span class="badge">仪器设备</span>
+      <h2 class="section-title mt-3">核心检测仪器</h2>
+    </div>
+    <div class="mt-10 grid gap-8 lg:grid-cols-2">
+      {devices.map((d) => (
+        <div class="card overflow-hidden p-0">
+          <div class="flex flex-col sm:flex-row">
+            <div class="shrink-0 bg-slate-50 p-4 sm:w-52">
+              <img src={d.img} alt={d.name} class="h-44 w-full object-contain" loading="lazy" />
+            </div>
+            <div class="flex-1 p-6">
+              <span class="font-mono text-xs text-brand-600">{d.sku}</span>
+              <h3 class="mt-1 text-lg font-semibold text-slate-900">{d.name}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-slate-600">{d.desc}</p>
+            </div>
+          </div>
+          <div class="border-t border-slate-100 px-6 py-4">
+            <table class="table-base">
+              <tbody>
+                {d.specs.map(([k, v]) => (
+                  <tr>
+                    <td class="w-28 font-semibold text-slate-700">{k}</td>
+                    <td class="text-slate-600">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- 试剂产品线 -->
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">分子诊断试剂</span>
+        <h2 class="section-title mt-3">试剂产品线</h2>
+        <p class="mt-3 text-slate-600">从核心酶原料到成品检测试剂盒</p>
+      </div>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {reagentLines.map((r) => (
+          <div class="card">
+            <div class="flex items-start justify-between">
+              <h3 class="font-semibold text-slate-900">{r.name}</h3>
+              <span class="rounded-full bg-brand-50 px-2 py-0.5 text-xs text-brand-700">{r.tag}</span>
+            </div>
+            <p class="mt-2 text-sm text-slate-600">{r.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 一条龙模式 -->
+  <section class="container-site py-16">
+    <div class="rounded-3xl border border-brand-200 bg-brand-50/50 px-8 py-10 sm:px-12">
+      <div class="grid gap-8 md:grid-cols-3">
+        <div>
+          <h3 class="text-lg font-semibold text-slate-900">🔬 设备供应</h3>
+          <p class="mt-2 text-sm text-slate-600">便携式荧光定量 PCR 仪、全自动核酸提取仪，开箱即用。</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-slate-900">🧪 试剂配套</h3>
+          <p class="mt-2 text-sm text-slate-600">核心酶、检测试剂盒、提取试剂与耗材全套配套。</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-slate-900">🎓 技术培训</h3>
+          <p class="mt-2 text-sm text-slate-600">PCR 检测培训班，帮助鸽友掌握实验流程，规避操作失误。</p>
+        </div>
+      </div>
+      <div class="mt-8 text-center">
+        <a href="/contact" class="btn-primary">获取产品报价与方案</a>
+      </div>
+    </div>
+  </section>
+</Layout>

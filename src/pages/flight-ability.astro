@@ -1,0 +1,177 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = '赛鸽飞行能力基因检测｜8项基因评估天赋 - 三狮生物';
+const description =
+  '三狮生物赛鸽飞行能力基因检测，覆盖LDHA、DRD4、CRY1、MSTN、F-KER、LRP8、GSR、CASK等8项关键基因，从基因层面评估赛鸽耐力、归巢、导航、肌力、羽翼与智商潜力，幼鸽即可检测。';
+
+const genes = [
+  { idx: '01', name: '耐力指标', gene: 'LDHA', full: '乳酸脱氢酶 A（乳酸代谢基因）', func: '调节乳酸的生成与代谢，决定肌肉在持续飞行中的能量供应能力。', meaning: '评估赛鸽长途连续飞行的耐受能力，耐力型赛鸽的筛选核心指标。' },
+  { idx: '02', name: '归巢毅力', gene: 'DRD4a / DRD4b', full: '多巴胺 D4 受体基因', func: '参与大脑多巴胺信号通路，影响专注力、执着度与探索-归巢行为倾向。', meaning: '判断赛鸽归巢的执着与毅力，是竞翔稳定性的重要参考。' },
+  { idx: '03', name: '导航指标', gene: 'CRY1', full: '隐花色素（CRY1-AG/AT/TT）', func: '参与生物钟与地磁感知，影响昼夜节律与空间导航能力。', meaning: '评估赛鸽的导航定向能力，尤其与远距离归巢精度相关。' },
+  { idx: '04', name: '肌力指标', gene: 'MSTN', full: '肌肉生长抑素（肌抑制素基因）', func: '负调控肌肉生长，基因型差异影响肌肉发育程度与爆发力。', meaning: '评估赛鸽肌肉强度与飞行速度潜力。' },
+  { idx: '05', name: '羽翼指标', gene: 'F-KER', full: '羽角蛋白基因', func: '编码羽毛角蛋白结构，影响羽毛质量、防水性与空气动力学性能。', meaning: '评估羽翼质量，优质羽毛是高效飞行的基础。' },
+  { idx: '06', name: '记忆力指标', gene: 'LRP8', full: '低密度脂蛋白受体相关蛋白 8 基因', func: '参与神经突触可塑性与学习记忆形成。', meaning: '评估赛鸽的学习记忆能力，与归巢路线记忆相关。' },
+  { idx: '07', name: '阴雨天定向', gene: 'GSR', full: '谷胱甘肽二硫还原酶基因', func: '参与氧化应激防御，与恶劣天气下的定向能力有关。', meaning: '评估阴雨、雾霾等复杂天气下的定向表现。' },
+  { idx: '08', name: '智商指标', gene: 'CASK', full: '钙/钙调素依赖性丝氨酸蛋白激酶基因', func: '参与神经元发育与突触信号传导，与认知能力相关。', meaning: '评估赛鸽的认知学习能力与可训性。' },
+];
+
+const faqJson = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: '赛鸽飞行能力基因检测需要多大年龄的鸽子？', acceptedAnswer: { '@type': 'Answer', text: '幼鸽即可检测。拔取数根胸腹部羽毛即可提取 DNA，无需采血或伤害鸽子，可用于早期选育，提前判断种鸽与幼鸽的潜力。' } },
+    { '@type': 'Question', name: '飞行能力基因检测采用什么技术？', acceptedAnswer: { '@type': 'Answer', text: '采用基于基因扩增的分子检测技术（荧光定量 PCR 与 SNP 分型），配合专业的生物信息学分析，精准定位与飞行能力相关的基因序列与变异位点。' } },
+    { '@type': 'Question', name: '如何采集羽毛样本？', acceptedAnswer: { '@type': 'Answer', text: '采样前洗净双手，拔取 4-6 根胸腹部羽毛，稍作风干后放入无污染塑料自封袋，避免污染羽毛根部，按客服指引快递至实验室即可。' } },
+    { '@type': 'Question', name: '检测报告包含哪些内容？', acceptedAnswer: { '@type': 'Answer', text: '报告包含每项基因的检测结果、对应的能力指标解读，以及综合的育种建议，帮助鸽友科学制定配对与参赛计划。' } },
+  ],
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.com/' },
+    { '@type': 'ListItem', position: 2, name: '飞行能力基因检测' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 飞行能力基因检测
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">赛鸽飞行能力基因检测</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        通过检测与飞行能力相关的 8 项关键基因，从基因层面揭示赛鸽耐力、归巢、导航、肌力与智商的遗传潜力，让育种选育「看得见、选得准」。
+      </p>
+    </div>
+  </section>
+
+  <!-- 概述 -->
+  <section class="container-site py-16">
+    <div class="grid gap-10 lg:grid-cols-3">
+      <div class="lg:col-span-2 prose-sanshi">
+        <h2 class="text-2xl font-bold">什么是赛鸽飞行能力基因检测？</h2>
+        <p>
+          赛鸽的飞行能力并非单一性状，而是由<b>耐力、速度、导航、归巢、羽翼、记忆、认知</b>等多个维度的遗传因素共同决定。
+          传统选育依赖赛事成绩与经验判断，周期长、样本少、主观性强。飞行能力基因检测通过分子生物学手段，
+          直接读取鸽子 DNA 中与飞行能力相关的基因位点，将「天赋」量化为可对比的检测指标。
+        </p>
+        <p>
+          三狮生物引进了国际领先的基因检测设备，配备专业的检测试剂开发与生物信息学分析团队，
+          运用先进的检测技术、算法和模型，对海量基因数据进行深入剖析，精确锁定与飞行能力相关的基因序列及变异位点，
+          从而揭示飞行能力背后的遗传奥秘。
+        </p>
+        <h2 class="mt-10 text-2xl font-bold">检测原理</h2>
+        <p>
+          检测采用<b>基于基因扩增的分子检测技术</b>（荧光定量 PCR 结合 SNP 单核苷酸多态性分型）。
+          通过设计特异性引物与荧光探针，对目标基因位点进行扩增与分型，判断个体在该位点的基因型，
+          进而结合生物信息学模型解读其对飞行能力的贡献。
+        </p>
+        <h2 class="mt-10 text-2xl font-bold">采样方式</h2>
+        <p>
+          无需采血、无需伤害鸽子：<b>拔取 4-6 根胸腹部羽毛</b>即可完成 DNA 提取。
+          采样前洗净双手，羽毛稍作风干后放入无污染的自封样本袋，注意避免污染羽毛根部，按客服指引快递至实验室。
+          幼鸽即可检测，是种鸽选育与早期留种的理想工具。
+        </p>
+      </div>
+      <div class="card h-fit">
+        <h3 class="mb-4 text-sm font-semibold text-slate-900">适用场景</h3>
+        <ul class="space-y-3 text-sm text-slate-600">
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>种鸽配对与留种选育</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>幼鸽早期天赋评估</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>参赛鸽赛前能力评估</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>公棚入棚鸽潜质筛选</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span>引种品质核验</li>
+        </ul>
+        <div class="mt-6 rounded-xl bg-brand-50 p-4 text-sm text-brand-800">
+          <p class="font-semibold">设备 + 试剂 + 培训</p>
+          <p class="mt-1">鸽友可自建检测实验室，三狮提供全流程支持。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8项基因表 -->
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">检测指标</span>
+        <h2 class="section-title mt-3">8 项飞行能力相关基因</h2>
+        <p class="mt-3 text-slate-600">多维度评估赛鸽飞行天赋</p>
+      </div>
+      <div class="mt-10 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <table class="table-base min-w-[760px]">
+          <thead>
+            <tr>
+              <th class="w-16">序号</th>
+              <th class="w-32">检测指标</th>
+              <th class="w-40">基因</th>
+              <th class="w-64">基因全称</th>
+              <th>功能说明</th>
+              <th>检测意义</th>
+            </tr>
+          </thead>
+          <tbody>
+            {genes.map((g) => (
+              <tr class="hover:bg-brand-50/40">
+                <td class="font-mono text-slate-400">{g.idx}</td>
+                <td class="font-semibold text-slate-900">{g.name}</td>
+                <td class="font-mono text-brand-700">{g.gene}</td>
+                <td class="text-slate-600">{g.full}</td>
+                <td class="text-slate-600">{g.func}</td>
+                <td class="text-slate-600">{g.meaning}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 检测报告 -->
+  <section class="container-site py-16">
+    <div class="grid gap-8 md:grid-cols-2">
+      <div class="card">
+        <h3 class="text-lg font-semibold text-slate-900">检测报告内容</h3>
+        <ul class="mt-4 space-y-2 text-sm text-slate-600">
+          <li class="flex gap-2"><span class="text-brand-600">•</span>每项基因的检测结果与基因型</li>
+          <li class="flex gap-2"><span class="text-brand-600">•</span>耐力、归巢、导航、肌力等能力指标解读</li>
+          <li class="flex gap-2"><span class="text-brand-600">•</span>综合育种与参赛建议</li>
+          <li class="flex gap-2"><span class="text-brand-600">•</span>检测方法、仪器与质控说明</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-lg font-semibold text-slate-900">为什么选择三狮</h3>
+        <ul class="mt-4 space-y-2 text-sm text-slate-600">
+          <li class="flex gap-2"><span class="text-brand-600">•</span>国际领先检测设备 + 专业生信分析团队</li>
+          <li class="flex gap-2"><span class="text-brand-600">•</span>精准锁定基因序列与变异位点</li>
+          <li class="flex gap-2"><span class="text-brand-600">•</span>ISO9001 质量体系认证，检测流程标准化</li>
+          <li class="flex gap-2"><span class="text-brand-600">•</span>设备、试剂、培训一条龙服务</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-slate-50 py-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">常见问题</h2>
+      <div class="mt-8 space-y-4">
+        {faqJson.mainEntity.map((q) => (
+          <div class="card">
+            <h3 class="font-semibold text-slate-900">{q.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center">
+        <a href="/contact" class="btn-primary">预约飞行能力基因检测</a>
+      </div>
+    </div>
+  </section>
+</Layout>
