@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+
+const posts = (await getCollection('blogEn')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const title = 'Knowledge Base | Racing Pigeon Gene Testing - Sanshi Bio';
+const description =
+  'Sanshi Bio knowledge base: racing pigeon flight genes, virus prevention, paternity testing and feather sampling guides for scientific breeding and healthy pigeon keeping.';
+---
+
+<Layout title={title} description={description}>
+  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
+    <div class="container-site py-16 sm:py-20">
+      <nav class="mb-4 text-sm text-brand-200">
+        <a href="/en/" class="hover:text-white">Home</a> <span class="mx-1">/</span> Knowledge Base
+      </nav>
+      <h1 class="text-3xl font-bold sm:text-4xl">Racing Pigeon Gene Testing Knowledge Base</h1>
+      <p class="mt-4 max-w-2xl text-lg text-brand-50">
+        Professional guides on breeding genes, disease prevention and bloodline identification.
+      </p>
+    </div>
+  </section>
+
+  <section class="container-site py-16">
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {posts.map((post) => (
+        <a href={`/en/blog/${post.id}/`} class="card group hover:border-brand-300 hover:shadow-md transition">
+          <div class="flex items-center gap-2">
+            <span class="rounded-full bg-brand-50 px-2 py-0.5 text-xs text-brand-700">{post.data.category}</span>
+            <span class="text-xs text-slate-400">{post.data.pubDate.toISOString().slice(0, 10)}</span>
+          </div>
+          <h2 class="mt-3 font-semibold text-slate-900 group-hover:text-brand-700">{post.data.title}</h2>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600">{post.data.description}</p>
+          <span class="mt-4 inline-block text-sm font-medium text-brand-600">Read more →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>
