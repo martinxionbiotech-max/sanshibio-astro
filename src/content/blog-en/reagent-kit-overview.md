@@ -8,6 +8,8 @@ tags: [reagent kits, DNA extraction, PCR reagents, consumables]
 
 # Racing Pigeon Molecular Testing Reagent Kits
 
+> **TL;DR**: Reagents are the invisible pipeline of molecular testing — they decide result reliability. This guide covers the four reagent categories for a complete pigeon testing workflow.
+
 A complete molecular testing workflow for racing pigeons depends on a reliable line of **reagents**. From [Sanshi Bio](/en/about/), the full reagent range covers every step — sample processing, extraction, amplification and result reading.
 
 ## The Four-Step Testing Loop
@@ -50,6 +52,20 @@ Yes. [Sanshi Bio](/en/about/) supports per-step reagent purchases, plus an integ
 
 ### How long do reagents last?
 Extraction and PCR reagents typically last 6–12 months at -20°C; test cards about 12 months at room temperature. Follow the label.
+
+### Must reagents match the instrument?
+Preferably yes. Paired reagents guarantee compatibility and stable results. Confirm the instrument model before buying.
+
+### Can reagents be shipped at room temperature?
+Extraction and PCR reagents need cold-chain transport; rapid cards ship at room temperature. Store per the label on arrival.
+
+## Key Takeaways
+
+1. Four workflow steps — sample processing, extraction, amplification and result reading, each with dedicated reagents.
+2. Magnetic-bead extraction is the mainstream — high purity, automatable, no toxic reagents.
+3. Ready-to-use PCR master mixes — less manual error, more stability.
+4. Rapid test cards suit loft screening — confirm positives in the lab.
+5. Cold-chain storage is key — keep at -20°C, avoid repeated freeze-thaw.
 
 ## References
 

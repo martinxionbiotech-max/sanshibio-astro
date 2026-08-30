@@ -8,6 +8,8 @@ tags: [LDHA, endurance, lactic acid, flight ability]
 
 # Racing Pigeon Endurance Gene LDHA
 
+> **TL;DR**: The LDHA gene encodes lactate dehydrogenase A — the core endurance marker for long-distance racing pigeons. This guide explains lactic-acid metabolism, how LDHA genotype drives endurance, and how to breed for it.
+
 In long-distance racing, endurance often decides the outcome. A pigeon that sustains speed over hundreds of kilometers needs highly efficient muscle energy metabolism — and this hinges on the **LDHA (lactate dehydrogenase A)** gene.
 
 ## What Is Lactic Acid Metabolism?
@@ -43,6 +45,35 @@ Pluck 4–6 breast feathers — no blood sampling needed, squabs can be tested.
 
 ### Can the endurance gene alone determine race results?
 No. Genes determine potential; results also depend on training, nutrition, weather and disease.
+
+### Can LDHA genotype be changed?
+No. Genotype is inherited, but progressive endurance training can amplify the expression of favorable genes.
+
+### What is the difference between LDHA and MSTN?
+LDHA drives endurance (lactic-acid metabolism); MSTN drives muscle power (explosiveness). See the [speed vs endurance guide](/en/blog/speed-distance-gene/).
+
+## Key Takeaways
+
+1. LDHA is the core endurance marker — it determines lactic-acid clearance and sustained energy supply.
+2. Lactic-acid buildup causes fatigue — high LDHA activity means faster clearance and better stamina.
+3. Prioritize for long races — 500 km+ endurance races favor strong LDHA genotypes.
+4. Squabs can be tested — feather DNA testing enables early endurance screening.
+5. Genes + training work together — genes set the ceiling, training delivers the performance.
+
+## Entity Quick Reference
+
+| Gene | Full Name | Detection Meaning |
+|------|-----------|-------------------|
+| LDHA | Lactate Dehydrogenase A | Endurance (lactic acid metabolism) |
+| DRD4 | Dopamine Receptor D4 | Homing persistence |
+| CRY1 | Cryptochrome 1 | Navigation |
+| MSTN | Myostatin | Muscle power |
+| F-KER | Feather Keratin | Feather quality |
+| LRP8 | LDL Receptor Related Protein 8 | Learning & memory |
+| GSR | Glutathione Reductase | Bad-weather orientation |
+| CASK | Calcium/Calmodulin-Dependent Serine Protein Kinase | Cognition |
+
+*Full 8-gene flight-ability panel is available via [flight ability gene testing](/en/flight-ability/).*
 
 ## References
 

@@ -8,6 +8,8 @@ tags: [antibody testing, immunity, vaccine, titer]
 
 # Antibody Titer Testing for Racing Pigeons
 
+> **TL;DR**: Antibody titer testing answers with data whether vaccination actually worked. This guide covers the principle, methods and result interpretation for precise flock immunization.
+
 After vaccination, is the flock actually protected? **Antibody titer testing** answers with data — measuring antibody levels against specific pathogens (Newcastle disease, AI, etc.) to evaluate vaccine efficacy.
 
 ## Why Test Antibodies
@@ -53,6 +55,36 @@ Usually 1–3 working days — see [testing services](/en/services/).
 
 ### When should I test after vaccination?
 Antibodies peak 2–4 weeks post-vaccination; testing then best reflects true response.
+
+### How does antibody testing differ from pathogen testing?
+Antibody reflects immune status (vaccinated/infected); PCR detects current infection. Use both for precise prevention.
+
+### When should I test after vaccination?
+Antibodies peak 2-4 weeks post-vaccination — test then for the truest response.
+
+## Key Takeaways
+
+1. Evaluate vaccine efficacy — use antibody titer data to confirm the vaccine worked.
+2. Two methods — hemagglutination inhibition (HI) and ELISA, both expressed as titers.
+3. Tiered interpretation — high/moderate/low map to different actions.
+4. Three scenarios — efficacy evaluation, booster timing, diagnostic aid.
+5. Complements PCR — PCR detects disease, antibody reflects immunity.
+
+## Entity Quick Reference
+
+| Pathogen | Name | Classification |
+|----------|------|----------------|
+| NDV | Newcastle Disease Virus | Paramyxoviridae |
+| AIV | Avian Influenza Virus | Orthomyxoviridae |
+| PiCV | Pigeon Circovirus | Circoviridae |
+| PHV | Pigeon Herpesvirus | Herpesviridae |
+| — | Pigeon Adenovirus | Adenoviridae |
+| — | Pigeon Pox Virus | Poxviridae |
+| C. psittaci | Chlamydia psittaci | Chlamydiaceae |
+| Salmonella | Salmonella | Enterobacteriaceae |
+| Mycoplasma | Mycoplasma | Mycoplasmataceae |
+| T. gallinae | Trichomonas gallinae | Trichomonadidae |
+| C. albicans | Candida albicans | Saccharomycetaceae |
 
 ## References
 

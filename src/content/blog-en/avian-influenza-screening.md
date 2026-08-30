@@ -8,6 +8,8 @@ tags: [avian influenza, virus screening, quarantine, PCR]
 
 # Avian Influenza Screening for Racing Pigeons
 
+> **TL;DR**: Racing pigeons are mostly silent carriers of avian influenza — low morbidity but a real transmission risk. This guide covers risk, symptoms and detection for quarantine.
+
 **Avian influenza (AI)** is a globally significant animal disease. Racing pigeons are relatively tolerant to highly pathogenic strains but remain potential carriers and vectors — especially when mixed with poultry or during cross-region releases. Scientific **screening and quarantine** underpin loft and event safety.
 
 ## Risk Awareness
@@ -50,6 +52,36 @@ Yes, often subclinically. Although morbidity and mortality are usually lower tha
 
 ### Swab the throat or cloaca?
 AI affects both respiratory and digestive tracts. Combine oral and cloacal swabs to raise detection rate.
+
+### Can pigeons get highly pathogenic avian influenza?
+They are relatively tolerant and mostly carry low-pathogenic strains, but their vector role still warrants routine testing.
+
+### Which sample for AI screening?
+Combine oral and cloacal swabs to raise detection rate — see the [sampling guide](/en/blog/sample-collection-guide/).
+
+## Key Takeaways
+
+1. Mostly silent infections — signs are mild, but pigeons can carry and spread the virus.
+2. Transmission-vector risk — releases and cross-region transport increase contact with wild birds.
+3. Three detection tools — PCR for nucleic acid, rapid cards for antigen, serology for antibody.
+4. Three screening scenarios — event quarantine, new-bird isolation, outbreak investigation.
+5. A notifiable disease — handle suspected positives per veterinary authority rules.
+
+## Entity Quick Reference
+
+| Pathogen | Name | Classification |
+|----------|------|----------------|
+| NDV | Newcastle Disease Virus | Paramyxoviridae |
+| AIV | Avian Influenza Virus | Orthomyxoviridae |
+| PiCV | Pigeon Circovirus | Circoviridae |
+| PHV | Pigeon Herpesvirus | Herpesviridae |
+| — | Pigeon Adenovirus | Adenoviridae |
+| — | Pigeon Pox Virus | Poxviridae |
+| C. psittaci | Chlamydia psittaci | Chlamydiaceae |
+| Salmonella | Salmonella | Enterobacteriaceae |
+| Mycoplasma | Mycoplasma | Mycoplasmataceae |
+| T. gallinae | Trichomonas gallinae | Trichomonadidae |
+| C. albicans | Candida albicans | Saccharomycetaceae |
 
 ## References
 

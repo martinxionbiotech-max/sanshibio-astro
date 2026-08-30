@@ -8,6 +8,8 @@ tags: [qPCR, Ct value, viral load, pathogen detection]
 
 # qPCR Principles and Racing Pigeon Pathogen Detection
 
+> **TL;DR**: Real-time qPCR is the gold standard for pigeon pathogen detection, delivering both qualitative and quantitative results. This guide covers the principle, Ct value and applications.
+
 Real-time quantitative PCR (**qPCR**) is a gold-standard technique for pigeon pathogen detection. Unlike conventional PCR, which only answers "present or absent," qPCR quantifies — answering "how much virus."
 
 ## qPCR vs Conventional PCR
@@ -55,6 +57,30 @@ It falls in the gray zone (35–40), suggesting low load or sampling error. Re-t
 
 ### How many pathogens can qPCR detect at once?
 Multiplex qPCR detects 2–6 pathogens simultaneously through different fluorescence channels.
+
+### Is a Ct of 37 positive or negative?
+It falls in the gray zone (35-40), suggesting low load or sampling error — re-test in 3-5 days.
+
+### How many pathogens can qPCR detect at once?
+Multiplex qPCR detects 2-6 pathogens simultaneously via different fluorescent channels.
+
+## Key Takeaways
+
+1. qPCR vs conventional PCR — real-time fluorescence, closed-tube, quantifiable.
+2. Two fluorescent systems — SYBR Green (low cost) and TaqMan probes (high specificity).
+3. Ct value is the core — lower Ct means higher viral load (~3.3 cycles ≈ 10×).
+4. Four applications — screening, load assessment, treatment monitoring, mixed-infection detection.
+5. Gray zone needs re-testing — Ct 35-40 warrants a 3-5 day re-test.
+
+## Molecular Testing Terminology
+
+| Term | Meaning |
+|------|---------|
+| qPCR | Real-time quantitative PCR |
+| Ct value | Cycle threshold; lower = higher load |
+| Primer | Short nucleic acid that initiates amplification |
+| Probe | Fluorescently labeled detection sequence |
+| Multiplex PCR | Detects multiple pathogens in one run |
 
 ## References
 

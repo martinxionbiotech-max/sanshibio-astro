@@ -8,6 +8,8 @@ tags: [sampling, testing workflow, feather, swab]
 
 # Sample Collection Guide for Racing Pigeons
 
+> **TL;DR**: Half of a reliable result depends on proper sampling. This guide covers feather, swab and blood collection with storage and shipping tips.
+
 Half of a reliable test result depends on the lab; the other half depends on **proper sampling**. Errors in collection, storage or shipping can fail a test or distort results. This guide covers three common sample types.
 
 ## Three Sample Types
@@ -58,6 +60,20 @@ A single feather with intact pulp usually suffices, but 3–5 are recommended in
 
 ### Does swab sampling hurt the pigeon?
 No, when done correctly. Oral/cloacal swabs collect only surface secretions; be gentle.
+
+### Do I need to fast the pigeon before sampling?
+No fasting needed for feather (gene) testing; for pathogen testing, sample before medication to avoid interference.
+
+### Can I pool multiple birds into one sample?
+No. Each sample must be labeled and tested individually — pooling makes results impossible to attribute.
+
+## Key Takeaways
+
+1. Three sample types — feather for genes, swab for pathogens, blood for antibodies.
+2. Feather pulp is essential — the DNA source for gene testing.
+3. Flocked swabs beat cotton tips — higher release, better accuracy.
+4. Refrigerate swabs and blood — 2-8°C, ship within 48 hours.
+5. Label clearly — mark each sample with bird ID and test item.
 
 ## References
 

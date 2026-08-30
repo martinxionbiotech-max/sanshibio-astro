@@ -8,6 +8,8 @@ tags: [lab equipment, PCR cycler, nucleic acid extractor, setup]
 
 # Racing Pigeon Lab Equipment Guide
 
+> **TL;DR**: A pigeon testing lab should be sized to your needs, not to the priciest gear. This guide gives three tiered setups with budget references for rational purchasing.
+
 Setting up a pigeon testing lab does not mean buying the most expensive gear. Match equipment to your testing volume and precision needs with a **three-tier approach**.
 
 ## Core Equipment
@@ -51,6 +53,20 @@ For SNP genotyping, standard PCR + electrophoresis or gene chip suffices. qPCR i
 
 ### How often should equipment be calibrated?
 Calibrate pipettes annually; verify PCR cyclers and extractors per manufacturer schedule.
+
+### Do I need a PCR cycler at entry level?
+No. Entry level focuses on proper sampling and mail-in testing, leaving core testing to the lab.
+
+### qPCR vs conventional PCR?
+For SNP genotyping, conventional PCR + electrophoresis suffices; for pathogen quantification (viral load), qPCR is required.
+
+## Key Takeaways
+
+1. Three tiers — entry (¥5k-10k), professional (¥30k-80k), laboratory (¥150k+).
+2. Eight core equipment types — extractor, PCR cycler, qPCR, centrifuge, gel electrophoresis, etc.
+3. Match throughput — choose 8/16/96 channels by sample volume.
+4. Contamination control is the lifeline — three-zone separation + UV sterilization.
+5. Prefer local after-sales — domestic equipment means faster spare-part supply.
 
 ## References
 

@@ -8,6 +8,8 @@ tags: [gene breeding, speed, endurance, flight genes]
 
 # Speed vs Endurance Racing Pigeons: Gene-Based Breeding
 
+> **TL;DR**: Speed-type and endurance-type racing pigeons follow two distinct physiological routes with different gene combinations. This guide helps you pair breeders by race distance.
+
 Races are split into sprint (200–400 km), middle (400–700 km) and long (700 km+) distances. Each demands a different balance of **speed and endurance** — driven by different gene combinations. Genetic testing turns distance-based pairing from experience into science.
 
 ## Speed vs Endurance: Two Physiological Routes
@@ -50,6 +52,35 @@ Not necessarily. Genotype reflects tendency, not absolute limits. Long distances
 
 ### Can testing predict race results?
 No — it assesses genetic potential across speed, endurance and navigation, guiding pairing and training. See [flight ability testing](/en/flight-ability/).
+
+### How do I know if my pigeon is speed or endurance type?
+Test key genes (MSTN, LDHA) and combine with bloodline and race records for an objective genetic basis.
+
+### Can I breed a balanced speed-endurance pigeon?
+Yes, through gene-based pairing, but there is a physiological trade-off; middle-distance (400-700 km) suits balanced types best.
+
+## Key Takeaways
+
+1. Two physiological routes — anaerobic sprint vs aerobic endurance.
+2. Sprints favor MSTN + F-KER — explosive power and feather structure.
+3. Long races favor LDHA + CRY1 + DRD4 — endurance, navigation and homing.
+4. Middle races need balance — a balanced speed-endurance gene mix.
+5. Build a gene profile first — then pair by race distance.
+
+## Entity Quick Reference
+
+| Gene | Full Name | Detection Meaning |
+|------|-----------|-------------------|
+| LDHA | Lactate Dehydrogenase A | Endurance (lactic acid metabolism) |
+| DRD4 | Dopamine Receptor D4 | Homing persistence |
+| CRY1 | Cryptochrome 1 | Navigation |
+| MSTN | Myostatin | Muscle power |
+| F-KER | Feather Keratin | Feather quality |
+| LRP8 | LDL Receptor Related Protein 8 | Learning & memory |
+| GSR | Glutathione Reductase | Bad-weather orientation |
+| CASK | Calcium/Calmodulin-Dependent Serine Protein Kinase | Cognition |
+
+*Full 8-gene flight-ability panel is available via [flight ability gene testing](/en/flight-ability/).*
 
 ## References
 

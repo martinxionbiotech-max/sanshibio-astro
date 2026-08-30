@@ -8,6 +8,8 @@ tags: [breeding, selection, gene testing, pairing]
 
 # Racing Pigeon Breeding & Selection Guide
 
+> **TL;DR**: Scientific selection is the core of performance improvement. This guide covers how gene testing combines with traditional selection for data-driven breeding.
+
 Racing pigeon breeding is "art + science". Traditionally, fanciers rely on race results, pedigrees and experience; today, **gene testing** adds scientific evidence.
 
 ## Pain Points of Traditional Selection
@@ -37,6 +39,20 @@ Racing pigeon breeding is "art + science". Traditionally, fanciers rely on race 
 
 ### Can gene testing replace race results?
 No. Genes reveal potential; results reflect overall performance. Combine "genes set direction, training realizes potential, experience fills gaps".
+
+### Can gene testing predict results?
+It cannot predict rankings, but it assesses genetic potential, guiding pairing and training to avoid blind breeding.
+
+### Does gene selection conflict with traditional selection?
+No — it is a data supplement to traditional bloodline selection, sharpening the identification of superior breeders.
+
+## Key Takeaways
+
+1. Gene testing provides a genetic basis — objectively assessing flight potential.
+2. Genotype + race record — evaluate potential and performance together.
+3. Pair by race distance — optimize speed and endurance gene combinations.
+4. Build a gene archive — track offspring performance over time.
+5. Avoid gene-only thinking — bloodline, fitness and training matter equally.
 
 ## References
 

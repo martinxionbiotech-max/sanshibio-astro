@@ -8,6 +8,8 @@ tags: [sampling, feather, report, gene testing]
 
 # Racing Pigeon Feather Sampling Guide
 
+> **TL;DR**: Feather sampling is the easiest and most common way to collect pigeon DNA. This guide covers proper technique, storage and common mistakes.
+
 Correct sampling is the first step to accurate results. This guide covers **feather sampling standards**, shipping notes and **report interpretation**.
 
 ## Why Feather Sampling?
@@ -36,6 +38,20 @@ A report includes the test project, results (genotypes or pathogen positive/nega
 
 ### How soon must feathers be shipped?
 Air-dry then ship promptly to avoid DNA degradation. Keep the quill intact and uncontaminated.
+
+### Is one feather enough?
+A single feather with intact pulp usually works, but 3-5 are recommended in case of missing pulp or contamination.
+
+### Can down feathers be used?
+Squabs can use down, but the pulp is essential — pure feather shafts lack enough DNA.
+
+## Key Takeaways
+
+1. The pulp is the DNA bank — pluck feathers with the root pulp intact.
+2. Take 3-5 feathers — wing or tail feathers, avoid breakage.
+3. Avoid the molting period — feather quality drops, affecting extraction.
+4. Room temperature is fine — label each sample clearly.
+5. Ship within 48 hours — prompt submission preserves DNA quality.
 
 ## References
 

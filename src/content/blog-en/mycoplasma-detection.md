@@ -8,6 +8,8 @@ tags: [mycoplasma, CRD, breeder purification, detection]
 
 # Mycoplasma (CRD) Detection in Racing Pigeons
 
+> **TL;DR**: Mycoplasmosis (chronic respiratory disease) is the most common hidden respiratory infection in racing pigeons — persistent and recurrent. This guide covers its impact, symptoms and detection, emphasizing breeder purification.
+
 **Mycoplasmosis**, commonly called chronic respiratory disease (CRD), is one of the most common hidden respiratory infections in racing pigeons. Because symptoms are atypical and the disease is recurrent, **laboratory testing** is the key to diagnosis and purification.
 
 ## Pathogen and Impact
@@ -54,6 +56,36 @@ With proper medication plus breeder purification, mycoplasma can be controlled o
 
 ### Swab with cotton or flocked swabs?
 Use dedicated **flocked swabs** for throat or nasal secretions — higher release rate and accuracy than cotton.
+
+### Can CRD be cured?
+Proper medication plus breeder purification can control or eliminate mycoplasma, but persistence requires ongoing biosecurity.
+
+### Which sample for mycoplasma?
+Use flocked swabs for throat or nasal secretions — higher release rate than cotton.
+
+## Key Takeaways
+
+1. A silent performance killer — atypical symptoms, yet steadily reduces endurance.
+2. Frequent mixed infections — often with Newcastle disease, adenovirus and chlamydia.
+3. Breeder purification is key — vertical transmission requires a negative core flock.
+4. PCR + treatment + re-test — a detection-treatment-clearance loop.
+5. Avoid blind medication — test first to identify the cause and prevent resistance.
+
+## Entity Quick Reference
+
+| Pathogen | Name | Classification |
+|----------|------|----------------|
+| NDV | Newcastle Disease Virus | Paramyxoviridae |
+| AIV | Avian Influenza Virus | Orthomyxoviridae |
+| PiCV | Pigeon Circovirus | Circoviridae |
+| PHV | Pigeon Herpesvirus | Herpesviridae |
+| — | Pigeon Adenovirus | Adenoviridae |
+| — | Pigeon Pox Virus | Poxviridae |
+| C. psittaci | Chlamydia psittaci | Chlamydiaceae |
+| Salmonella | Salmonella | Enterobacteriaceae |
+| Mycoplasma | Mycoplasma | Mycoplasmataceae |
+| T. gallinae | Trichomonas gallinae | Trichomonadidae |
+| C. albicans | Candida albicans | Saccharomycetaceae |
 
 ## References
 
