@@ -57,7 +57,7 @@ author: 三狮生物分子诊断技术团队
 - **育种爱好者**：值得。飞行能力基因 + 亲子鉴定能显著提升选育效率。
 - **普通参赛鸽友**：看预算。若以血统确认或健康把关为目的，选择单项检测即可。
 
-> 💡 提示：判断「有没有用」，先问自己「我想解决什么问题」。目标明确，检测就有用；盲目跟风，性价比就低。更多飞行能力基因详解可访问基因检测子站 [genes.sanshibio.com](https://genes.sanshibio.com/)，育种选配方案可访问育种子站 [breeding.sanshibio.com](https://breeding.sanshibio.com/)。
+> 💡 提示：判断「有没有用」，先问自己「我想解决什么问题」。目标明确，检测就有用；盲目跟风，性价比就低。更多飞行能力基因详解可访问基因检测子站 [genes.sanshibio.net](https://genes.sanshibio.net/)，育种选配方案可访问育种子站 [breeding.sanshibio.net](https://breeding.sanshibio.net/)。
 
 ## 核心要点
 

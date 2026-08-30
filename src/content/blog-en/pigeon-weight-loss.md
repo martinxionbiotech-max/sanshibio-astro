@@ -48,7 +48,7 @@ Weight loss has many overlapping causes, and the correct order is "find the caus
 3. **Treat accordingly**: after confirmation, medicate under veterinary guidance — bacterial infections can use **sensitivity testing**, and parasites should be dewormed according to a veterinary plan.
 4. **Supportive care**: strengthen nutrition, replenish electrolytes, reduce stress and isolate sick birds.
 
-> 💡 Tip: do not rush to "fatten up" a thin pigeon — find the pathogen that is "consuming" it. [Pathogen detection](/en/virus-detection/) can catch them all in one run; see the [pathogen encyclopedia](https://pathogens.sanshibio.com/) for more.
+> 💡 Tip: do not rush to "fatten up" a thin pigeon — find the pathogen that is "consuming" it. [Pathogen detection](/en/virus-detection/) can catch them all in one run; see the [pathogen encyclopedia](https://pathogens.sanshibio.net/) for more.
 
 ## FAQ
 

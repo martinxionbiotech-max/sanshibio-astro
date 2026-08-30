@@ -56,7 +56,7 @@ Pigeon Circovirus is a classic **immunosuppressive pathogen** — even a weak po
 3. **Control secondary infection**: Circovirus has no specific cure — focus on nutrition, stress reduction and controlling secondary infections.
 4. **Veterinary guidance**: provide supportive care under veterinary guidance, never self-medicate.
 
-> 💡 Tip: do not fixate on a single number. Read the conclusion with the help of [test report interpretation](/en/blog/test-report-interpretation/), and check the Circovirus entry in the [pathogen encyclopedia](https://pathogens.sanshibio.com/) if needed.
+> 💡 Tip: do not fixate on a single number. Read the conclusion with the help of [test report interpretation](/en/blog/test-report-interpretation/), and check the Circovirus entry in the [pathogen encyclopedia](https://pathogens.sanshibio.net/) if needed.
 
 ## FAQ
 

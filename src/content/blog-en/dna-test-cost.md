@@ -22,7 +22,7 @@ tags: [DNA test, cost, paternity test, sex identification]
 | Flight ability gene test | Assess flight talent | By test panel |
 | AB pigeon detection | Identify same-name substitutes | By sample count |
 
-Different items solve different problems, and their pricing logic is completely different — you can't simply ask "how much per run." See the gene testing sub-site [genes.sanshibio.com](https://genes.sanshibio.com/) for item details.
+Different items solve different problems, and their pricing logic is completely different — you can't simply ask "how much per run." See the gene testing sub-site [genes.sanshibio.net](https://genes.sanshibio.net/) for item details.
 
 ## Factors That Affect DNA Testing Price
 

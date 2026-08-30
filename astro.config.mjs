@@ -18,7 +18,7 @@ export default defineConfig({
       filter: (page) => !page.includes('/404'),
     }),
   ],
-  site: 'https://sanshibio.com',
+  site: 'https://sanshibio.net',
   i18n: {
     defaultLocale: 'zh',
     locales: ['zh', 'en'],

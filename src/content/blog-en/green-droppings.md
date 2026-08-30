@@ -54,7 +54,7 @@ Green droppings have many causes and overlapping signs, and **blind medication i
 3. **Treat accordingly**: after confirmation, medicate under veterinary guidance — for bacterial infections, use **sensitivity testing** to choose a direction.
 4. **Isolate and disinfect**: isolate sick birds, clean and disinfect the loft to prevent cross-infection.
 
-> 💡 Tip: do not rush to "suppress the symptom with medicine." Run [pathogen detection](/en/virus-detection/) first to identify which pathogen is responsible — targeted treatment is the only effective approach. See the [pathogen encyclopedia](https://pathogens.sanshibio.com/) for more.
+> 💡 Tip: do not rush to "suppress the symptom with medicine." Run [pathogen detection](/en/virus-detection/) first to identify which pathogen is responsible — targeted treatment is the only effective approach. See the [pathogen encyclopedia](https://pathogens.sanshibio.net/) for more.
 
 ## FAQ
 

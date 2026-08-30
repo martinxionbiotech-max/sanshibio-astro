@@ -59,7 +59,7 @@ If you test in volume and need fast results before races, a self-built lab pays 
 1. **Define your needs first**: clarify what you will test (genotyping or pathogen quantification) to choose between a standard PCR and a real-time quantitative PCR instrument.
 2. **Choose by throughput**: pick 8/16/96 channels according to per-run sample volume — avoid over- or under-specifying.
 3. **Look at the full package, not the bare machine**: include reagents, training and after-sales in your total-cost comparison.
-4. **Request an official quote**: prices differ by configuration and bulk order, so **contact the Sanshi Bio team for official pricing**. For equipment and reagent details, visit [genes.sanshibio.com](https://genes.sanshibio.com/); for companion reagents, see the [reagent kit overview](/en/blog/reagent-kit-overview/).
+4. **Request an official quote**: prices differ by configuration and bulk order, so **contact the Sanshi Bio team for official pricing**. For equipment and reagent details, visit [genes.sanshibio.net](https://genes.sanshibio.net/); for companion reagents, see the [reagent kit overview](/en/blog/reagent-kit-overview/).
 
 ## FAQ
 

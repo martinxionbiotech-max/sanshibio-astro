@@ -44,7 +44,7 @@ Genetic sexing directly detects markers on the sex chromosomes, solving the "can
 - **Male (ZZ)**: detects Z-chromosome markers, with no W-chromosome signal
 - **Female (ZW)**: detects both Z- and W-chromosome markers
 
-In Sanshibio's testing system, sex markers are included in the SNP panel and can be completed in one stop with [flight ability gene testing](/en/flight-ability/) and [paternity testing](/en/paternity/); the sub-site [breeding.sanshibio.com](https://breeding.sanshibio.com/) also offers breeder sexing services.
+In Sanshibio's testing system, sex markers are included in the SNP panel and can be completed in one stop with [flight ability gene testing](/en/flight-ability/) and [paternity testing](/en/paternity/); the sub-site [breeding.sanshibio.net](https://breeding.sanshibio.net/) also offers breeder sexing services.
 
 ## Visual Identification vs Genetic Sexing
 

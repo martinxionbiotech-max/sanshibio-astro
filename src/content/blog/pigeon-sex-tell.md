@@ -45,7 +45,7 @@ author: 三狮生物分子诊断技术团队
 - **雄鸽（ZZ）**：检测到 Z 染色体特异位点，无 W 染色体信号
 - **雌鸽（ZW）**：同时检测到 Z 与 W 染色体特异位点
 
-在三狮生物的检测体系中，性别位点已被纳入 SNP 位点组合，可与[飞行能力基因检测](/flight-ability/)、[亲子鉴定](/paternity/)等一站式完成；子站 [breeding.sanshibio.com](https://breeding.sanshibio.com/) 也提供种鸽性别鉴定服务。
+在三狮生物的检测体系中，性别位点已被纳入 SNP 位点组合，可与[飞行能力基因检测](/flight-ability/)、[亲子鉴定](/paternity/)等一站式完成；子站 [breeding.sanshibio.net](https://breeding.sanshibio.net/) 也提供种鸽性别鉴定服务。
 
 ## 外观鉴别 vs 基因鉴定对比
 

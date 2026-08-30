@@ -46,7 +46,7 @@ Because symptoms overlap, "looks like mycoplasma" does not equal "is mycoplasma.
 1. **Treating in the wrong direction**: the two respond differently to medication, and guessing may be completely ineffective.
 2. **Ignoring the zoonotic risk**: if it is actually Chlamydia, a keeper cleaning the loft unprotected may inhale the pathogen and harm their own health.
 
-Confirmation is the only reliable route. See the [pathogen encyclopedia](https://pathogens.sanshibio.com/) for side-by-side Mycoplasma and Chlamydia entries.
+Confirmation is the only reliable route. See the [pathogen encyclopedia](https://pathogens.sanshibio.net/) for side-by-side Mycoplasma and Chlamydia entries.
 
 ## How Testing Tells Them Apart
 

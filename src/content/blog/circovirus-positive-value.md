@@ -57,7 +57,7 @@ Ct 值偏高、处于临界区的「弱阳性」，需要谨慎解读：
 3. **控制继发感染**：圆环病毒本身无特效药，重点是加强营养、减少应激、控制继发感染。
 4. **兽医指导**：在兽医指导下对症支持治疗，切勿自行用药。
 
-> 💡 提示：拿到报告不要只盯一个数字，结合[检测报告解读](/blog/test-report-interpretation/)看懂结论，必要时咨询[病原百科](https://pathogens.sanshibio.com/)圆环病毒条目。
+> 💡 提示：拿到报告不要只盯一个数字，结合[检测报告解读](/blog/test-report-interpretation/)看懂结论，必要时咨询[病原百科](https://pathogens.sanshibio.net/)圆环病毒条目。
 
 ## 核心要点
 

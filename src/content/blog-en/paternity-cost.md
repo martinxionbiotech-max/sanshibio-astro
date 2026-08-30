@@ -23,7 +23,7 @@ The fee is not a "flat price"; it is mainly influenced by:
 | Report turnaround | Expedited service affects the price |
 | Service scope | Whether report interpretation and breeding advice are included |
 
-> 💡 Tip: Sanshi Bio uses 58 exclusive SNP loci — more loci, more stable genotyping. **Final fees follow the official quote**; contact the team directly for a program. For bloodline verification services, visit the gene testing sub-site [genes.sanshibio.com](https://genes.sanshibio.com/).
+> 💡 Tip: Sanshi Bio uses 58 exclusive SNP loci — more loci, more stable genotyping. **Final fees follow the official quote**; contact the team directly for a program. For bloodline verification services, visit the gene testing sub-site [genes.sanshibio.net](https://genes.sanshibio.net/).
 
 ## The Complete Paternity Testing Process
 

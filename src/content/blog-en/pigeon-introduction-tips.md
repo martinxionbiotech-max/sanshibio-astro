@@ -60,7 +60,7 @@ Quarantine should focus on pathogens that transmit vertically through breeders o
 | Mycoplasma | Pigeon mycoplasma | Chronic respiratory disease, recurring |
 | Parasitic | Trichomonas | Widespread, needs routine control |
 
-Sanshibio's [virus detection service](/en/virus-detection/) uses fluorescence quantitative PCR to detect pathogen nucleic acid even in the asymptomatic stage; the sub-site [pathogens.sanshibio.com](https://pathogens.sanshibio.com/) offers more granular pathogen testing items.
+Sanshibio's [virus detection service](/en/virus-detection/) uses fluorescence quantitative PCR to detect pathogen nucleic acid even in the asymptomatic stage; the sub-site [pathogens.sanshibio.net](https://pathogens.sanshibio.net/) offers more granular pathogen testing items.
 
 ## Bloodline Verification: The Role of Paternity Testing
 

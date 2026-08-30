@@ -60,7 +60,7 @@ Gene testing reveals "genetic potential," not "final results." Its greatest valu
 - **Breeding enthusiasts**: Worth it — flight ability genes plus paternity testing significantly improve selection efficiency.
 - **Casual racers**: Depends on budget — for bloodline confirmation or health screening, a single test item is enough.
 
-> 💡 Tip: To judge "is it worth it," first ask "what problem do I want to solve?" With a clear goal, testing is worthwhile; blindly following the crowd makes it poor value. For flight ability gene details, visit [genes.sanshibio.com](https://genes.sanshibio.com/); for breeding programs, visit [breeding.sanshibio.com](https://breeding.sanshibio.com/).
+> 💡 Tip: To judge "is it worth it," first ask "what problem do I want to solve?" With a clear goal, testing is worthwhile; blindly following the crowd makes it poor value. For flight ability gene details, visit [genes.sanshibio.net](https://genes.sanshibio.net/); for breeding programs, visit [breeding.sanshibio.net](https://breeding.sanshibio.net/).
 
 ## FAQ
 

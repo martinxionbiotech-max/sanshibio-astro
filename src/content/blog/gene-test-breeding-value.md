@@ -52,7 +52,7 @@ author: 三狮生物分子诊断技术团队
 3. **结合赛绩复盘**：把基因数据与赛事成绩对照，优化选配模型。
 4. **坚持几代**：赛鸽繁殖周期短，坚持 1-2 代即可看到性状改善趋势。
 
-> 💡 提示：育种的本质是「用数据做决策」。基因检测的价值不在「一次检测」，而在「持续积累」——数据越多，选配越准。更多育种选配方案可访问育种子站 [breeding.sanshibio.com](https://breeding.sanshibio.com/)，飞行能力基因详解可访问基因检测子站 [genes.sanshibio.com](https://genes.sanshibio.com/)。
+> 💡 提示：育种的本质是「用数据做决策」。基因检测的价值不在「一次检测」，而在「持续积累」——数据越多，选配越准。更多育种选配方案可访问育种子站 [breeding.sanshibio.net](https://breeding.sanshibio.net/)，飞行能力基因详解可访问基因检测子站 [genes.sanshibio.net](https://genes.sanshibio.net/)。
 
 ## 核心要点
 

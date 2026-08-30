@@ -54,7 +54,7 @@ Gene testing reveals "genetic potential," not "final results." The truly effecti
 3. **Review against race results**: compare gene data with race performance to refine your selection model.
 4. **Persist for generations**: pigeons have a short breeding cycle; persist 1–2 generations to see trait-improvement trends.
 
-> 💡 Tip: The essence of breeding is "making decisions with data." The value of gene testing lies not in "a single test" but in "continuous accumulation" — the more data, the more precise the pairing. For breeding and pairing programs, visit [breeding.sanshibio.com](https://breeding.sanshibio.com/); for flight ability gene details, visit [genes.sanshibio.com](https://genes.sanshibio.com/).
+> 💡 Tip: The essence of breeding is "making decisions with data." The value of gene testing lies not in "a single test" but in "continuous accumulation" — the more data, the more precise the pairing. For breeding and pairing programs, visit [breeding.sanshibio.net](https://breeding.sanshibio.net/); for flight ability gene details, visit [genes.sanshibio.net](https://genes.sanshibio.net/).
 
 ## FAQ
 

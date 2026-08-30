@@ -61,7 +61,7 @@ author: 三狮生物分子诊断技术团队
 | 支原体类 | 鸽支原体 | 慢性呼吸道病，易反复 |
 | 寄生虫类 | 毛滴虫 | 普遍存在，需常规控制 |
 
-三狮生物的[病毒检测服务](/virus-detection/)采用荧光定量 PCR，可在无症状期检出病原核酸；子站 [pathogens.sanshibio.com](https://pathogens.sanshibio.com/) 提供更细分的病原检测项目。
+三狮生物的[病毒检测服务](/virus-detection/)采用荧光定量 PCR，可在无症状期检出病原核酸；子站 [pathogens.sanshibio.net](https://pathogens.sanshibio.net/) 提供更细分的病原检测项目。
 
 ## 血统核实：亲子鉴定的作用
 

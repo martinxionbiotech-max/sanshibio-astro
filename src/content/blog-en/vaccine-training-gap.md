@@ -54,7 +54,7 @@ Timing is not one-size-fits-all; it depends on vaccine type and flock condition:
 - A titer that reaches the standard means immunization succeeded — safe to add intensity
 - A low or negative titer suggests immunization failure and the need for a timely booster
 
-The sub-site [pathogens.sanshibio.com](https://pathogens.sanshibio.com/) offers racing pigeon immune antibody testing to evaluate the effect of vaccines such as Newcastle disease. Combining "vaccination" with "antibody testing" is the way to precise immunization management.
+The sub-site [pathogens.sanshibio.net](https://pathogens.sanshibio.net/) offers racing pigeon immune antibody testing to evaluate the effect of vaccines such as Newcastle disease. Combining "vaccination" with "antibody testing" is the way to precise immunization management.
 
 > 💡 Tip: Antibody testing and [pathogen testing](/en/virus-detection/) are two sides of the same coin — pathogen testing asks "is there disease," while antibody testing asks "how strong is immunity." Only together do they enable precise disease control.
 

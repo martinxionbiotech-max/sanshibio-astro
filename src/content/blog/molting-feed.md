@@ -66,7 +66,7 @@ author: 三狮生物分子诊断技术团队
 
 - 病原筛查：换羽期免疫力相对波动，可通过[病毒检测](/virus-detection/)排查隐性感染
 - 寄生虫控制：换羽期前做好体内外驱虫，避免寄生虫拖垮营养
-- 健康监测：子站 [pathogens.sanshibio.com](https://pathogens.sanshibio.com/) 提供赛鸽健康相关检测，为换羽管理提供数据支持
+- 健康监测：子站 [pathogens.sanshibio.net](https://pathogens.sanshibio.net/) 提供赛鸽健康相关检测，为换羽管理提供数据支持
 
 健康是饲料发挥作用的「地基」——鸽子带病，再好的配比也难长出好羽毛。
 

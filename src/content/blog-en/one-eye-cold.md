@@ -46,7 +46,7 @@ The two look alike and are hard to separate by eye, which is why one eye cold is
 4. **Isolation and hygiene**: isolate sick birds; ventilate the loft, reduce dust and lower density.
 5. **Personal protection**: when Chlamydia is suspected, wear a mask and gloves while cleaning the loft and wash hands afterward.
 
-> 💡 Tip: do not just "suppress it with eye drops." Run [pathogen detection](/en/virus-detection/) first to identify the cause so you can cure it rather than watch it recur. See the [pathogen encyclopedia](https://pathogens.sanshibio.com/) for more.
+> 💡 Tip: do not just "suppress it with eye drops." Run [pathogen detection](/en/virus-detection/) first to identify the cause so you can cure it rather than watch it recur. See the [pathogen encyclopedia](https://pathogens.sanshibio.net/) for more.
 
 ## FAQ
 

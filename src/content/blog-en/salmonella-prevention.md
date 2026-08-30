@@ -55,7 +55,7 @@ Salmonella has a long incubation period, and silent carriers cannot be found by 
 - Sample promptly when suspicious signs (diarrhea, weight loss, swollen joints) appear;
 - After confirming a bacterial infection, run **sensitivity testing** under veterinary guidance to select a sensitive direction and medicate properly.
 
-> 💡 Tip: prevention beats cure. Build a health record with [pathogen detection](/en/virus-detection/) to keep Salmonella out. See the [pathogen encyclopedia](https://pathogens.sanshibio.com/) for more.
+> 💡 Tip: prevention beats cure. Build a health record with [pathogen detection](/en/virus-detection/) to keep Salmonella out. See the [pathogen encyclopedia](https://pathogens.sanshibio.net/) for more.
 
 ## FAQ
 

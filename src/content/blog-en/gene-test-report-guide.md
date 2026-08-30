@@ -68,7 +68,7 @@ Paternity reports are read by "parentage probability," pathogen reports by "posi
 2. **Treating potential as results**: a good genotype ≠ guaranteed wins; training and health matter equally.
 3. **Reading conclusions but skipping methods**: the testing method and quality-control notes are just as important — they determine the report's credibility.
 
-> 💡 Tip: If you can't read it, get a professional interpretation. The Sanshi Bio team offers report interpretation support; for flight ability gene details, visit [genes.sanshibio.com](https://genes.sanshibio.com/).
+> 💡 Tip: If you can't read it, get a professional interpretation. The Sanshi Bio team offers report interpretation support; for flight ability gene details, visit [genes.sanshibio.net](https://genes.sanshibio.net/).
 
 ## FAQ
 

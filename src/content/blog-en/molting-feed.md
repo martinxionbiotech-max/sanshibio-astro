@@ -65,7 +65,7 @@ During molt, pigeons face greater physiological stress and latent health issues 
 
 - Pathogen screening: immunity fluctuates during molt, so use [virus detection](/en/virus-detection/) to rule out latent infection
 - Parasite control: deworm internally and externally before molting so parasites don't drain nutrition
-- Health monitoring: the sub-site [pathogens.sanshibio.com](https://pathogens.sanshibio.com/) provides racing pigeon health testing to back molt management
+- Health monitoring: the sub-site [pathogens.sanshibio.net](https://pathogens.sanshibio.net/) provides racing pigeon health testing to back molt management
 
 Health is the "foundation" on which feed works — a sick bird cannot grow good feathers no matter how good the ratio.
 
