@@ -40,9 +40,33 @@ const breadcrumbLd = {
     { '@type': 'ListItem', position: 3, name: title },
   ],
 };
+
+// 从正文提取 FAQ，生成 FAQPage schema（AIO 优化）
+const rawBody: string = post.body ?? '';
+const faqSection = rawBody.match(/##\s*常见问题[\s\S]*$/);
+let faqPage = null;
+if (faqSection) {
+  const qa = [...faqSection[0].matchAll(/###\s+(.+?)\n([\s\S]+?)(?=\n###\s|\s*$)/g)];
+  if (qa.length > 0) {
+    faqPage = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: qa.map(([, q, a]) => ({
+        '@type': 'Question',
+        name: q.trim(),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: a.trim().replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\n+/g, ' '),
+        },
+      })),
+    };
+  }
+}
+
+const allJsonLd = [articleLd, ...(faqPage ? [faqPage] : []), breadcrumbLd];
 ---
 
-<Layout title={`${title} - 三狮生物`} description={description} jsonLd={[articleLd, breadcrumbLd]}>
+<Layout title={`${title} - 三狮生物`} description={description} jsonLd={allJsonLd}>
   <article class="container-site py-12">
     <nav class="mb-6 text-sm text-slate-500">
       <a href="/" class="hover:text-brand-700">首页</a> <span class="mx-1">/</span>
