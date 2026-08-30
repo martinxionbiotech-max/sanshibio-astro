@@ -1,4 +1,5 @@
 ---
+import PageBanner from '../components/PageBanner.astro';
 import Layout from '../layouts/Layout.astro';
 
 const title = '关于三狮｜河北三狮生物科技有限公司';
@@ -28,15 +29,7 @@ const breadcrumbLd = {
 ---
 
 <Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
-  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
-    <div class="container-site py-16 sm:py-20">
-      <nav class="mb-4 text-sm text-brand-200">
-        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 关于三狮
-      </nav>
-      <h1 class="text-3xl font-bold sm:text-4xl">关于三狮</h1>
-      <p class="mt-4 max-w-2xl text-lg text-brand-50">以基因检测技术为核心的动植物分子诊断与 AI 基因育种企业</p>
-    </div>
-  </section>
+  <PageBanner title="关于三狮" description="以基因检测技术为核心的动植物分子诊断与 AI 基因育种企业" breadcrumb="关于三狮" />
 
   <section class="container-site py-16">
     <div class="grid items-center gap-12 lg:grid-cols-2">
@@ -56,8 +49,12 @@ const breadcrumbLd = {
           核心产品包括热启动 Taq 酶、分子诊断试剂原材料、实时荧光定量 PCR 仪、全自动核酸提取仪及各类基因检测试剂盒。
         </p>
       </div>
-      <div>
-        <img src="/images/company-intro.png" alt="三狮生物公司简介" class="w-full rounded-2xl border border-slate-200 shadow-sm" loading="lazy" />
+      <div class="relative">
+        <div class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-brand-100/80 via-white to-brand-50/50 blur-2xl"></div>
+        <div class="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl shadow-brand-900/10">
+          <img src="/images/company-intro.png" alt="三狮生物公司简介" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-900/20 to-transparent opacity-0 transition duration-300 group-hover:opacity-100"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -70,18 +67,18 @@ const breadcrumbLd = {
         <h2 class="section-title mt-3">三位一体产业布局</h2>
       </div>
       <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <div class="card text-center">
-          <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-3xl">🧪</div>
+        <div class="card text-center hover:-translate-y-0.5 hover:shadow-lg">
+          <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-50 to-brand-100/70 text-3xl shadow-sm ring-1 ring-brand-100">🧪</div>
           <h3 class="mt-4 font-semibold text-slate-900">检测设备与试剂制造</h3>
           <p class="mt-2 text-sm text-slate-600">荧光定量 PCR 仪、核酸提取仪及分子诊断试剂研发与生产。</p>
         </div>
-        <div class="card text-center">
-          <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-3xl">🤖</div>
+        <div class="card text-center hover:-translate-y-0.5 hover:shadow-lg">
+          <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-50 to-brand-100/70 text-3xl shadow-sm ring-1 ring-brand-100">🤖</div>
           <h3 class="mt-4 font-semibold text-slate-900">智能数据模型开发</h3>
           <p class="mt-2 text-sm text-slate-600">AI 基因育种与生物信息学分析模型开发。</p>
         </div>
-        <div class="card text-center">
-          <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-3xl">🏗️</div>
+        <div class="card text-center hover:-translate-y-0.5 hover:shadow-lg">
+          <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-50 to-brand-100/70 text-3xl shadow-sm ring-1 ring-brand-100">🏗️</div>
           <h3 class="mt-4 font-semibold text-slate-900">实验室建设与技术培训</h3>
           <p class="mt-2 text-sm text-slate-600">实验室整体建设方案与 PCR 检测技术培训。</p>
         </div>
@@ -114,8 +111,11 @@ const breadcrumbLd = {
           </div>
         </div>
       </div>
-      <div>
-        <img src="/images/honor.jpg" alt="三狮生物荣誉资质" class="mx-auto max-h-[480px] w-auto rounded-2xl border border-slate-200 shadow-sm" loading="lazy" />
+      <div class="relative">
+        <div class="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-brand-100/80 via-white to-brand-50/50 blur-2xl"></div>
+        <div class="group relative mx-auto max-w-md overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl shadow-brand-900/10">
+          <img src="/images/honor.jpg" alt="三狮生物荣誉资质" class="mx-auto h-auto max-h-[520px] w-full object-contain transition duration-500 group-hover:scale-105" loading="lazy" />
+        </div>
       </div>
     </div>
   </section>
@@ -127,7 +127,7 @@ const breadcrumbLd = {
       <h2 class="section-title mt-3">质控体系与技术团队</h2>
     </div>
     <div class="mt-10 grid gap-8 md:grid-cols-2">
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">🔬 标准化质控体系</h3>
         <ul class="mt-4 space-y-2 text-sm text-slate-600">
           <li class="flex gap-2"><span class="text-brand-600">•</span>建立标准化的核酸检测产品生产工艺与质量控制体系</li>
@@ -136,7 +136,7 @@ const breadcrumbLd = {
           <li class="flex gap-2"><span class="text-brand-600">•</span>配备专业检测试剂开发与生物信息学分析团队</li>
         </ul>
       </div>
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">🧬 技术实力</h3>
         <ul class="mt-4 space-y-2 text-sm text-slate-600">
           <li class="flex gap-2"><span class="text-brand-600">•</span>国际领先的基因检测设备</li>

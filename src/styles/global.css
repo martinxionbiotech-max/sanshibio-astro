@@ -19,16 +19,16 @@
     @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
   }
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
+    @apply inline-flex items-center justify-center rounded-lg bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-brand-600/20 transition duration-200 hover:bg-brand-700 hover:shadow-md hover:shadow-brand-700/20 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
   }
   .btn-outline {
-    @apply inline-flex items-center justify-center rounded-lg border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50 hover:text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
+    @apply inline-flex items-center justify-center rounded-lg border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm transition duration-200 hover:border-brand-300 hover:bg-brand-50/50 hover:text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
   }
   .badge {
-    @apply inline-flex items-center rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700;
+    @apply inline-flex items-center rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700 ring-1 ring-brand-100;
   }
   .section-title {
-    @apply text-2xl sm:text-3xl font-bold;
+    @apply text-2xl font-bold tracking-tight sm:text-3xl;
   }
   .card {
     @apply rounded-2xl border border-slate-200 bg-white p-6 shadow-sm;
@@ -37,12 +37,34 @@
     @apply w-full border-collapse text-left text-sm;
   }
   .table-base th {
-    @apply border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-600;
+    @apply border-b border-slate-200 bg-slate-50/80 px-4 py-3.5 text-xs font-semibold uppercase tracking-wider text-slate-600;
   }
   .table-base td {
-    @apply border-b border-slate-100 px-4 py-3 align-top text-slate-700;
+    @apply border-b border-slate-100 px-4 py-3.5 align-top text-slate-700;
   }
   .prose-sanshi p {
     @apply mb-4 leading-relaxed text-slate-600;
+  }
+}
+
+@layer components {
+  .card {
+    transition:
+      border-color 200ms ease,
+      box-shadow 200ms ease,
+      transform 200ms ease;
+  }
+  .card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 10px 30px -12px rgb(15 118 110 / 0.18);
+  }
+  .table-base tbody tr {
+    transition: background-color 150ms ease;
+  }
+  .table-base tbody tr:hover {
+    background-color: rgb(236 253 245 / 0.7);
+  }
+  .table-base tbody tr:last-child td {
+    border-bottom-width: 0;
   }
 }

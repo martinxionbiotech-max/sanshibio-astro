@@ -1,4 +1,5 @@
 ---
+import PageBanner from '../components/PageBanner.astro';
 import Layout from '../layouts/Layout.astro';
 
 const title = '赛鸽病毒检测｜10种病原体荧光定量PCR早筛 - 三狮生物';
@@ -40,17 +41,7 @@ const breadcrumbLd = {
 ---
 
 <Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
-  <section class="bg-gradient-to-br from-deep-600 to-brand-700 text-white">
-    <div class="container-site py-16 sm:py-20">
-      <nav class="mb-4 text-sm text-brand-200">
-        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 病毒检测
-      </nav>
-      <h1 class="text-3xl font-bold sm:text-4xl">赛鸽病毒病原体检测</h1>
-      <p class="mt-4 max-w-2xl text-lg text-brand-50">
-        覆盖 10 种赛鸽常见病原体，采用荧光定量 PCR 技术精准早筛，做到「早发现、早隔离、早防控」，守护鸽群健康与赛绩稳定。
-      </p>
-    </div>
-  </section>
+  <PageBanner title="赛鸽病毒病原体检测" description="覆盖 10 种赛鸽常见病原体，采用荧光定量 PCR 技术精准早筛，做到「早发现、早隔离、早防控」，守护鸽群健康与赛绩稳定。" breadcrumb="病毒检测" />
 
   <section class="container-site py-16">
     <div class="grid gap-10 lg:grid-cols-3">
@@ -73,7 +64,7 @@ const breadcrumbLd = {
           <li><b>快速高效：</b>数小时内即可出具检测报告，满足赛前检疫时效需求。</li>
         </ul>
       </div>
-      <div class="card h-fit">
+      <div class="card h-fit hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="mb-4 text-sm font-semibold text-slate-900">建议检测时机</h3>
         <ul class="space-y-3 text-sm text-slate-600">
           <li class="flex gap-2"><span class="text-brand-600">✓</span>参赛前检疫</li>
@@ -127,15 +118,15 @@ const breadcrumbLd = {
 
   <section class="container-site py-16">
     <div class="grid gap-8 md:grid-cols-3">
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">早发现</h3>
         <p class="mt-2 text-sm text-slate-600">无症状期即可检出病原体，抢占防控先机。</p>
       </div>
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">早隔离</h3>
         <p class="mt-2 text-sm text-slate-600">及时隔离阳性个体，阻断病原体在鸽群内传播。</p>
       </div>
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">早防控</h3>
         <p class="mt-2 text-sm text-slate-600">结合兽医建议科学用药与环境消杀，降低损失。</p>
       </div>
@@ -154,7 +145,7 @@ const breadcrumbLd = {
         ['赛鸽沙门氏菌（副伤寒）防控', '识别、诊断与防控要点', '/blog/salmonella-paratyphoid/'],
         ['羽毛采样全流程', '从采样到报告解读', '/blog/feather-sampling-guide/'],
       ].map(([t, d, href]) => (
-        <a href={href} class="card group hover:border-brand-300 transition">
+        <a href={href} class="card group hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-lg">
           <h3 class="font-semibold text-slate-900 group-hover:text-brand-700">{t}</h3>
           <p class="mt-2 text-sm text-slate-500">{d}</p>
         </a>
@@ -167,7 +158,7 @@ const breadcrumbLd = {
       <h2 class="section-title text-center">常见问题</h2>
       <div class="mt-8 space-y-4">
         {faqJson.mainEntity.map((q) => (
-          <div class="card">
+          <div class="card hover:-translate-y-0.5 hover:shadow-lg">
             <h3 class="font-semibold text-slate-900">{q.name}</h3>
             <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
           </div>

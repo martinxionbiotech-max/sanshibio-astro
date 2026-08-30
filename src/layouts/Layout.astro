@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 interface Props {
   title: string;
@@ -40,16 +42,7 @@ const orgSchema = {
   ],
 };
 
-const navLinks = [
-  { href: '/', label: '首页' },
-  { href: '/about', label: '关于三狮' },
-  { href: '/flight-ability', label: '飞行能力基因检测' },
-  { href: '/virus-detection', label: '病毒检测' },
-  { href: '/paternity', label: '亲子鉴定' },
-  { href: '/products', label: '产品中心' },
-  { href: '/services', label: '检测服务' },
-  { href: '/contact', label: '联系我们' },
-];
+
 ---
 
 <!doctype html>
@@ -77,86 +70,12 @@ const navLinks = [
     }
   </head>
   <body class="min-h-screen bg-white text-slate-700 antialiased">
-    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div class="container-site flex h-16 items-center justify-between gap-4">
-        <a href="/" class="flex items-center gap-2 shrink-0">
-          <img src="/images/logo.png" alt="三狮生物 logo" class="h-9 w-auto" />
-        </a>
-        <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-600">
-          {navLinks.map((l) => (
-            <a
-              href={l.href}
-              class:list={[
-                'transition-colors hover:text-brand-700',
-                { 'text-brand-700 font-semibold': Astro.url.pathname === l.href },
-              ]}
-            >
-              {l.label}
-            </a>
-          ))}
-          <a href="/contact" class="btn-primary !px-4 !py-2 !text-xs">业务咨询</a>
-        </nav>
-        <button id="menu-btn" class="lg:hidden rounded-md p-2 text-slate-600 hover:bg-slate-100" aria-label="菜单">
-          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-      </div>
-      <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white">
-        <nav class="container-site flex flex-col gap-1 py-3 text-sm font-medium text-slate-700">
-          {navLinks.map((l) => (
-            <a href={l.href} class="rounded-md px-3 py-2 hover:bg-slate-50 hover:text-brand-700">{l.label}</a>
-          ))}
-        </nav>
-      </div>
-    </header>
+    <Header />
 
     <main><slot /></main>
 
-    <footer class="mt-20 border-t border-slate-200 bg-slate-50">
-      <div class="container-site py-12">
-        <div class="grid gap-10 md:grid-cols-4">
-          <div class="md:col-span-2">
-            <img src="/images/logo.png" alt="三狮生物" class="h-9 w-auto mb-4" />
-            <p class="text-sm leading-relaxed text-slate-600">
-              河北三狮生物科技有限公司——以基因检测技术为核心的高新技术企业，
-              专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。
-            </p>
-          </div>
-          <div>
-            <h4 class="mb-3 text-sm font-semibold text-slate-900">快速导航</h4>
-            <ul class="space-y-2 text-sm text-slate-600">
-              <li><a href="/flight-ability" class="hover:text-brand-700">飞行能力基因检测</a></li>
-              <li><a href="/virus-detection" class="hover:text-brand-700">赛鸽病毒检测</a></li>
-              <li><a href="/paternity" class="hover:text-brand-700">亲子鉴定</a></li>
-              <li><a href="/products" class="hover:text-brand-700">产品中心</a></li>
-              <li><a href="/services" class="hover:text-brand-700">检测服务</a></li>
-              <li><a href="/blog/" class="hover:text-brand-700">知识库</a></li>
-              <li><a href="/about" class="hover:text-brand-700">关于三狮</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="mb-3 text-sm font-semibold text-slate-900">联系我们</h4>
-            <ul class="space-y-2 text-sm text-slate-600">
-              <li>总部电话：0311-82970259</li>
-              <li>业务热线：186-3213-6937</li>
-              <li>邮箱：sanshibio@126.com</li>
-              <li class="leading-relaxed">地址：石家庄高新区太行南大街509号国械堂高端医疗器械产业园A-5栋702室</li>
-            </ul>
-          </div>
-        </div>
-        <div class="mt-10 border-t border-slate-200 pt-6 text-center text-xs text-slate-400">
-          © {new Date().getFullYear()} 河北三狮生物科技有限公司 · 冀ICP备20004219号-1
-        </div>
-      </div>
-    </footer>
+    <Footer />
 
-    <script>
-      const btn = document.getElementById('menu-btn');
-      const menu = document.getElementById('mobile-menu');
-      btn?.addEventListener('click', () => {
-        menu?.classList.toggle('hidden');
-      });
-    </script>
+
   </body>
 </html>

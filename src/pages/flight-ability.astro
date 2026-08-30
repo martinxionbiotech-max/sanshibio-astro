@@ -1,4 +1,5 @@
 ---
+import PageBanner from '../components/PageBanner.astro';
 import Layout from '../layouts/Layout.astro';
 
 const title = '赛鸽飞行能力基因检测｜8项基因评估天赋 - 三狮生物';
@@ -39,17 +40,7 @@ const breadcrumbLd = {
 
 <Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
   <!-- Hero -->
-  <section class="bg-gradient-to-br from-brand-700 to-deep-600 text-white">
-    <div class="container-site py-16 sm:py-20">
-      <nav class="mb-4 text-sm text-brand-200">
-        <a href="/" class="hover:text-white">首页</a> <span class="mx-1">/</span> 飞行能力基因检测
-      </nav>
-      <h1 class="text-3xl font-bold sm:text-4xl">赛鸽飞行能力基因检测</h1>
-      <p class="mt-4 max-w-2xl text-lg text-brand-50">
-        通过检测与飞行能力相关的 8 项关键基因，从基因层面揭示赛鸽耐力、归巢、导航、肌力与智商的遗传潜力，让育种选育「看得见、选得准」。
-      </p>
-    </div>
-  </section>
+  <PageBanner title="赛鸽飞行能力基因检测" description="通过检测与飞行能力相关的 8 项关键基因，从基因层面揭示赛鸽耐力、归巢、导航、肌力与智商的遗传潜力，让育种选育「看得见、选得准」。" breadcrumb="飞行能力基因检测" />
 
   <!-- 概述 -->
   <section class="container-site py-16">
@@ -79,7 +70,7 @@ const breadcrumbLd = {
           幼鸽即可检测，是种鸽选育与早期留种的理想工具。
         </p>
       </div>
-      <div class="card h-fit">
+      <div class="card h-fit hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="mb-4 text-sm font-semibold text-slate-900">适用场景</h3>
         <ul class="space-y-3 text-sm text-slate-600">
           <li class="flex gap-2"><span class="text-brand-600">✓</span>种鸽配对与留种选育</li>
@@ -136,7 +127,7 @@ const breadcrumbLd = {
   <!-- 检测报告 -->
   <section class="container-site py-16">
     <div class="grid gap-8 md:grid-cols-2">
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">检测报告内容</h3>
         <ul class="mt-4 space-y-2 text-sm text-slate-600">
           <li class="flex gap-2"><span class="text-brand-600">•</span>每项基因的检测结果与基因型</li>
@@ -145,7 +136,7 @@ const breadcrumbLd = {
           <li class="flex gap-2"><span class="text-brand-600">•</span>检测方法、仪器与质控说明</li>
         </ul>
       </div>
-      <div class="card">
+      <div class="card hover:-translate-y-0.5 hover:shadow-lg">
         <h3 class="text-lg font-semibold text-slate-900">为什么选择三狮</h3>
         <ul class="mt-4 space-y-2 text-sm text-slate-600">
           <li class="flex gap-2"><span class="text-brand-600">•</span>国际领先检测设备 + 专业生信分析团队</li>
@@ -171,7 +162,7 @@ const breadcrumbLd = {
         ['赛鸽肌力基因 MSTN 详解', '肌肉生长抑素与飞行速度', '/blog/mstn-muscle-gene/'],
         ['羽毛采样全流程', '从采样到报告解读', '/blog/feather-sampling-guide/'],
       ].map(([t, d, href]) => (
-        <a href={href} class="card group hover:border-brand-300 transition">
+        <a href={href} class="card group hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-lg">
           <h3 class="font-semibold text-slate-900 group-hover:text-brand-700">{t}</h3>
           <p class="mt-2 text-sm text-slate-500">{d}</p>
         </a>
@@ -185,7 +176,7 @@ const breadcrumbLd = {
       <h2 class="section-title text-center">常见问题</h2>
       <div class="mt-8 space-y-4">
         {faqJson.mainEntity.map((q) => (
-          <div class="card">
+          <div class="card hover:-translate-y-0.5 hover:shadow-lg">
             <h3 class="font-semibold text-slate-900">{q.name}</h3>
             <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
           </div>
