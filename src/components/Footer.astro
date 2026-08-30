@@ -71,10 +71,14 @@ const t = isEn
     </div>
     <div class="mt-12 border-t border-slate-200 pt-6 text-center text-xs text-slate-400">
       {t.copyright.replace('{year}', String(new Date().getFullYear()))}
-      <span class="mx-1">·</span>
-      <a href="/disclaimer" class="hover:text-brand-600">免责声明</a>
-      <span class="mx-1">·</span>
-      <a href="/privacy-policy" class="hover:text-brand-600">隐私政策</a>
+      {!isEn && (
+        <>
+          <span class="mx-1">·</span>
+          <a href="/disclaimer" class="hover:text-brand-600">免责声明</a>
+          <span class="mx-1">·</span>
+          <a href="/privacy-policy" class="hover:text-brand-600">隐私政策</a>
+        </>
+      )}
     </div>
   </div>
 </footer>
