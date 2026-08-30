@@ -31,12 +31,34 @@ LDHA encodes **lactate dehydrogenase A**, a key enzyme in lactate metabolism tha
 - Improves energy efficiency during sustained exercise
 - Determines individual tolerance for prolonged flight
 
+Different pigeons carry different LDHA genotypes, and this directly shapes their **tolerance for continuous long-distance flight**.
+
+## Why LDHA Is the Endurance Marker
+
+Among the eight indicators in the [flight ability gene test](/en/flight-ability/), LDHA corresponds to the **endurance indicator**. The reasoning is straightforward:
+
+1. **Lactic-acid buildup is the core cause of fatigue** — individuals with high LDHA activity clear lactate faster.
+2. **Long-distance flight depends on aerobic endurance** — LDHA-related genotypes influence the muscle's sustained energy supply.
+3. **It is heritable** — favorable LDHA genotypes can be passed to offspring through careful pairing.
+
+In other words, LDHA is not just a biochemical curiosity: it is a direct, breedable signal of how long a pigeon can keep flying before fatigue sets in.
+
 ## Breeding for Endurance
 
 - **Race distance**: prioritize the LDHA gene for 500 km+ endurance races
 - **Squab screening**: test young birds early via [feather sampling](/en/blog/feather-sampling-guide/)
 - **Pairing**: pair breeders with favorable LDHA genotypes
 - **Training**: progressive endurance training amplifies genetic advantage
+- **Race assessment**: match the race distance to the bird's endurance profile
+- **Comprehensive evaluation**: combine endurance with [homing DRD4](/en/blog/drd4-homing-gene/) and [navigation CRY1](/en/blog/cry1-navigation-gene/) — their synergy is decisive in long-distance events
+
+## Technical Deep Dive: The Molecular Mechanism of Lactic Acid Metabolism
+
+Lactate dehydrogenase (LDH) is the key enzyme at the end of the glycolytic pathway, catalyzing the interconversion of pyruvate and lactate. LDH is assembled from two subunits, LDHA and LDHB, which combine into five isoenzymes. The **LDHA subunit is predominantly distributed in skeletal muscle** and leans toward reducing pyruvate to lactate (the anaerobic direction).
+
+During long-distance flight, a pigeon's pectoral muscles sustain intense, continuous contraction with enormous energy demand. When oxygen supply cannot keep pace, the muscle shifts into anaerobic metabolism and produces large quantities of lactate. Lactate accumulation acidifies the muscle and triggers fatigue. The LDHA genotype — by influencing the activity and direction of lactate dehydrogenase — determines the muscle's ability to clear lactate and keep supplying energy. That is precisely the molecular basis of endurance differences between individual birds.
+
+This also explains why LDHA and MSTN point in opposite directions. MSTN drives muscle mass and burst power (anaerobic), whereas LDHA governs the lactate-clearance machinery that sustains prolonged aerobic flight. See the [speed vs endurance guide](/en/blog/speed-distance-gene/) for how the two interact.
 
 ## FAQ
 
@@ -51,6 +73,12 @@ No. Genotype is inherited, but progressive endurance training can amplify the ex
 
 ### What is the difference between LDHA and MSTN?
 LDHA drives endurance (lactic-acid metabolism); MSTN drives muscle power (explosiveness). See the [speed vs endurance guide](/en/blog/speed-distance-gene/).
+
+### How should I interpret the LDHA result on my report?
+The report marks your pigeon's LDHA genotype and provides an endurance-dimension assessment along with breeding recommendations. Interpreting it together with the other seven indicators in the [flight ability panel](/en/flight-ability/) gives the most reliable picture.
+
+### Do long and short races demand the same LDHA profile?
+No. Short-distance sprints rely mainly on anaerobic burst and depend less on LDHA. Long-distance endurance races depend heavily on aerobic metabolism and lactate clearance, so a favorable LDHA genotype gives a much clearer advantage there.
 
 ## Key Takeaways
 

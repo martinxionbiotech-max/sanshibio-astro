@@ -20,6 +20,8 @@ An "AB pigeon" lets multiple birds share the same leg-ring identity:
 - Frequent swapping keeps the racing bird fresh
 - Similar appearance defeats visual checks
 
+The scheme exploits the fact that racing pigeons can look near-identical to the human eye. Because the leg ring — not the bird itself — carries the official identity, swapping a rested double for the racing bird is hard to catch by inspection alone. This is precisely why genetic identity, which lives inside the bird, is the decisive countermeasure.
+
 ## How DNA Identification Works
 
 [Sanshi Bio](/en/about/) uses **58 loci** for individual identification:
@@ -29,18 +31,53 @@ An "AB pigeon" lets multiple birds share the same leg-ring identity:
 3. Compare the two genetic profiles
 4. Mismatch proves substitution
 
-DNA is each pigeon&rsquo;s inborn, unforgeable identity.
+DNA is each pigeon&rsquo;s inborn, unforgeable identity. No two birds share the same 58-locus profile, so any substitution — however similar the birds look — shows up as a genotype mismatch.
+
+Because a 58-locus profile is generated once and stored, the same archive serves every future verification — a winner can be re-sampled at any time and matched against its original record. This is what makes whole-flock profiling practical for one-loft races: profile every entrant at basketing, and any later substitution is exposed by a simple before-and-after comparison, with no room for the look-alike to slip through.
+
+## Applications of AB Pigeon Detection
+
+| Scenario | Role |
+|----------|------|
+| One-loft races | Profile before the race, verify after, eliminating substitution |
+| Club events | Safeguard fairness and integrity |
+| Auctions & trading | Confirm the true identity of a bird |
+| Champion certification | Prevent famous pigeons from being swapped |
+
+The common thread is **identity assurance**: wherever a bird's value or a race's fairness hinges on "this is the same pigeon," DNA comparison provides objective proof.
+
+## The Detection Process
+
+1. **Pre-race profiling** — build a 58-locus gene profile for each racing bird
+2. **Sample archiving** — retain feather samples on file
+3. **Post-race verification** — re-sample and compare the winning birds
+4. **Conclusion** — matching loci confirm identity; a mismatch proves substitution
+
+The comparison is objective and binary: either the loci match, confirming it is the same bird, or they do not — there is no gray area for a suspicious-looking double to hide in.
+
+See [testing services](/en/services/) and [paternity testing](/en/paternity/) for the complete workflow.
+
+> 💡 Tip: AB pigeon detection is the "sharp tool" for fair competition. One-loft races and clubs are advised to profile all racers uniformly before the season.
 
 ## FAQ
 
 ### Does AB pigeon detection require a pre-race profile?
-Yes. Establish a 58-locus profile before the race, then re-sample winners for comparison.
+Yes. Establish a 58-locus profile before the race, then re-sample winners for comparison — only then can substitution be judged.
 
-### How is AB-pigeon testing done?
-Sample and profile racers pre-race, then re-sample winners post-race — a genotype mismatch indicates substitution.
+### What is the detection process?
+Sample and profile racers pre-race, retain the samples, then re-sample the winners post-race and compare genotypes — a mismatch indicates substitution.
 
 ### Can leg rings prevent AB pigeons?
 Rings can be swapped or duplicated. Genetic identity based on DNA is unforgeable and far more reliable.
+
+### How do one-loft races implement AB pigeon detection?
+They are advised to sample and profile all racers uniformly before the season, verify each winner after the race, and combine with [paternity testing](/en/paternity/) to form a complete anti-cheating system.
+
+### What is the difference between AB pigeon detection and a gene ID card?
+A gene ID card is a long-term identity profile; AB pigeon detection is the pre/post-race identity verification action. The two complement each other.
+
+### Which events need AB pigeon detection?
+High-stakes, one-loft and major races should adopt it, cutting off substitution fraud at the source and preserving the credibility of competition.
 
 ## Key Takeaways
 

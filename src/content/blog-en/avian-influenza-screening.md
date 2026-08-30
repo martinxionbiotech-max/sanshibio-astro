@@ -43,7 +43,17 @@ tags: [avian influenza, virus screening, quarantine, PCR]
 2. **Quarantine of new birds** — pathogen testing during isolation
 3. **Outbreak investigation** — active surveillance when outbreaks occur nearby
 
+## Biosecurity Advice
+
+- Avoid direct contact between racing pigeons and poultry or wild birds
+- Regularly disinfect basketing equipment and transport crates
+- On any abnormality, promptly [collect and submit samples](/en/blog/sample-collection-guide/) rather than disposing of birds blindly
+
 > 💡 Tip: AI is a notifiable disease. Follow local veterinary authority requirements for suspected positives.
+
+## Why Surveillance Matters
+
+Avian influenza in pigeons is rarely a dramatic, high-mortality event, which is exactly why it demands active surveillance rather than passive observation. Silent carriers look healthy while shedding virus into shared water, crates and race baskets, where the pathogen can reach poultry and other birds. A surveillance program built around pre-race screening, quarantine of new arrivals and prompt testing of any abnormality converts an invisible risk into a managed one. Coupled with serology to confirm immune status, molecular screening gives the loft owner the early warning needed to act before a silent carrier becomes a transmission event.
 
 ## FAQ
 
@@ -51,13 +61,19 @@ tags: [avian influenza, virus screening, quarantine, PCR]
 Yes, often subclinically. Although morbidity and mortality are usually lower than in poultry, their role as vectors makes routine [virus detection](/en/virus-detection/) advisable.
 
 ### Swab the throat or cloaca?
-AI affects both respiratory and digestive tracts. Combine oral and cloacal swabs to raise detection rate.
+AI affects both respiratory and digestive tracts. Combine oral and cloacal swabs to raise detection rate — see the [sampling guide](/en/blog/sample-collection-guide/).
+
+### Can antibodies still be detected after vaccination?
+Yes. After vaccination, serology can measure antibody titers to evaluate immunity — see [antibody titer testing](/en/blog/antibody-titer-test/).
 
 ### Can pigeons get highly pathogenic avian influenza?
 They are relatively tolerant and mostly carry low-pathogenic strains, but their vector role still warrants routine testing.
 
-### Which sample for AI screening?
-Combine oral and cloacal swabs to raise detection rate — see the [sampling guide](/en/blog/sample-collection-guide/).
+### How to choose between PCR and serology?
+PCR detects current infection (pathogen nucleic acid); serology reflects past infection or vaccination (antibody). For quarantine screening, prefer PCR; for immunity evaluation, use serology.
+
+### How to prevent avian influenza in the loft?
+Avoid contact with poultry and wild birds, regularly disinfect basketing equipment, isolate and test new birds, and submit samples promptly on any abnormality. Biosecurity is the foundation.
 
 ## Key Takeaways
 

@@ -25,18 +25,58 @@ Feathers are a pigeon&rsquo;s aerodynamic "shell" — their quality directly aff
 
 ## F-KER in Flight Ability Testing
 
-In the [flight ability gene test](/en/flight-ability/), F-KER corresponds to the **feather quality** indicator. Favorable genotypes mean better feather structure, reducing energy use and improving performance in rain and adverse weather.
+In the [flight ability gene test](/en/flight-ability/), F-KER corresponds to the **feather quality** indicator. Favorable genotypes mean better feather structure, which:
+
+- Reduces flight energy consumption
+- Improves adaptation to rain and adverse weather
+- Extends feather service life, cutting energy loss during moult
+
+## Why Feather Quality Matters
+
+Many fanciers focus only on muscle and endurance while overlooking how much feathers affect flight efficiency. In reality:
+
+- Loose, disheveled feathers create more drag and burn more energy.
+- Poorly water-resistant feathers soak up water in the rain, adding weight and sharply reducing speed.
+- Fragile feathers prolong the moult, disrupting a bird's season.
+
+## Comprehensive Evaluation
+
+The feather indicator should be judged together with the [muscle gene MSTN](/en/blog/mstn-muscle-gene/) and [endurance gene LDHA](/en/blog/ldha-endurance-gene/). An outstanding racing pigeon needs combined strength across "muscle + endurance + feather."
+
+> 💡 Tip: Feather quality is also shaped by nutrition (protein, amino acids) and moult management — genes set the potential, husbandry delivers the result.
+
+## Technical Deep Dive: Keratin and Feather Structure
+
+Feathers are built mainly from **β-keratin**, a cysteine-rich structural protein whose disulfide bonds form a strong cross-linked framework. The feather keratin encoded by F-KER determines the feather's **mechanical properties** — tightness, elasticity, water resistance and wear resistance.
+
+Feathers are the pigeon's "aerodynamic surface." High-quality feathers have tight vanes and a smooth surface, cutting drag and energy use; at the same time, their water resistance directly affects insulation and buoyancy in rainy flight. F-KER genotype differences are precisely the genetic basis of feather quality.
+
+## Breeding in Practice: Selecting for Quality Feathers
+
+- **Rainy-season events**: fanciers racing in wet, humid conditions should prioritize favorable F-KER genotypes.
+- **Moult management**: genes set the feather foundation; protein and amino-acid nutrition during moult determine the final quality.
+- **Holistic view**: feather quality affects flight energy cost and works with [endurance LDHA](/en/blog/ldha-endurance-gene/) on long-distance performance.
+- **Daily care**: keep feather lice and parasites away to preserve feather integrity.
 
 ## FAQ
 
 ### Is feather quality only genetic?
 No. Feather quality is also affected by nutrition (protein and amino acids), moult management and disease. Genes set the foundation; husbandry determines the outcome.
 
+### What events does the F-KER indicator mainly serve?
+The feather indicator matters most for rainy, humid races. Pigeons with tight, water-resistant feathers fly more efficiently in adverse weather.
+
 ### How does F-KER affect flight?
 Feather keratin determines feather strength, elasticity and waterproofing, which shape aerodynamic efficiency and speed.
 
+### Can F-KER be tested during moult?
+It is best to avoid sampling during moult — feathers are poorer quality then, which can affect DNA extraction. Testing newly grown feathers after moult is more reliable.
+
 ### Can feather quality be improved?
 Nutrition and management improve feather health, but the genetic baseline comes from genes like F-KER.
+
+### How do F-KER and MSTN work together in breeding?
+F-KER governs wing structure and MSTN governs muscle burst power; together they determine a speed-type pigeon's flight performance. Short-distance speed programs should weigh both.
 
 ## Key Takeaways
 

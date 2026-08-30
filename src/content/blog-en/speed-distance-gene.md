@@ -24,24 +24,33 @@ Races are split into sprint (200–400 km), middle (400–700 km) and long (700 
 ## Core Flight Genes
 
 ### MSTN (myostatin) — explosive power
-A negative regulator of muscle growth; genotype influences muscle development and sprint capacity. See [MSTN](/en/blog/mstn-muscle-gene/).
+A negative regulator of muscle growth; genotype influences muscle development and sprint capacity, making it a key reference for short-distance speed selection. See [MSTN](/en/blog/mstn-muscle-gene/).
 
 ### LDHA (lactate dehydrogenase) — endurance
-Drives lactate metabolism, closely tied to long-distance endurance. See [LDHA](/en/blog/ldha-endurance-gene/).
+Drives lactate metabolism, closely tied to long-distance endurance. Endurance-type pigeons clear lactate efficiently and resist fatigue. See [LDHA](/en/blog/ldha-endurance-gene/).
 
 ### CRY1 (cryptochrome) — navigation
 Involved in magnetic sensing and long-distance navigation — the long-race "compass" gene. See [CRY1](/en/blog/cry1-navigation-gene/).
 
 ### DRD4 (dopamine receptor) — homing stability
-Linked to homing motivation and behavioral stability. See [DRD4](/en/blog/drd4-homing-gene/).
+Linked to homing motivation and behavioral stability, affecting whether a pigeon can reliably complete long-distance homing. See [DRD4](/en/blog/drd4-homing-gene/).
 
 ## Combination Breeding Strategy
+
+A single gene rarely decides results — a **multi-gene combination** is the scientific basis of selection:
 
 | Race Type | Recommended Gene Focus |
 |-----------|------------------------|
 | Sprint | MSTN + F-KER (power + wing structure) |
 | Middle | MSTN + LDHA + DRD4 (balanced) |
 | Long endurance | LDHA + CRY1 + DRD4 (endurance + navigation + homing) |
+
+## Breeding in Practice: A Step-by-Step Approach
+
+1. **Build a gene profile first**: run the [flight ability gene test](/en/flight-ability/) on your core breeders to map each genotype.
+2. **Pair by target**: choose complementary gene combinations according to the race distance.
+3. **Verify against phenotype**: genotype is "potential" and race record is "performance" — evaluate the two together.
+4. **Track continuously**: record offspring race results against genotypes to refine your selection model.
 
 > 💡 Tip: Genetic testing offers scientific probability, not certainty. Combine with bloodline, fitness and training — avoid "gene-only" thinking.
 
@@ -53,11 +62,20 @@ Not necessarily. Genotype reflects tendency, not absolute limits. Long distances
 ### Can testing predict race results?
 No — it assesses genetic potential across speed, endurance and navigation, guiding pairing and training. See [flight ability testing](/en/flight-ability/).
 
+### Which loci are most practical to test?
+Cover the core flight genes — LDHA, MSTN, CRY1, DRD4 and F-KER. See the [flight ability gene test](/en/flight-ability/) for the full panel.
+
 ### How do I know if my pigeon is speed or endurance type?
 Test key genes (MSTN, LDHA) and combine with bloodline and race records for an objective genetic basis.
 
 ### Can I breed a balanced speed-endurance pigeon?
 Yes, through gene-based pairing, but there is a physiological trade-off; middle-distance (400-700 km) suits balanced types best.
+
+### Can gene testing give pairing advice?
+Yes — the report combines each genotype into breeding recommendations, helping you design a pairing plan by target race distance instead of pairing blindly.
+
+### Is testing one or two genes enough?
+No. Flight ability is the product of multiple genes acting together. Test the complete panel (all eight genes) for a reliable, holistic assessment.
 
 ## Key Takeaways
 

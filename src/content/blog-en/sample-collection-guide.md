@@ -10,9 +10,11 @@ tags: [sampling, testing workflow, feather, swab]
 
 > **TL;DR**: Half of a reliable result depends on proper sampling. This guide covers feather, swab and blood collection with storage and shipping tips.
 
-Half of a reliable test result depends on the lab; the other half depends on **proper sampling**. Errors in collection, storage or shipping can fail a test or distort results. This guide covers three common sample types.
+Half of a reliable test result depends on the lab; the other half depends on **proper sampling**. Errors in collection, storage or shipping can fail a test or distort results. This guide covers three common sample types and how to handle each one correctly.
 
 ## Three Sample Types
+
+Each sample type serves a different testing purpose, so choosing the right one is the first decision:
 
 | Sample | Collection Site | Used For |
 |--------|-----------------|----------|
@@ -25,7 +27,7 @@ Half of a reliable test result depends on the lab; the other half depends on **p
 1. **Select** 3–5 wing or tail feathers with intact **root pulp** (whitish translucent part)
 2. **Pluck** gently along the growth direction, avoid breaking
 3. **Store** in the provided sampling bag/tube, label the bird
-4. **Note**: avoid the molting period when feather quality is poor
+4. **Note**: squabs can use down feathers; avoid the molting period when feather quality is poor
 
 > Feather pulp is the "DNA bank" — ensure the pulp stays intact when plucking.
 
@@ -35,6 +37,8 @@ Half of a reliable test result depends on the lab; the other half depends on **p
 2. **Oral swab**: insert to the back of the mouth and throat, rotate 3–5 times
 3. **Cloacal swab**: insert 1–2 cm, rotate to collect mucosal secretions
 4. **Store**: snap the swab into a sterile tube with preservation solution
+
+Flocked swabs release more collected material into the assay than ordinary cotton tips, which is why they are standard for pathogen detection.
 
 ## 3. Blood Sampling (Antibody Testing)
 
@@ -51,6 +55,18 @@ Half of a reliable test result depends on the lab; the other half depends on **p
 | Labeling | Clearly mark bird ID and test item |
 | Packaging | Leak-proof, crush-proof, with test form |
 
+Temperature handling matters because DNA in dry feather pulp is stable at room temperature, whereas swab and blood samples contain live or labile material that degrades without refrigeration. Getting this wrong is one of the most common causes of failed or unreliable results, so always match the storage condition to the sample type before you ship.
+
+## The Five-Step Submission Process
+
+To keep every batch running smoothly, follow these five steps:
+
+1. **Book and register** — confirm the test items and sample requirements with the laboratory first
+2. **Sample properly** — collect and label samples per the standards above
+3. **Fill the submission form** — note the loft, bird information and test items
+4. **Ship the samples** — pack and send according to the storage requirements
+5. **Receive the report** — the laboratory issues the report on its regular turnaround once samples arrive
+
 > 💡 Tip: For batch submissions, confirm sample volume and shipping method with the lab in advance. See [testing services](/en/services/).
 
 ## FAQ
@@ -62,10 +78,16 @@ A single feather with intact pulp usually suffices, but 3–5 are recommended in
 No, when done correctly. Oral/cloacal swabs collect only surface secretions; be gentle.
 
 ### Do I need to fast the pigeon before sampling?
-No fasting needed for feather (gene) testing; for pathogen testing, sample before medication to avoid interference.
+No fasting needed for feather (gene) testing; for pathogen testing, sample before medication to avoid interference. Blood sampling has no strict fasting requirement either.
 
 ### Can I pool multiple birds into one sample?
 No. Each sample must be labeled and tested individually — pooling makes results impossible to attribute.
+
+### What if my samples get lost in shipping?
+Use a tracked courier and keep the tracking number. For important samples, consider splitting shipments or arranging on-site collection with the laboratory.
+
+### Any tips for batch submissions?
+Confirm sample volume and shipping method with the lab beforehand, label every sample with its number, and attach a complete submission form to avoid omissions or mix-ups.
 
 ## Key Takeaways
 

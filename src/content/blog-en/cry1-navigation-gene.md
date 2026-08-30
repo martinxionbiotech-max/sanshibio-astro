@@ -30,20 +30,50 @@ CRY1 genotypes (such as **CRY1-AG, CRY1-AT, CRY1-TT**) influence a pigeon&rsquo;
 | Olfactory | Memory of scent features |
 | Visual | Memory of landmarks |
 
-## Breeding for Navigation Accuracy
+## CRY1 in Flight Ability Testing
 
-For 500 km+ long-distance races, navigation is a core indicator. Pigeons with favorable CRY1 genotypes show stronger directional accuracy and more efficient homing routes.
+In the [flight ability gene test](/en/flight-ability/), CRY1 corresponds to the **navigation indicator** — the key to assessing a pigeon's long-distance homing precision.
+
+Pigeons with favorable CRY1 genotypes tend to show stronger directional accuracy in long-distance events, taking a straighter, more efficient homing route.
+
+## Comprehensive Evaluation
+
+Navigation ability should be judged together with [endurance gene LDHA](/en/blog/ldha-endurance-gene/) and [homing gene DRD4](/en/blog/drd4-homing-gene/). In addition, the [bad-weather orientation gene GSR](/en/blog/lrp8-gsr-cask-genes/) influences navigation performance under complex weather.
+
+> 💡 Tip: Navigation is the core indicator for long-distance events — especially worth prioritizing for fanciers targeting 500 km+ races.
+
+## Technical Deep Dive: Cryptochrome and Magnetic Sensing
+
+Cryptochromes are a family of **blue-light-sensitive flavoproteins** widely involved in circadian-rhythm regulation. The emerging **"radical pair" hypothesis** proposes that, upon blue-light excitation, cryptochrome generates radical pairs whose quantum-state reactions are influenced by Earth's magnetic field — forming an important molecular basis of avian **magnetoreception**.
+
+The pigeon CRY1 gene has three main genotypes — **AG / AT / TT** — whose differences alter cryptochrome function and, in turn, a bird's sensitivity to and use of the geomagnetic field. This is one of the genetic sources of the "directional accuracy" seen in long-distance homing.
+
+## Breeding in Practice: Selecting for Navigation Accuracy
+
+- **Match the distance**: for 500 km+ long-distance races, navigation is the core indicator — prioritize favorable CRY1 genotypes.
+- **Consider the route**: complex terrain, sea crossings and mountain ranges demand stronger navigation — weight this indicator accordingly.
+- **Coordinate with weather**: combine with the [bad-weather orientation GSR](/en/blog/lrp8-gsr-cask-genes/) indicator to assess orientation under adverse weather.
+- **Train to reinforce**: multi-directional short-range releases strengthen spatial cognition and amplify the navigation gene's advantage.
 
 ## FAQ
 
 ### Is navigation determined by CRY1 alone?
 No. Navigation involves multiple mechanisms (geomagnetic, solar, olfactory, visual). CRY1 is one core indicator in [flight ability testing](/en/flight-ability/).
 
+### What race distances suit the navigation gene?
+Navigation matters most for 500 km+ long-distance races. Fanciers in long-distance events should combine the [endurance gene LDHA](/en/blog/ldha-endurance-gene/) with CRY1 in their selection.
+
 ### Can pigeons really sense Earth's magnetic field?
 Yes — research strongly supports magnetoreception, with cryptochrome CRY1 as the leading candidate molecule.
 
+### How does CRY1 genotype affect navigation?
+CRY1 genotype differences may alter cryptochrome's sensitivity to the magnetic field, influencing a pigeon's directional precision in long flights. The exact mechanism remains under active study.
+
 ### Does CRY1 work in bad weather?
 CRY1 is light-dependent, so dim light may weaken it. Bad-weather orientation also involves the GSR gene.
+
+### Can navigation ability be trained?
+Progressive short-distance release training can reinforce homing experience, but magnetic sensing is largely genetic. A favorable CRY1 genotype is the foundation of navigation ability.
 
 ## Key Takeaways
 

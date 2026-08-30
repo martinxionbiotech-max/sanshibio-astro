@@ -25,21 +25,55 @@ The [Sanshi Bio](/en/about/) gene ID card is built on **next-generation sequenci
 
 ## Core Value
 
-1. **Unique identity** — the 58-SNP combination is nearly unique, forming a "genetic fingerprint".
-2. **Anti-cheating** — prevents "AB pigeon" (same-name substitution) fraud in races.
-3. **Bloodline management** — combined with [paternity testing](/en/paternity/) for traceable bloodlines.
-4. **Trade credential** — a trusted proof of identity and bloodline in transactions.
+### 1. Unique Identity
+Each pigeon's 58-SNP-locus combination is nearly unique, forming a "genetic fingerprint" that eliminates same-name confusion.
+
+### 2. Anti-Cheating, Anti-Substitution
+In racing, the gene ID card effectively prevents "AB pigeon" (same-name substitution) fraud, safeguarding the fairness of the competition.
+
+### 3. Bloodline Management
+It builds a genetic archive for breeders and, combined with [paternity testing](/en/paternity/), enables precise tracing and management of bloodlines.
+
+### 4. Trade Credential
+When purchasing or introducing birds, the gene ID card serves as a trusted proof of a pigeon's identity and bloodline.
+
+## How 58 SNP Loci Establish Unique Identity
+
+A **single nucleotide polymorphism (SNP)** is a single-base variation at a specific position in the genome. Any one SNP has only a handful of possible states, but the combination of 58 independent loci multiplies into an astronomically large number of possible profiles. The probability that two unrelated pigeons carry the exact same 58-locus combination is effectively zero — which is why the profile functions as a unique, unforgeable "genetic fingerprint" rather than a physical marker that can be swapped.
+
+Because DNA is fixed at conception and remains unchanged for life, the identity it encodes cannot be forged, replaced or duplicated the way a leg ring can. This is the fundamental advantage of the gene ID card as a long-term identity-management tool.
+
+## Gene ID Card vs AB-Pigeon Testing
+
+| Item | Gene ID Card | AB-Pigeon Testing |
+|------|-------------|-------------------|
+| Purpose | Establish a unique identity record | Identify same-name substitution |
+| Loci | 58 SNP loci | 58 gene loci |
+| Application | Long-term identity management | Pre-race identity verification |
+
+The two complement each other — see the [AB pigeon detection guide](/en/blog/ab-pigeon-detection/).
+
+> 💡 Tip: Consider building a gene ID card for every breeder and key racer, forming a complete loft-wide genetic archive.
 
 ## FAQ
 
 ### How does a gene ID card differ from a leg ring?
 A leg ring is a wearable identity that can be swapped or forged; a gene ID card is DNA-based and unforgeable. The two together provide true identity security.
 
+### Does the gene ID card need periodic renewal?
+No. Once established, it is valid long-term with no renewal needed. It is advisable to profile every breeder and key racer into a complete loft gene archive.
+
 ### What is the difference between a gene ID and a paternity test?
 A gene ID establishes individual identity; a paternity test verifies parentage. Use both for full bloodline management.
 
 ### Why can SNP loci uniquely identify an individual?
 The combination of 58 SNP loci is astronomically large, making identical matches between two pigeons virtually impossible.
+
+### How long is a gene ID card valid?
+Valid for life once established. A pigeon's genotype never changes, so the gene ID card can be used throughout the bird's lifetime.
+
+### Can squabs get a gene ID card?
+Yes. DNA can be extracted from feathers, so squabs can be profiled early, enabling bloodline management right from the source.
 
 ## Key Takeaways
 

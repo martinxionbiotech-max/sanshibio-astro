@@ -29,6 +29,8 @@ Lower MSTN activity means more developed pectoral muscles, giving:
 - Higher **flight speed**
 - Better fit for short-to-middle distance speed races
 
+In the [flight ability gene test](/en/flight-ability/), MSTN corresponds to the **muscle power indicator** — the core measure of a pigeon's muscle strength and sprint-speed potential.
+
 ## Speed vs. Endurance
 
 There is a trade-off between muscle mass (speed) and sustained flight (endurance). Over-developed muscle can add weight and hurt long-distance endurance:
@@ -36,16 +38,46 @@ There is a trade-off between muscle mass (speed) and sustained flight (endurance
 - **Short/middle distance**: prioritize MSTN (muscle power)
 - **Long distance**: prioritize [LDHA (endurance)](/en/blog/ldha-endurance-gene/) and [CRY1 (navigation)](/en/blog/cry1-navigation-gene/)
 
+The ideal pigeon finds a genetic balance between muscle and endurance matched to its race program.
+
+## Breeding Recommendations
+
+- Fanciers racing speed events can prioritize favorable MSTN genotypes.
+- Combine with the [DRD4 (homing)](/en/blog/drd4-homing-gene/) indicator to balance speed with stability.
+- Squabs can be tested early to lock in speed potential from the start.
+
+## Technical Deep Dive: The Myostatin Signaling Pathway
+
+Myostatin is a member of the **TGF-β superfamily**. It binds activin receptors to negatively regulate muscle growth; mutations or down-regulation of MSTN lead to abnormally developed muscle (the "double-muscling" phenotype seen in some animals).
+
+In racing pigeons, MSTN genotype differences shape the development and burst power of the pectoral muscles. Individuals with lower MSTN activity develop fuller pectoral muscle and stronger short-distance sprinting; but over-developed muscle can also add body weight and hurt long-distance endurance, so a balance between speed and endurance must be struck.
+
+## Breeding in Practice: Selecting for Speed
+
+- **Match the event**: prioritize favorable MSTN genotypes for short-to-middle distance speed races where burst power is decisive.
+- **Keep balance in mind**: do not over-pursue muscle for long-distance races — combine with [endurance LDHA](/en/blog/ldha-endurance-gene/) in a holistic assessment.
+- **Train for power**: pair speed-type pigeons with burst training (short sprints, climb training) to amplify their muscle advantage.
+- **Manage body weight**: control weight to prevent over-developed muscle from hurting flight efficiency.
+
 ## FAQ
 
 ### Does more muscle always mean faster flight?
 Not always. Developed muscle boosts burst speed, but excessive mass may hurt endurance. Balance muscle with endurance by race profile.
+
+### How do breeding priorities differ between speed and endurance races?
+Short-to-middle distance speed races prioritize the muscle indicator (MSTN); long-distance endurance races prioritize endurance (LDHA) and navigation ([CRY1](/en/blog/cry1-navigation-gene/)).
 
 ### Is MSTN genotype linked to muscle mass?
 Yes. Some genotypes reduce myostatin inhibition, yielding more developed muscle and greater explosive power.
 
 ### Can MSTN and LDHA both be optimized?
 They are independent loci and can be tested together. Speed and endurance involve some trade-off — see the [speed vs endurance guide](/en/blog/speed-distance-gene/).
+
+### Does MSTN testing require blood sampling?
+No. Plucking 4–6 feathers with follicles is enough to extract DNA, and squabs can be tested.
+
+### Does a heavily muscled pigeon always fly fast?
+Not necessarily. Muscle mass provides the burst-power foundation, but flight speed is also affected by wing structure, body condition and husbandry — evaluate holistically.
 
 ## Key Takeaways
 

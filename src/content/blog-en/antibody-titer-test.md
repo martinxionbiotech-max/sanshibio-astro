@@ -46,7 +46,17 @@ Results are expressed as **titer**; higher titer means stronger protection.
 2. **Booster timing** — boost when antibody drops to borderline
 3. **Diagnostic aid** — a 4-fold rise in paired sera suggests recent infection
 
+## Sampling & Submission
+
+- Use **blood samples** (wing-vein blood or serum)
+- For flock assessment, sample proportionally for better representativeness
+- Combine with [pathogen PCR testing](/en/virus-detection/) to distinguish "infection" from "immunity"
+
 > 💡 Tip: Antibody testing and [pathogen PCR](/en/virus-detection/) are two sides of one coin — PCR detects disease, antibodies reflect immunity. Combine both for precise prevention.
+
+## Building an Immunization Program
+
+Antibody testing turns vaccination from a routine into a strategy. By measuring the flock's response after each vaccination, the fancier learns which birds are protected, which failed to respond and when protection is about to fade — then acts on that data rather than on a fixed calendar. This matters most in two places: young birds, whose maternal antibodies can interfere with their first vaccine, and racing birds, whose exposure spikes with every basketing. Sampling proportionally across the flock gives a representative picture, and pairing antibody titers with pathogen PCR separates a healthy immune response from an active infection. The result is precision immunization — boosting only when needed, avoiding over-vaccination, and closing immunity gaps before a pathogen finds them.
 
 ## FAQ
 
@@ -54,13 +64,19 @@ Results are expressed as **titer**; higher titer means stronger protection.
 Usually 1–3 working days — see [testing services](/en/services/).
 
 ### When should I test after vaccination?
-Antibodies peak 2–4 weeks post-vaccination; testing then best reflects true response.
+Antibodies peak 2–4 weeks post-vaccination; testing then best reflects true response. Testing too early may misjudge because antibodies have not fully developed.
 
 ### How does antibody testing differ from pathogen testing?
 Antibody reflects immune status (vaccinated/infected); PCR detects current infection. Use both for precise prevention.
 
-### When should I test after vaccination?
-Antibodies peak 2-4 weeks post-vaccination — test then for the truest response.
+### Do young pigeons need testing?
+Yes. Testing after a squab's first vaccination verifies whether maternal-antibody interference has faded and immunity has been established, guiding the subsequent immunization program.
+
+### What titer level counts as passing?
+Protection thresholds vary by pathogen and method; the report provides reference ranges. A titer above threshold means good immunity; below it, a booster is advised.
+
+### How are samples collected for antibody testing?
+Use blood samples — wing-vein blood or serum. For flock-level assessment, sample proportionally for stronger representativeness.
 
 ## Key Takeaways
 

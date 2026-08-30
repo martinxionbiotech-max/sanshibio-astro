@@ -14,6 +14,8 @@ Setting up a pigeon testing lab does not mean buying the most expensive gear. Ma
 
 ## Core Equipment
 
+A molecular testing workflow runs through extraction, amplification and detection. Each stage has a dedicated instrument:
+
 | Equipment | Purpose | Step |
 |-----------|---------|------|
 | Automated nucleic acid extractor | Auto-purify DNA/RNA | Extraction |
@@ -25,16 +27,38 @@ Setting up a pigeon testing lab does not mean buying the most expensive gear. Ma
 | Biosafety cabinet | Prevent cross-contamination | Processing |
 | -20°C / 4°C storage | Store reagents & samples | All |
 
+Not every setup needs all eight. The extractor and qPCR instrument, for example, are only worth buying when sample volume or quantification needs justify them — which is exactly why the three-tier model below matters.
+
+In practice the instruments are used in a fixed order — sample processing, then extraction, then amplification, then reading — and this order is also the basis of contamination control. Amplification produces enormous numbers of DNA copies, so the amplification and reading zones must be physically separated from the sample-processing zone, with workflow moving in one direction only. A lab laid out this way avoids the aerosol carry-over that otherwise causes false positives, which is why zone separation and UV sterilization appear repeatedly in the buying considerations below. Likewise, temperature precision in the PCR cycler matters because uneven heating across the block causes some reactions to under-amplify, which reads as a false weak or negative result.
+
 ## Three Tiers
 
 ### Entry (hobby loft, ¥5k–10k)
-Micropipettes, mini centrifuge, feather sampling kit + mail-in testing. Focus on proper sampling, not in-house capability.
+
+- Micropipette set (2–4 pieces)
+- Mini centrifuge
+- Feather sampling kit + mail-in testing (core work delegated to the lab)
+
+> Entry level needs no in-house testing capability — the priority is **proper sampling and mail-in submission**, getting reliable reports at the lowest cost.
 
 ### Professional (¥30k–80k)
-Semi-auto extraction, standard PCR cycler, gel electrophoresis + imaging, full pipette/centrifuge/storage set. Enables on-site screening for key genes and pathogens.
+
+- Semi-auto nucleic acid extraction
+- Standard PCR cycler
+- Gel electrophoresis + gel imaging
+- Full pipette, centrifuge and storage set
+
+> Professional level enables on-site pre-screening of common gene loci and pathogens, delivering fast results before major races.
 
 ### Laboratory (¥150k+)
-96-channel automated extractor, qPCR instrument, biosafety cabinet, clean bench, autoclave, consumable management. Supports high-throughput, multi-project testing and external service.
+
+- Automated nucleic acid extractor (96 channels)
+- qPCR instrument
+- Biosafety cabinet
+- Clean bench and autoclave
+- Full consumable management system
+
+> Laboratory level supports high-throughput, multi-project parallel testing, meeting race arbitration and external service needs.
 
 ## Five Buying Considerations
 
@@ -49,16 +73,22 @@ Semi-auto extraction, standard PCR cycler, gel electrophoresis + imaging, full p
 ## FAQ
 
 ### Do I need a qPCR instrument?
-For SNP genotyping, standard PCR + electrophoresis or gene chip suffices. qPCR is needed only for pathogen quantification (viral load).
+For SNP genotyping, standard PCR + electrophoresis or gene chip suffices. qPCR is needed only for pathogen quantification (viral load). See the [qPCR principles guide](/en/blog/qpcr-principle/).
 
 ### How often should equipment be calibrated?
-Calibrate pipettes annually; verify PCR cyclers and extractors per manufacturer schedule.
+Calibrate pipettes annually; verify PCR cyclers and extractors per manufacturer schedule for temperature uniformity and throughput.
 
 ### Do I need a PCR cycler at entry level?
 No. Entry level focuses on proper sampling and mail-in testing, leaving core testing to the lab.
 
 ### qPCR vs conventional PCR?
 For SNP genotyping, conventional PCR + electrophoresis suffices; for pathogen quantification (viral load), qPCR is required.
+
+### How should I lay out the lab to prevent contamination?
+Enforce strict three-zone physical separation — sample processing, amplification and detection — with a unidirectional workflow. This is the backbone of molecular-testing hygiene.
+
+### What daily practices prevent cross-contamination?
+Combine the three-zone layout with UV sterilization and single-use consumables to eliminate aerosol contamination, the biggest enemy of molecular detection.
 
 ## Key Takeaways
 

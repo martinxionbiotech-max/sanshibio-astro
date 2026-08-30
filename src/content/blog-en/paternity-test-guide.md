@@ -29,6 +29,44 @@ Paternity testing is based on **Mendelian inheritance** — offspring inherit ha
 | Breeding management | Confirm pair results, prevent cross-breeding |
 | Race eligibility | Verify bloodline for fairness |
 | Import traceability | Confirm origin of new breeders |
+| Pedigree building | Establish reliable pedigree records for new lines |
+
+## The Testing Process
+
+1. **Consult and order** — determine the individuals and items to be tested
+2. **Feather sampling** — pluck 4–6 breast feathers from offspring and suspected parents separately
+3. **Laboratory analysis** — DNA extraction and 58-locus comparison
+4. **Report issuance** — a conclusion including the parentage probability
+
+## Relationship with Gene ID Cards and AB Pigeon Detection
+
+- **Gene ID card** — a unique genetic profile for each pigeon (58 SNP loci)
+- **AB pigeon detection** — identifies same-name substitutes to prevent cheating
+- **Paternity testing** — confirms parent-offspring relationships between birds
+
+Together they form a complete **identity and bloodline management** system. See [testing services](/en/services/).
+
+> 💡 Tip: Record bloodlines and keep samples at pairing time, so they are available for future pedigree tracing.
+
+## Deep Dive: SNP Loci and the Paternity Index
+
+The core of paternity testing is comparing **polymorphic genetic markers**. Two marker types are commonly used:
+
+| Marker | Feature | Use case |
+|--------|---------|----------|
+| STR (short tandem repeat) | High polymorphism, traditional in forensics | Human kinship testing |
+| SNP (single nucleotide polymorphism) | Numerous, stable, easy to standardize | High-throughput individual identification |
+
+Sanshi Bio uses **58 SNP loci**, whose advantages are the large locus count, stable genotyping and suitability for automated high-throughput testing.
+
+The **Paternity Index (PI)** compares the probability of observing the current genotype under two hypotheses — "the suspected parent is the true parent" versus "a random individual is the parent." A larger PI means stronger evidence of kinship. Multiplying the PIs across loci yields the **Combined Paternity Index (CPI)**, converted into a **combined parentage probability** — 99.99% or higher confirms the relationship.
+
+## Bloodline Management in Practice
+
+1. **Archive at pairing** — plan a [gene ID card](/en/blog/gene-id-card-guide/) for breeders and expected offspring
+2. **Sample at hatch** — test squabs soon after leaving the nest to build the bloodline record
+3. **Verify at trade** — require a paternity report when importing or trading breeders
+4. **Digitize the pedigree** — progressively digitize the flock pedigree for traceable management
 
 ## FAQ
 
@@ -38,8 +76,17 @@ Both parents give a higher confirmation probability; single-parent testing is al
 ### How accurate is paternity testing?
 SNP-based parentage analysis can exclude non-parents with over 99.9% accuracy.
 
-### Do I need both parents' samples?
-Ideally provide suspected parents and offspring — more samples mean more accurate determination.
+### What is the difference between paternity testing and a gene ID card?
+A [gene ID card](/en/blog/gene-id-card-guide/) is a unique identity profile for a single pigeon; paternity testing confirms the parent-offspring relationship between birds. Together they enable full pedigree tracing.
+
+### Can squabs be paternity tested?
+Yes. Feathers yield enough DNA, so young pigeons can be tested early for timely bloodline confirmation.
+
+### What markers are used — STR or SNP?
+Sanshi Bio uses 58 SNP loci, which are numerous, stable and ideal for automated high-throughput testing, rather than STR markers common in human forensics.
+
+### What is the Paternity Index (PI)?
+The PI compares the probability of the observed genotype under "suspected parent is the true parent" versus "a random individual is the parent." Larger PI means stronger evidence; the combined PI across loci converts to a parentage probability of 99.99% or higher for confirmation.
 
 ## Key Takeaways
 
