@@ -8,15 +8,9 @@ interface Props {
 const { title, description, breadcrumb } = Astro.props;
 ---
 
-<section class="relative isolate overflow-hidden bg-brand-900 text-white">
-  <img
-    src="/images/banner-about.jpg"
-    alt=""
-    aria-hidden="true"
-    class="absolute inset-0 -z-10 h-full w-full object-cover object-center"
-    loading="eager"
-  />
-  <div class="absolute inset-0 -z-10 bg-gradient-to-r from-brand-900/95 via-brand-900/85 to-deep-700/70"></div>
+<section class="relative isolate overflow-hidden bg-gradient-to-r from-brand-900 via-brand-800 to-deep-700 text-white">
+  <div class="absolute inset-0 -z-10" style="background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px); background-size: 26px 26px;"></div>
+  <div class="absolute -right-16 -top-16 -z-10 h-64 w-64 rounded-full bg-brand-400/15 blur-3xl"></div>
   <div class="container-site py-16 sm:py-20 lg:py-24">
     <nav class="mb-4 text-sm text-brand-100/80">
       <a href="/" class="transition hover:text-white">首页</a> <span class="mx-1 text-brand-200/60">/</span> {breadcrumb}
