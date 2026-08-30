@@ -1,22 +1,44 @@
 ---
+const lang = Astro.currentLocale ?? 'zh';
+const isEn = lang === 'en';
+const base = isEn ? '/en' : '';
+
+const t = {
+  home: isEn ? 'Home' : '首页',
+  about: isEn ? 'About Us' : '关于三狮',
+  flight: isEn ? 'Flight Ability Test' : '飞行能力基因检测',
+  virus: isEn ? 'Virus Detection' : '病毒检测',
+  paternity: isEn ? 'Paternity Test' : '亲子鉴定',
+  products: isEn ? 'Products' : '产品中心',
+  services: isEn ? 'Services' : '检测服务',
+  contact: isEn ? 'Contact' : '联系我们',
+  cta: isEn ? 'Inquire' : '业务咨询',
+  menu: isEn ? 'Menu' : '菜单',
+  logoAlt: isEn ? 'Sanshi Bio logo' : '三狮生物 logo',
+};
+
 const navLinks = [
-  { href: '/', label: '首页' },
-  { href: '/about', label: '关于三狮' },
-  { href: '/flight-ability', label: '飞行能力基因检测' },
-  { href: '/virus-detection', label: '病毒检测' },
-  { href: '/paternity', label: '亲子鉴定' },
-  { href: '/products', label: '产品中心' },
-  { href: '/services', label: '检测服务' },
-  { href: '/contact', label: '联系我们' },
+  { href: `${base}/`, label: t.home },
+  { href: `${base}/about`, label: t.about },
+  { href: `${base}/flight-ability`, label: t.flight },
+  { href: `${base}/virus-detection`, label: t.virus },
+  { href: `${base}/paternity`, label: t.paternity },
+  { href: `${base}/products`, label: t.products },
+  { href: `${base}/services`, label: t.services },
+  { href: `${base}/contact`, label: t.contact },
 ];
 
 const pathname = Astro.url.pathname;
+const switchHref = isEn
+  ? (pathname.replace(/^\/en/, '') || '/')
+  : (pathname === '/' ? '/en/' : `/en${pathname}`);
+const switchLabel = isEn ? '中文' : 'EN';
 ---
 
 <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 shadow-[0_1px_0_0_rgba(15,23,42,0.02)] backdrop-blur-md">
   <div class="container-site flex h-16 items-center justify-between gap-4 lg:h-20">
-    <a href="/" class="flex shrink-0 items-center gap-2" aria-label="三狮生物首页">
-      <img src="/images/logo.png" alt="三狮生物 logo" class="h-9 w-auto lg:h-10" />
+    <a href={base + '/'} class="flex shrink-0 items-center gap-2" aria-label={t.logoAlt}>
+      <img src="/images/logo.png" alt={t.logoAlt} class="h-9 w-auto lg:h-10" />
     </a>
     <nav class="hidden items-center gap-6 text-sm font-medium text-slate-600 lg:flex">
       {navLinks.map((l) => (
@@ -36,12 +58,13 @@ const pathname = Astro.url.pathname;
           ></span>
         </a>
       ))}
-      <a href="/contact" class="btn-primary !px-4 !py-2 !text-xs">业务咨询</a>
+      <a href={switchHref} class="rounded-md border border-slate-200 px-2.5 py-1 text-xs font-semibold text-slate-500 transition hover:border-brand-300 hover:text-brand-700" lang={isEn ? 'zh' : 'en'}>{switchLabel}</a>
+      <a href={base + '/contact'} class="btn-primary !px-4 !py-2 !text-xs">{t.cta}</a>
     </nav>
     <button
       id="menu-btn"
       class="rounded-lg p-2 text-slate-600 transition hover:bg-slate-100 hover:text-brand-700 lg:hidden"
-      aria-label="菜单"
+      aria-label={t.menu}
       aria-controls="mobile-menu"
       aria-expanded="false"
     >
@@ -63,7 +86,8 @@ const pathname = Astro.url.pathname;
           {l.label}
         </a>
       ))}
-      <a href="/contact" class="btn-primary mt-2 w-full">业务咨询</a>
+      <a href={switchHref} class="rounded-xl px-3 py-2.5 text-brand-700" lang={isEn ? 'zh' : 'en'}>{switchLabel}</a>
+      <a href={base + '/contact'} class="btn-primary mt-2 w-full">{t.cta}</a>
     </nav>
   </div>
 </header>

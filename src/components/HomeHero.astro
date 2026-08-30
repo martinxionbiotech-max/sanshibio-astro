@@ -1,3 +1,13 @@
+---
+const lang = Astro.currentLocale ?? 'zh';
+const isEn = lang === 'en';
+const base = isEn ? '/en' : '';
+
+const badge = isEn ? 'Gene Detection · AI Breeding · High-tech Enterprise' : '基因检测技术 · AI 基因育种 · 高新技术企业';
+const cta1 = isEn ? 'Flight Ability Test' : '飞行能力基因检测';
+const cta2 = isEn ? 'Contact Us' : '立即咨询';
+---
+
 <section class="relative isolate overflow-hidden bg-brand-900 text-white">
   <img
     src="/images/banner-home2.jpg"
@@ -12,18 +22,25 @@
   <div class="container-site relative py-20 sm:py-28 lg:py-32">
     <div class="max-w-3xl">
       <span class="inline-flex items-center rounded-full bg-white/15 px-4 py-1.5 text-xs font-medium tracking-wide backdrop-blur-md">
-        基因检测技术 · AI 基因育种 · 高新技术企业
+        {badge}
       </span>
       <h1 class="mt-5 text-4xl font-bold leading-tight drop-shadow-md sm:text-5xl">
-        让每一羽赛鸽<br />天赋<span class="text-brand-200">看得见</span>
+        {isEn ? (
+          <>Unlock Every Pigeon&rsquo;s<br />Genetic <span class="text-brand-200">Potential</span></>
+        ) : (
+          <>让每一羽赛鸽<br />天赋<span class="text-brand-200">看得见</span></>
+        )}
       </h1>
       <p class="mt-5 max-w-2xl text-lg leading-relaxed text-brand-50">
-        三狮生物以基因检测技术为核心，为赛鸽行业提供<b>飞行能力基因检测</b>、<b>病毒病原体检测</b>、
-        <b>试剂设备销售</b>及实验室建设培训一体化解决方案，帮助鸽友科学育种、精准选育。
+        {isEn ? (
+          <>Sanshi Bio delivers <b>flight-ability gene testing</b>, <b>virus &amp; pathogen detection</b>, and <b>reagents &amp; equipment</b> with integrated lab training &mdash; helping fanciers breed scientifically and select precisely.</>
+        ) : (
+          <>三狮生物以基因检测技术为核心，为赛鸽行业提供<b>飞行能力基因检测</b>、<b>病毒病原体检测</b>、<b>试剂设备销售</b>及实验室建设培训一体化解决方案，帮助鸽友科学育种、精准选育。</>
+        )}
       </p>
       <div class="mt-8 flex flex-wrap gap-3">
-        <a href="/flight-ability" class="inline-flex items-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-brand-700 shadow-lg shadow-brand-900/20 transition hover:bg-brand-50 hover:-translate-y-0.5">飞行能力基因检测</a>
-        <a href="/contact" class="inline-flex items-center rounded-lg border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20">立即咨询</a>
+        <a href={base + '/flight-ability'} class="inline-flex items-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-brand-700 shadow-lg shadow-brand-900/20 transition hover:bg-brand-50 hover:-translate-y-0.5">{cta1}</a>
+        <a href={base + '/contact'} class="inline-flex items-center rounded-lg border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20">{cta2}</a>
       </div>
     </div>
   </div>

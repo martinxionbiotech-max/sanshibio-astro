@@ -1,37 +1,76 @@
+---
+const lang = Astro.currentLocale ?? 'zh';
+const isEn = lang === 'en';
+const base = isEn ? '/en' : '';
+
+const t = isEn
+  ? {
+      about: 'Hebei Sanshi Biotechnology Co., Ltd. — a high-tech enterprise focused on gene detection technology, specializing in animal & plant genetic testing and AI-assisted breeding, providing integrated "equipment + reagents + training" molecular testing solutions for the racing pigeon industry.',
+      navTitle: 'Quick Links',
+      contactTitle: 'Contact Us',
+      flight: 'Flight Ability Test',
+      virus: 'Virus Detection',
+      paternity: 'Paternity Test',
+      products: 'Products',
+      services: 'Services',
+      blog: 'Knowledge Base',
+      aboutLink: 'About Us',
+      tel1: 'Tel: +86-311-82970259',
+      tel2: 'Hotline: +86-186-3213-6937',
+      email: 'Email: sanshibio@126.com',
+      addr: 'Address: Room 702, Building A-5, Guoxietang High-end Medical Device Industrial Park, No.509 Taihang South Street, Shijiazhuang Hi-tech Zone, Hebei, China',
+      copyright: '© {year} Hebei Sanshi Biotechnology Co., Ltd.',
+    }
+  : {
+      about: '河北三狮生物科技有限公司——以基因检测技术为核心的高新技术企业，专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。',
+      navTitle: '快速导航',
+      contactTitle: '联系我们',
+      flight: '飞行能力基因检测',
+      virus: '赛鸽病毒检测',
+      paternity: '亲子鉴定',
+      products: '产品中心',
+      services: '检测服务',
+      blog: '知识库',
+      aboutLink: '关于三狮',
+      tel1: '总部电话：0311-82970259',
+      tel2: '业务热线：186-3213-6937',
+      email: '邮箱：sanshibio@126.com',
+      addr: '地址：石家庄高新区太行南大街509号国械堂高端医疗器械产业园A-5栋702室',
+      copyright: '© {year} 河北三狮生物科技有限公司 · 冀ICP备20004219号-1',
+    };
+---
+
 <footer class="mt-20 border-t border-slate-200 bg-gradient-to-b from-slate-50 to-white">
   <div class="container-site py-12 lg:py-16">
     <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
       <div class="lg:col-span-2">
-        <img src="/images/logo.png" alt="三狮生物" class="mb-4 h-9 w-auto" />
-        <p class="max-w-xl text-sm leading-relaxed text-slate-600">
-          河北三狮生物科技有限公司——以基因检测技术为核心的高新技术企业，
-          专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。
-        </p>
+        <img src="/images/logo.png" alt="Sanshi Bio" class="mb-4 h-9 w-auto" />
+        <p class="max-w-xl text-sm leading-relaxed text-slate-600">{t.about}</p>
       </div>
       <div>
-        <h4 class="mb-3 text-sm font-semibold text-slate-900">快速导航</h4>
+        <h4 class="mb-3 text-sm font-semibold text-slate-900">{t.navTitle}</h4>
         <ul class="space-y-2.5 text-sm text-slate-600">
-          <li><a href="/flight-ability" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>飞行能力基因检测</a></li>
-          <li><a href="/virus-detection" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>赛鸽病毒检测</a></li>
-          <li><a href="/paternity" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>亲子鉴定</a></li>
-          <li><a href="/products" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>产品中心</a></li>
-          <li><a href="/services" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>检测服务</a></li>
-          <li><a href="/blog/" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>知识库</a></li>
-          <li><a href="/about" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>关于三狮</a></li>
+          <li><a href={base + '/flight-ability'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.flight}</a></li>
+          <li><a href={base + '/virus-detection'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.virus}</a></li>
+          <li><a href={base + '/paternity'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.paternity}</a></li>
+          <li><a href={base + '/products'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.products}</a></li>
+          <li><a href={base + '/services'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.services}</a></li>
+          <li><a href="/blog/" class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.blog}</a></li>
+          <li><a href={base + '/about'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.aboutLink}</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="mb-3 text-sm font-semibold text-slate-900">联系我们</h4>
+        <h4 class="mb-3 text-sm font-semibold text-slate-900">{t.contactTitle}</h4>
         <ul class="space-y-2.5 text-sm text-slate-600">
-          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span>总部电话：0311-82970259</li>
-          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span>业务热线：186-3213-6937</li>
-          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✉</span>邮箱：sanshibio@126.com</li>
-          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">⌂</span><span class="leading-relaxed">地址：石家庄高新区太行南大街509号国械堂高端医疗器械产业园A-5栋702室</span></li>
+          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span>{t.tel1}</li>
+          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span>{t.tel2}</li>
+          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✉</span>{t.email}</li>
+          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">⌂</span><span class="leading-relaxed">{t.addr}</span></li>
         </ul>
       </div>
     </div>
     <div class="mt-12 border-t border-slate-200 pt-6 text-center text-xs text-slate-400">
-      © {new Date().getFullYear()} 河北三狮生物科技有限公司 · 冀ICP备20004219号-1
+      {t.copyright.replace('{year}', String(new Date().getFullYear()))}
     </div>
   </div>
 </footer>

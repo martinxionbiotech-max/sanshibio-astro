@@ -1,0 +1,111 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HomeHero from '../../components/HomeHero.astro';
+
+const title = 'Sanshi Bio | Racing Pigeon Gene Testing · Virus Detection · Equipment';
+const description =
+  'Hebei Sanshi Biotechnology provides racing pigeon flight-ability gene testing, virus detection, and molecular diagnostic reagents & equipment — an integrated equipment + reagents + training solution covering 8 flight genes and 10 pathogens.';
+---
+
+<Layout title={title} description={description}>
+  <HomeHero />
+
+  <!-- 三大核心业务 -->
+  <section class="container-site -mt-10 relative z-10">
+    <div class="grid gap-6 md:grid-cols-3">
+      <a href="/en/flight-ability" class="card group hover:border-brand-300 hover:shadow-md transition">
+        <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M7 14l3-4 3 3 4-6" /></svg>
+        </div>
+        <h3 class="text-lg font-semibold text-slate-900 group-hover:text-brand-700">Flight Ability Gene Test</h3>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">
+          Tests 8 key genes — LDHA, DRD4, CRY1, MSTN and more — to evaluate endurance, homing, navigation, muscle power and intelligence potential.
+        </p>
+        <span class="mt-4 inline-block text-sm font-medium text-brand-600">Learn more →</span>
+      </a>
+      <a href="/en/virus-detection" class="card group hover:border-brand-300 hover:shadow-md transition">
+        <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2a7 7 0 00-4 12.7V17a2 2 0 002 2h4a2 2 0 002-2v-2.3A7 7 0 0012 2zM9 22h6" /></svg>
+        </div>
+        <h3 class="text-lg font-semibold text-slate-900 group-hover:text-brand-700">Virus Detection</h3>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">
+          Covers 10 common pathogens — Newcastle disease, pigeon herpesvirus, circovirus, adenovirus, Salmonella and more — via real-time PCR early screening.
+        </p>
+        <span class="mt-4 inline-block text-sm font-medium text-brand-600">Learn more →</span>
+      </a>
+      <a href="/en/products" class="card group hover:border-brand-300 hover:shadow-md transition">
+        <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5" /></svg>
+        </div>
+        <h3 class="text-lg font-semibold text-slate-900 group-hover:text-brand-700">Reagents & Equipment</h3>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">
+          Portable real-time PCR system Q162D, automated nucleic acid extractor ES08, plus hot-start Taq polymerase, qPCR kits and molecular diagnostic reagents.
+        </p>
+        <span class="mt-4 inline-block text-sm font-medium text-brand-600">Learn more →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 公司简介 + 数字 -->
+  <section class="container-site py-20">
+    <div class="grid items-center gap-12 lg:grid-cols-2">
+      <div>
+        <span class="badge">About Sanshi Bio</span>
+        <h2 class="section-title mt-3">A Gene-Detection Pioneer in<br />Molecular Diagnostics & Breeding</h2>
+        <p class="mt-5 leading-relaxed text-slate-600">
+          Located in Shijiazhuang International Biomedical Industrial Park and founded by a "National Major Talent Program" selectee,
+          Sanshi Bio focuses on animal & plant gene detection and AI-assisted breeding, integrating <b>equipment & reagent manufacturing,
+          intelligent data models, and lab construction & training</b>.
+        </p>
+        <p class="mt-4 leading-relaxed text-slate-600">
+          ISO9001 certified, with 300+ products covering food safety testing, animal & plant testing, gene breeding and biomanufacturing.
+        </p>
+        <div class="mt-6"><a href="/en/about" class="btn-outline">About the Company</a></div>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="card text-center"><div class="text-3xl font-bold text-brand-600">300+</div><div class="mt-1 text-sm text-slate-500">Products</div></div>
+        <div class="card text-center"><div class="text-3xl font-bold text-brand-600">22</div><div class="mt-1 text-sm text-slate-500">Patents</div></div>
+        <div class="card text-center"><div class="text-3xl font-bold text-brand-600">8</div><div class="mt-1 text-sm text-slate-500">Flight Genes</div></div>
+        <div class="card text-center"><div class="text-3xl font-bold text-brand-600">10</div><div class="mt-1 text-sm text-slate-500">Pathogens Detected</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 服务流程 -->
+  <section class="bg-slate-50 py-20">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Process</span>
+        <h2 class="section-title mt-3">Five Steps to a Gene Test</h2>
+        <p class="mt-3 text-slate-600">From sampling to report — simple and fast, even for squabs</p>
+      </div>
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+        {[
+          ['01', 'Order', 'Choose your test and place an order'],
+          ['02', 'Feather Sample', 'Pluck 4–6 breast feathers and air-dry'],
+          ['03', 'Ship Sample', 'Mail to the lab as directed'],
+          ['04', 'DNA Analysis', 'Extract DNA and run the test'],
+          ['05', 'Get Report', 'Receive and interpret your report'],
+        ].map(([n, t, d]) => (
+          <div class="card relative text-center">
+            <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">{n}</div>
+            <h3 class="mt-3 font-semibold text-slate-900">{t}</h3>
+            <p class="mt-2 text-sm text-slate-500">{d}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container-site py-20">
+    <div class="rounded-3xl bg-gradient-to-r from-brand-700 to-deep-600 px-8 py-12 text-center text-white sm:px-12">
+      <h2 class="text-2xl font-bold sm:text-3xl">Ready to breed scientifically?</h2>
+      <p class="mt-3 text-brand-50">Equipment, reagents and training — Sanshi Bio supports your full molecular testing workflow.</p>
+      <div class="mt-6 flex flex-wrap justify-center gap-3">
+        <a href="/en/contact" class="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-brand-700 hover:bg-brand-50">Contact Us</a>
+        <a href="/en/products" class="rounded-lg border border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10">Browse Products</a>
+      </div>
+    </div>
+  </section>
+</Layout>

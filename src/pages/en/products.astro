@@ -1,0 +1,137 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Products | Pigeon Testing Equipment & Reagents - Sanshi Bio';
+const description =
+  'Sanshi Bio products: portable real-time PCR system Q162D, automated nucleic acid extractor ES08, hot-start Taq polymerase, qPCR kits and molecular diagnostic reagents for pigeon gene and pathogen testing.';
+
+const devices = [
+  {
+    name: 'Real-Time PCR System Q162D',
+    img: '/images/q162d.jpg',
+    sku: 'SSB-Q162D',
+    desc: 'Portable real-time fluorescence quantitative detection system with dual-channel 8-well modules. Built-in 7-inch HD TFT touchscreen, Windows 10, and onboard analysis software — no external computer needed for quantification and report printing. Ideal for pigeon gene testing, pathogen detection and animal-origin testing.',
+    specs: [
+      ['Throughput', 'Dual-channel × 8 wells (16 wells)'],
+      ['Display', '7-inch HD TFT color touchscreen'],
+      ['System', 'Windows 10, onboard analysis software'],
+      ['Thermal Module', 'Custom US MARLOW semiconductor'],
+      ['Form', 'Portable, multi-purpose, report printing'],
+      ['Applications', 'Pigeon gene / pathogen / animal-origin testing'],
+    ],
+  },
+  {
+    name: 'Automated Nucleic Acid Extractor ES08',
+    img: '/images/es08.jpg',
+    sku: 'SSB-ES08',
+    desc: 'Automated nucleic acid extraction and purification, boosting throughput and quality. Pairs with the Q162D to form a complete molecular testing workflow.',
+    specs: [
+      ['Function', 'Automated nucleic acid extraction & purification'],
+      ['Pairing', 'Forms a workflow with the Q162D PCR system'],
+      ['Applications', 'Feather / swab / tissue nucleic acid extraction'],
+      ['Advantage', 'Standardized operation, less error & contamination'],
+    ],
+  },
+];
+
+const reagentLines = [
+  { name: 'Hot-start Taq Polymerase', desc: 'Core molecular diagnostic enzyme with high specificity and anti-contamination performance.', tag: 'Core' },
+  { name: 'qPCR Series', desc: 'Real-time PCR master mixes and reagents for probe- and dye-based detection.', tag: 'qPCR' },
+  { name: 'Conventional PCR Products', desc: 'Standard PCR enzymes and master mixes for cloning and amplification.', tag: 'Basic' },
+  { name: 'Reverse Transcriptase Series', desc: 'For RNA virus detection and gene expression analysis.', tag: 'RNA' },
+  { name: 'Nucleic Acid Extraction Reagents', desc: 'Extraction kits for feather, swab and tissue samples.', tag: 'Prep' },
+  { name: 'Contamination Remover NC', desc: 'Removes nucleic acid residue from benches and pipettes to prevent false positives.', tag: 'QC' },
+  { name: 'Pigeon & Parrot Sexing Kit', desc: 'Avian gender gene identification — accurately sex young birds.', tag: 'Sexing' },
+  { name: 'Animal-origin Detection Kits', desc: 'Detect pork, beef, lamb, chicken, horse, donkey and plant-origin components.', tag: 'Origin' },
+  { name: 'Plant-origin Detection Kits', desc: 'Detection of plant-derived components in beverages, juice, starch and more.', tag: 'Food' },
+  { name: 'Food-source Detection Kits', desc: '100+ food authenticity and allergen test kits (soy, peanut, gluten, etc.).', tag: 'Food Safety' },
+];
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.com/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Products' },
+  ],
+};
+
+const productLd = devices.map((d) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  sku: d.sku,
+  name: d.name,
+  description: d.desc,
+  image: `https://sanshibio.com${d.img}`,
+  offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', priceCurrency: 'CNY', url: 'https://sanshibio.com/en/contact' },
+  manufacturer: { '@type': 'Organization', name: 'Hebei Sanshi Biotechnology Co., Ltd.' },
+}));
+---
+
+<Layout title={title} description={description} jsonLd={[...productLd, breadcrumbLd]}>
+  <PageBanner title="Products" description="Testing equipment, molecular diagnostic reagents and consumables — an integrated equipment + reagents + training solution." breadcrumb="Products" />
+
+  <section class="container-site py-16">
+    <div class="text-center">
+      <span class="badge">Instruments</span>
+      <h2 class="section-title mt-3">Core Testing Instruments</h2>
+    </div>
+    <div class="mt-10 grid gap-8 lg:grid-cols-2">
+      {devices.map((d) => (
+        <div class="card overflow-hidden p-0">
+          <div class="flex flex-col sm:flex-row">
+            <div class="shrink-0 bg-slate-50 p-4 sm:w-52">
+              <img src={d.img} alt={d.name} class="h-44 w-full object-contain" loading="lazy" />
+            </div>
+            <div class="flex-1 p-6">
+              <span class="font-mono text-xs text-brand-600">{d.sku}</span>
+              <h3 class="mt-1 text-lg font-semibold text-slate-900">{d.name}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-slate-600">{d.desc}</p>
+            </div>
+          </div>
+          <div class="border-t border-slate-100 px-6 py-4">
+            <table class="table-base">
+              <tbody>
+                {d.specs.map(([k, v]) => (
+                  <tr>
+                    <td class="w-28 font-semibold text-slate-700">{k}</td>
+                    <td class="text-slate-600">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Reagents</span>
+        <h2 class="section-title mt-3">Reagent Lines</h2>
+      </div>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {reagentLines.map((r) => (
+          <div class="card">
+            <div class="flex items-start justify-between">
+              <h3 class="font-semibold text-slate-900">{r.name}</h3>
+              <span class="rounded-full bg-brand-50 px-2 py-0.5 text-xs text-brand-700">{r.tag}</span>
+            </div>
+            <p class="mt-2 text-sm text-slate-600">{r.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="container-site py-16">
+    <div class="rounded-3xl border border-brand-200 bg-brand-50/50 px-8 py-10 text-center sm:px-12">
+      <h2 class="text-2xl font-bold text-slate-900">Equipment + Reagents + Training</h2>
+      <p class="mt-3 text-slate-600">Build your own testing lab with full-process support from Sanshi Bio.</p>
+      <a href="/en/contact" class="btn-primary mt-6">Get a Quote</a>
+    </div>
+  </section>
+</Layout>

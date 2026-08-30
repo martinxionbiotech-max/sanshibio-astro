@@ -1,0 +1,113 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Racing Pigeon Flight Ability Gene Test | 8 Genes - Sanshi Bio';
+const description =
+  'Sanshi Bio flight-ability gene testing covers 8 key genes — LDHA, DRD4, CRY1, MSTN, F-KER, LRP8, GSR and CASK — to evaluate endurance, homing, navigation, muscle power, feather quality and intelligence from the genetic level.';
+
+const genes = [
+  { idx: '01', name: 'Endurance', gene: 'LDHA', full: 'Lactate dehydrogenase A (lactic acid metabolism)', func: 'Regulates lactate metabolism and sustained muscle energy supply.', meaning: 'Evaluates endurance for long-distance continuous flight.' },
+  { idx: '02', name: 'Homing Drive', gene: 'DRD4a / DRD4b', full: 'Dopamine D4 receptor gene', func: 'Involved in the dopamine pathway, affecting focus and homing persistence.', meaning: 'Indicates homing persistence and race stability.' },
+  { idx: '03', name: 'Navigation', gene: 'CRY1', full: 'Cryptochrome (CRY1-AG/AT/TT)', func: 'Involved in circadian rhythm and geomagnetic sensing.', meaning: 'Assesses navigation accuracy for long-distance return.' },
+  { idx: '04', name: 'Muscle Power', gene: 'MSTN', full: 'Myostatin (muscle growth inhibitor)', func: 'Negatively regulates muscle growth, affecting muscle development and burst power.', meaning: 'Evaluates muscle strength and flight speed potential.' },
+  { idx: '05', name: 'Feather Quality', gene: 'F-KER', full: 'Feather keratin gene', func: 'Encodes feather keratin, affecting feather quality and aerodynamics.', meaning: 'Assesses feather quality for efficient flight.' },
+  { idx: '06', name: 'Memory', gene: 'LRP8', full: 'Low-density lipoprotein receptor-related protein 8', func: 'Involved in synaptic plasticity and learning & memory.', meaning: 'Assesses learning and route-memory ability.' },
+  { idx: '07', name: 'Bad-weather Orientation', gene: 'GSR', full: 'Glutathione disulfide reductase gene', func: 'Involved in oxidative stress defense and orientation in bad weather.', meaning: 'Assesses orientation in rain, fog and complex conditions.' },
+  { idx: '08', name: 'Intelligence', gene: 'CASK', full: 'Calcium/calmodulin-dependent serine protein kinase', func: 'Involved in neuronal development and synaptic signaling.', meaning: 'Assesses cognitive learning ability and trainability.' },
+];
+
+const faqJson = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'What age can a pigeon be tested?', acceptedAnswer: { '@type': 'Answer', text: 'Squabs can be tested. Plucking a few breast feathers provides enough DNA — no blood sampling or harm to the bird, ideal for early selection.' } },
+    { '@type': 'Question', name: 'What technology is used?', acceptedAnswer: { '@type': 'Answer', text: 'Molecular amplification techniques (real-time PCR and SNP genotyping) combined with professional bioinformatics analysis to precisely identify flight-related gene variants.' } },
+    { '@type': 'Question', name: 'How do I collect a feather sample?', acceptedAnswer: { '@type': 'Answer', text: 'Wash hands, pluck 4–6 breast feathers, air-dry, place in a clean sealed plastic bag (avoid contaminating the quill end), and mail to the lab as instructed.' } },
+    { '@type': 'Question', name: 'What does the report include?', acceptedAnswer: { '@type': 'Answer', text: 'The report includes each gene result, ability interpretation, and integrated breeding recommendations.' } },
+  ],
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.com/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Flight Ability Test' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
+  <PageBanner title="Racing Pigeon Flight Ability Gene Test" description="Reveal the genetic potential of endurance, homing, navigation, muscle power and intelligence — make talent measurable." breadcrumb="Flight Ability Test" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi max-w-3xl">
+      <h2 class="text-2xl font-bold">What Is Flight Ability Gene Testing?</h2>
+      <p>
+        A racing pigeon&rsquo;s flight ability is not a single trait — it is determined by multiple genetic factors including
+        <b>endurance, speed, navigation, homing, feather quality, memory and cognition</b>. Gene testing reads the DNA loci related
+        to these traits, quantifying &ldquo;talent&rdquo; into comparable indicators for scientific breeding and selection.
+      </p>
+      <p>
+        Sanshi Bio employs internationally advanced detection equipment and a professional bioinformatics team, precisely locating
+        the gene sequences and variants behind flight ability.
+      </p>
+      <h2 class="mt-10 text-2xl font-bold">Sampling</h2>
+      <p>
+        No blood, no harm: pluck <b>4–6 breast feathers</b> for DNA extraction. Squabs can be tested, making it ideal for
+        early breeder selection.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Test Indicators</span>
+        <h2 class="section-title mt-3">8 Flight-Related Genes</h2>
+      </div>
+      <div class="mt-10 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <table class="table-base min-w-[760px]">
+          <thead>
+            <tr>
+              <th class="w-16">#</th>
+              <th class="w-32">Indicator</th>
+              <th class="w-40">Gene</th>
+              <th class="w-64">Full Name</th>
+              <th>Function</th>
+              <th>Significance</th>
+            </tr>
+          </thead>
+          <tbody>
+            {genes.map((g) => (
+              <tr class="hover:bg-brand-50/40">
+                <td class="font-mono text-slate-400">{g.idx}</td>
+                <td class="font-semibold text-slate-900">{g.name}</td>
+                <td class="font-mono text-brand-700">{g.gene}</td>
+                <td class="text-slate-600">{g.full}</td>
+                <td class="text-slate-600">{g.func}</td>
+                <td class="text-slate-600">{g.meaning}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 pb-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">FAQ</h2>
+      <div class="mt-8 space-y-4">
+        {faqJson.mainEntity.map((q) => (
+          <div class="card">
+            <h3 class="font-semibold text-slate-900">{q.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center"><a href="/en/contact" class="btn-primary">Book a Flight Ability Test</a></div>
+    </div>
+  </section>
+</Layout>

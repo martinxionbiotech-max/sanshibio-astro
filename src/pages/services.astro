@@ -48,9 +48,42 @@ const breadcrumbLd = {
     { '@type': 'ListItem', position: 2, name: '检测服务' },
   ],
 };
+
+const serviceJson = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  serviceType: '赛鸽基因检测服务',
+  provider: { '@type': 'Organization', name: '河北三狮生物科技有限公司', url: 'https://sanshibio.com' },
+  areaServed: 'CN',
+  description,
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: '赛鸽检测服务',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '赛鸽基因身份证（58 SNP 位点）' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AB 鸽检测 / DNA 个体识别' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '亲子鉴定' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '幼鸽性别鉴定' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'PCR 检测技术培训' } },
+    ],
+  },
+};
+
+const howToJson = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: '赛鸽基因检测服务流程',
+  description: '三狮生物标准化检测服务流程',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: '咨询下单', text: '确定检测项目并下单' },
+    { '@type': 'HowToStep', position: 2, name: '羽毛采样', text: '拔取4-6根胸腹部羽毛风干' },
+    { '@type': 'HowToStep', position: 3, name: '实验室鉴定', text: 'DNA 提取与基因检测' },
+    { '@type': 'HowToStep', position: 4, name: '出具报告', text: '24小时内客服联系并出报告' },
+  ],
+};
 ---
 
-<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+<Layout title={title} description={description} jsonLd={[serviceJson, howToJson, breadcrumbLd]}>
   <PageBanner title="检测服务" description="从身份确认到血统溯源，从性别鉴定到技术培训，覆盖赛鸽科学育种与赛事管理的全流程检测服务。" breadcrumb="检测服务" />
 
   <section class="container-site py-16">

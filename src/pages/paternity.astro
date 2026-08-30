@@ -34,9 +34,22 @@ const breadcrumbLd = {
     { '@type': 'ListItem', position: 2, name: '亲子鉴定' },
   ],
 };
+
+const howToJson = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: '赛鸽亲子鉴定流程',
+  description: '三狮生物赛鸽亲子鉴定四步流程',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: '咨询下单', text: '确定鉴定对象与项目并下单' },
+    { '@type': 'HowToStep', position: 2, name: '羽毛采样', text: '子代与疑似亲本分别拔取4-6根胸腹部羽毛' },
+    { '@type': 'HowToStep', position: 3, name: '实验室鉴定', text: 'DNA 提取与 58 个 SNP 位点比对' },
+    { '@type': 'HowToStep', position: 4, name: '出具报告', text: '出具含亲权概率的鉴定结论' },
+  ],
+};
 ---
 
-<Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
+<Layout title={title} description={description} jsonLd={[faqJson, howToJson, breadcrumbLd]}>
   <PageBanner title="赛鸽亲子鉴定" description="基于孟德尔遗传定律与 58 个 SNP 基因位点比对，科学确认鸽子之间的亲子关系，为血统认证、育种管理与赛事公平提供权威依据。" breadcrumb="亲子鉴定" />
 
   <!-- 概述 + 原理 -->

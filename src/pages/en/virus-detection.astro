@@ -1,0 +1,103 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Racing Pigeon Virus Detection | 10 Pathogens PCR - Sanshi Bio';
+const description =
+  'Sanshi Bio racing pigeon pathogen detection covers 10 common pathogens — Newcastle disease, herpesvirus, circovirus, adenovirus, poxvirus, Chlamydia psittaci, Salmonella, Trichomonas and more — via real-time PCR early screening.';
+
+const pathogens = [
+  { name: 'Newcastle Disease Virus', type: 'Virus', cat: 'Paramyxovirus', harm: 'Highly contagious, causing respiratory, digestive and neurological signs with high mortality.', note: 'Pre-race & quarantine must-test' },
+  { name: 'Pigeon Herpesvirus', type: 'Virus', cat: 'Herpesvirus', harm: 'Causes upper respiratory infection and conjunctivitis; latent, recurring under stress.', note: 'Latent infection screening' },
+  { name: 'Pigeon Circovirus', type: 'Virus', cat: 'Circovirus', harm: 'Causes immunosuppression, young pigeon disease and poor growth.', note: 'Immune status assessment' },
+  { name: 'Pigeon Adenovirus', type: 'Virus', cat: 'Adenovirus', harm: 'Causes hepatitis and enteritis ("young bird disease"), vomiting and diarrhea.', note: 'Common in young birds' },
+  { name: 'Pigeon Rotavirus', type: 'Virus', cat: 'Rotavirus', harm: 'Causes intestinal infection and diarrhea, especially in squabs.', note: 'Enteric pathogen screening' },
+  { name: 'Pigeon Poxvirus', type: 'Virus', cat: 'Poxvirus', harm: 'Causes cutaneous and mucosal pox lesions, affecting flight and feeding.', note: 'Group-standard PCR available' },
+  { name: 'Chlamydia psittaci', type: 'Bacterium', cat: 'Chlamydia', harm: 'Zoonotic pathogen causing respiratory infection and conjunctivitis; transmissible to humans.', note: 'Zoonotic — key control' },
+  { name: 'Candida albicans', type: 'Fungus', cat: 'Fungus', harm: 'Causes candidiasis (thrush), crop inflammation and oral white plaques.', note: 'Crop/digestive pathogen' },
+  { name: 'Salmonella', type: 'Bacterium', cat: 'Enterobacteriaceae', harm: 'Causes paratyphoid — arthritis, diarrhea, neurological signs; also zoonotic.', note: 'Zoonotic — key control' },
+  { name: 'Trichomonas', type: 'Protozoan', cat: 'Protozoa', harm: 'Causes trichomoniasis — yellow-white oral plaques and indigestion; passed via crop milk.', note: 'Common parasite, test regularly' },
+];
+
+const faqJson = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'What method is used?', acceptedAnswer: { '@type': 'Answer', text: 'Real-time PCR (qPCR) with high sensitivity and specificity, enabling early detection of asymptomatic infections.' } },
+    { '@type': 'Question', name: 'What sample is needed?', acceptedAnswer: { '@type': 'Answer', text: 'Oral swab, cloacal swab or feather samples, collected and shipped per customer-service instructions.' } },
+    { '@type': 'Question', name: 'When should I test?', acceptedAnswer: { '@type': 'Answer', text: 'Before races, quarantine of new birds, before breeding, and when the flock shows abnormal signs.' } },
+  ],
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.com/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Virus Detection' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[faqJson, breadcrumbLd]}>
+  <PageBanner title="Racing Pigeon Virus & Pathogen Detection" description="Real-time PCR early screening for 10 common pathogens — detect early, isolate early, control early." breadcrumb="Virus Detection" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi max-w-3xl">
+      <h2 class="text-2xl font-bold">Why Pathogen Detection Matters</h2>
+      <p>
+        Infectious disease is the &ldquo;invisible killer&rdquo; of racing performance. Many pathogens (herpesvirus, circovirus)
+        stay <b>latent</b> — the flock looks healthy while continuously shedding. Real-time PCR detects pathogen nucleic acid
+        <b>before obvious symptoms appear</b>, far more sensitive and specific than conventional culture or microscopy.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Detection Panel</span>
+        <h2 class="section-title mt-3">10 Common Pathogens</h2>
+      </div>
+      <div class="mt-10 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <table class="table-base min-w-[720px]">
+          <thead>
+            <tr>
+              <th class="w-36">Pathogen</th>
+              <th class="w-20">Type</th>
+              <th class="w-28">Class</th>
+              <th>Main Harm</th>
+              <th class="w-40">Control Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            {pathogens.map((p) => (
+              <tr class="hover:bg-brand-50/40">
+                <td class="font-semibold text-slate-900">{p.name}</td>
+                <td><span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">{p.type}</span></td>
+                <td class="text-slate-600">{p.cat}</td>
+                <td class="text-slate-600">{p.harm}</td>
+                <td class="text-sm text-brand-700">{p.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 pb-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">FAQ</h2>
+      <div class="mt-8 space-y-4">
+        {faqJson.mainEntity.map((q) => (
+          <div class="card">
+            <h3 class="font-semibold text-slate-900">{q.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center"><a href="/en/contact" class="btn-primary">Book a Pathogen Test</a></div>
+    </div>
+  </section>
+</Layout>

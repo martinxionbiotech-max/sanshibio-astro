@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Racing Pigeon Paternity Test | DNA Parentage Verification - Sanshi Bio';
+const description =
+  'Sanshi Bio racing pigeon paternity testing confirms parent-offspring relationships via 58 SNP loci, computing paternity index and combined probability for bloodline certification, breeding management and race eligibility verification.';
+
+const scenarios = [
+  { icon: '🪪', name: 'Bloodline Certification', desc: 'Verify the authenticity of champion bloodlines and prevent fake pedigrees.' },
+  { icon: '🐣', name: 'Breeding Management', desc: 'Confirm pair breeding results and prevent cross-breeding errors.' },
+  { icon: '🏆', name: 'Race Eligibility', desc: 'Verify the bloodline of race entries to ensure fairness.' },
+  { icon: '📦', name: 'Import Traceability', desc: 'Confirm the bloodline origin of newly acquired breeding birds.' },
+  { icon: '🌳', name: 'Pedigree Building', desc: 'Build a reliable, traceable pedigree for a new pigeon line.' },
+  { icon: '🛡️', name: 'Anti-substitution', desc: 'Prevent same-name and substitution fraud in trade and competition.' },
+];
+
+const faqJson = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'What sample is needed for paternity testing?', acceptedAnswer: { '@type': 'Answer', text: 'Pluck 4–6 breast feathers from both the offspring and the suspected parent(s), air-dry, and ship in clean sealed bags.' } },
+    { '@type': 'Question', name: 'Can I test with only one parent?', acceptedAnswer: { '@type': 'Answer', text: 'Yes — single-parent testing is possible. Providing both parents yields a higher confirmation probability.' } },
+    { '@type': 'Question', name: 'How accurate is the test?', acceptedAnswer: { '@type': 'Answer', text: 'Using 58 highly polymorphic SNP loci, exclusions are definitive and confirmations reach over 99.99% combined probability.' } },
+  ],
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.com/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Paternity Test' },
+  ],
+};
+
+const howToJson = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'Racing Pigeon Paternity Test Process',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: 'Order', text: 'Confirm the subjects and project, then order.' },
+    { '@type': 'HowToStep', position: 2, name: 'Feather Sampling', text: 'Pluck 4–6 breast feathers from offspring and suspected parent(s).' },
+    { '@type': 'HowToStep', position: 3, name: 'Lab Analysis', text: 'DNA extraction and 58-SNP-locus comparison.' },
+    { '@type': 'HowToStep', position: 4, name: 'Report', text: 'Issue a conclusion with paternity probability.' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[faqJson, howToJson, breadcrumbLd]}>
+  <PageBanner title="Racing Pigeon Paternity Test" description="Scientifically confirm parent–offspring relationships via 58 SNP loci for bloodline certification, breeding management and race fairness." breadcrumb="Paternity Test" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi max-w-3xl">
+      <h2 class="text-2xl font-bold">The Science of Paternity Testing</h2>
+      <p>
+        Based on <b>Mendelian inheritance</b> — offspring inherit half their genes from each parent. Testing compares alleles at
+        multiple highly polymorphic <b>SNP loci</b> between offspring and suspected parents:
+      </p>
+      <ul class="list-disc pl-5 space-y-2 text-slate-600">
+        <li><b>Exclusion:</b> if a suspected parent lacks an allele the offspring must inherit, parentage is excluded.</li>
+        <li><b>Confirmation:</b> if all alleles match, a <b>Paternity Index (PI)</b> and <b>Combined Probability</b> are computed to confirm parentage.</li>
+      </ul>
+      <p>Sanshi Bio uses <b>58 exclusive SNP loci</b> for higher accuracy and reliability.</p>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Applications</span>
+        <h2 class="section-title mt-3">Six Use Cases</h2>
+      </div>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {scenarios.map((s) => (
+          <div class="card">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">{s.icon}</span>
+              <h3 class="font-semibold text-slate-900">{s.name}</h3>
+            </div>
+            <p class="mt-2 text-sm text-slate-600">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 pb-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">FAQ</h2>
+      <div class="mt-8 space-y-4">
+        {faqJson.mainEntity.map((q) => (
+          <div class="card">
+            <h3 class="font-semibold text-slate-900">{q.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center"><a href="/en/contact" class="btn-primary">Book a Paternity Test</a></div>
+    </div>
+  </section>
+</Layout>

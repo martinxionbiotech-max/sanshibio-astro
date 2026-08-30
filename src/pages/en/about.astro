@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'About Us | Hebei Sanshi Biotechnology Co., Ltd.';
+const description =
+  'Hebei Sanshi Biotechnology, located in Shijiazhuang International Biomedical Industrial Park and founded by a National Major Talent Program selectee, focuses on animal & plant gene detection and AI-assisted breeding.';
+
+const facts = [
+  ['Company Name', 'Hebei Sanshi Biotechnology Co., Ltd.'],
+  ['Credit Code', '91130101MA0CP9WN05'],
+  ['Founded', 'September 2018'],
+  ['Type', 'High-tech enterprise (founded by a National Major Talent Program selectee)'],
+  ['Registered Capital', 'RMB 3 million'],
+  ['Certification', 'ISO9001 quality system'],
+  ['Scale', '300+ products'],
+  ['IP', '22 patents · 4 trademarks · 2 software copyrights'],
+  ['Address', 'Room 702, Building A-5, Guoxietang High-end Medical Device Industrial Park, No.509 Taihang South Street, Shijiazhuang Hi-tech Zone, Hebei, China'],
+];
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.com/en/' },
+    { '@type': 'ListItem', position: 2, name: 'About Us' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="About Sanshi Bio" description="A gene-detection pioneer in animal & plant molecular diagnostics and AI-assisted breeding" breadcrumb="About Us" />
+
+  <section class="container-site py-16">
+    <div class="grid items-center gap-12 lg:grid-cols-2">
+      <div class="prose-sanshi">
+        <h2 class="text-2xl font-bold">Company Profile</h2>
+        <p>
+          Hebei Sanshi Biotechnology Co., Ltd. is located in Shijiazhuang International Biomedical Industrial Park, founded by a
+          <b>National Major Talent Program</b> selectee. The company focuses on <b>animal & plant gene detection</b> and
+          <b>AI-assisted breeding</b>, providing intelligent, standardized gene testing and breeding solutions.
+        </p>
+        <p>
+          Sanshi Bio has built an integrated industrial layout of <b>equipment & reagent manufacturing, intelligent data model
+          development, and lab construction & training</b>, with ISO9001 certification and 300+ products spanning food safety,
+          animal & plant testing, gene breeding and biomanufacturing.
+        </p>
+      </div>
+      <div>
+        <img src="/images/company-intro.png" alt="Sanshi Bio company introduction" class="w-full rounded-2xl border border-slate-200 shadow-sm" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Expertise</span>
+        <h2 class="section-title mt-3">Quality System & Technical Team</h2>
+      </div>
+      <div class="mt-10 grid gap-8 md:grid-cols-2">
+        <div class="card">
+          <h3 class="text-lg font-semibold text-slate-900">🔬 Standardized Quality System</h3>
+          <ul class="mt-4 space-y-2 text-sm text-slate-600">
+            <li class="flex gap-2"><span class="text-brand-600">•</span>Standardized nucleic-acid testing production & quality control</li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span>ISO9001 quality system certification</li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span>Automated, standardized workflows for stable, reproducible results</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="text-lg font-semibold text-slate-900">🧬 Technical Strength</h3>
+          <ul class="mt-4 space-y-2 text-sm text-slate-600">
+            <li class="flex gap-2"><span class="text-brand-600">•</span>Internationally advanced gene detection equipment</li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span>NGS + real-time PCR + SNP genotyping</li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span>58 exclusive SNP loci for individual identification</li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span>AI breeding & bioinformatics models</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 pb-16">
+    <div class="container-site max-w-3xl">
+      <h2 class="section-title text-center">Company Information</h2>
+      <div class="mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <table class="table-base">
+          <tbody>
+            {facts.map(([k, v]) => (
+              <tr>
+                <td class="w-40 font-semibold text-slate-700">{k}</td>
+                <td class="text-slate-600">{v}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</Layout>

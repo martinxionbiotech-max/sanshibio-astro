@@ -1,0 +1,92 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Services | Gene ID · AB Pigeon · Paternity · Sexing - Sanshi Bio';
+const description =
+  'Sanshi Bio racing pigeon services: gene ID card (58 SNP loci), AB pigeon detection, paternity testing, young-bird sexing, and PCR training — covering identity, bloodline and breeding management.';
+
+const services = [
+  { icon: '🪪', name: 'Gene ID Card', points: ['Next-generation sequencing — fast, precise, efficient', '58 exclusive SNP loci (57 SNP + sex locus)', 'Automated workflow from a single feather sample', 'A unique, traceable genetic identity for each pigeon'], desc: 'Establish a unique genetic identity for every pigeon, for identification, anti-cheating, registration and bloodline management.' },
+  { icon: '🧬', name: 'AB Pigeon / DNA Identification', points: ['58-locus individual identification', 'Kinship and AB pigeon identification', 'Scientific, efficient and stable individual ID', 'Especially for confirming identity in races'], desc: 'Identify individual pigeons via multi-locus comparison to prevent "AB pigeon" (same-name substitution) cheating and ensure fairness.' },
+  { icon: '👨‍👩‍👧', name: 'Paternity Test', points: ['58-SNP-locus parentage comparison', 'Paternity index & combined probability', 'Bloodline certification & breeding management'], desc: 'Confirm parent–offspring relationships via Mendelian inheritance for bloodline certification and breeding records.' },
+  { icon: '♂♀', name: 'Young-bird Sexing', points: ['Accurate sexing of young birds', 'Gene-based, highly reliable', 'Early pairing & retention planning'], desc: 'Determine gender of young birds precisely via sex-gene testing, avoiding visual misjudgment.' },
+  { icon: '🎓', name: 'PCR Training', points: ['For fanciers and equipment owners', 'Master the workflow, improve efficiency', 'Avoid operational errors'], desc: 'Sanshi Bio runs PCR testing training courses to help fanciers systematically master laboratory operations.' },
+];
+
+const serviceJson = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  serviceType: 'Racing Pigeon Gene Testing Services',
+  provider: { '@type': 'Organization', name: 'Hebei Sanshi Biotechnology Co., Ltd.', url: 'https://sanshibio.com' },
+  areaServed: 'Worldwide',
+  description,
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Racing Pigeon Testing Services',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Pigeon Gene ID Card (58 SNP loci)' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AB Pigeon / DNA Identification' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Paternity Test' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Young-bird Sexing' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'PCR Training' } },
+    ],
+  },
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.com/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Services' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[serviceJson, breadcrumbLd]}>
+  <PageBanner title="Services" description="From identity to bloodline, sexing to training — full-process testing services for scientific breeding and race management." breadcrumb="Services" />
+
+  <section class="container-site py-16">
+    <div class="grid gap-6 md:grid-cols-2">
+      {services.map((s) => (
+        <div class="card">
+          <div class="flex items-center gap-3">
+            <span class="text-3xl">{s.icon}</span>
+            <h2 class="text-xl font-semibold text-slate-900">{s.name}</h2>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">{s.desc}</p>
+          <ul class="mt-4 space-y-2">
+            {s.points.map((p) => (
+              <li class="flex gap-2 text-sm text-slate-600"><span class="text-brand-600">✓</span>{p}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-16">
+    <div class="container-site">
+      <div class="text-center">
+        <span class="badge">Process</span>
+        <h2 class="section-title mt-3">Standard Service Process</h2>
+      </div>
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          ['1', 'Order', 'Choose your test and order'],
+          ['2', 'Sampling', 'Pluck 4–6 breast feathers and air-dry'],
+          ['3', 'Lab Analysis', 'DNA extraction & testing'],
+          ['4', 'Report', 'Report delivered within days'],
+        ].map(([n, t, d]) => (
+          <div class="card text-center">
+            <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">{n}</div>
+            <h3 class="mt-3 font-semibold text-slate-900">{t}</h3>
+            <p class="mt-2 text-sm text-slate-500">{d}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-10 text-center"><a href="/en/contact" class="btn-primary">Consult a Service</a></div>
+    </div>
+  </section>
+</Layout>

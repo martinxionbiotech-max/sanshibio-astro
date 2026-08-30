@@ -12,8 +12,15 @@ interface Props {
 
 const { title, description, jsonLd = [], ogImage = '/images/banner-home.png' } = Astro.props;
 
-const siteName = '河北三狮生物科技有限公司';
+const lang = Astro.currentLocale ?? 'zh';
+const isEn = lang === 'en';
+
+const siteName = isEn ? 'Hebei Sanshi Biotechnology Co., Ltd.' : '河北三狮生物科技有限公司';
 const canonical = new URL(Astro.url.pathname, Astro.site);
+
+const pathname = Astro.url.pathname;
+const zhPath = pathname.replace(/^\/en/, '') || '/';
+const enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/' : `/en${pathname}`);
 
 const orgSchema = {
   '@context': 'https://schema.org',
@@ -41,12 +48,10 @@ const orgSchema = {
     },
   ],
 };
-
-
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang={isEn ? 'en' : 'zh-CN'}>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -55,6 +60,9 @@ const orgSchema = {
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="zh-CN" href={new URL(zhPath, Astro.site)} />
+    <link rel="alternate" hreflang="en" href={new URL(enPath, Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL(zhPath, Astro.site)} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={title} />
@@ -75,7 +83,5 @@ const orgSchema = {
     <main><slot /></main>
 
     <Footer />
-
-
   </body>
 </html>
