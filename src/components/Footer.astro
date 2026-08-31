@@ -7,6 +7,7 @@ const t = isEn
   ? {
       about: 'Hebei Sanshi Biotechnology Co., Ltd. — a high-tech enterprise focused on gene detection technology, specializing in animal & plant genetic testing and AI-assisted breeding, providing integrated "equipment + reagents + training" molecular testing solutions for the racing pigeon industry.',
       navTitle: 'Quick Links',
+      subsitesTitle: 'Knowledge Network',
       contactTitle: 'Contact Us',
       flight: 'Flight Ability Test',
       virus: 'Virus Detection',
@@ -24,6 +25,7 @@ const t = isEn
   : {
       about: '河北三狮生物科技有限公司——以基因检测技术为核心的高新技术企业，专注动植物基因检测与 AI 基因育种，为赛鸽行业提供「设备 + 试剂 + 培训」一体化分子检测解决方案。',
       navTitle: '快速导航',
+      subsitesTitle: '旗下知识库',
       contactTitle: '联系我们',
       flight: '飞行能力基因检测',
       virus: '赛鸽病毒检测',
@@ -38,11 +40,25 @@ const t = isEn
       addr: '地址：石家庄高新区太行南大街509号国械堂高端医疗器械产业园A-5栋702室',
       copyright: '© {year} 河北三狮生物科技有限公司',
     };
+
+const subsites = isEn
+  ? [
+      { name: 'Pathogen Encyclopedia', desc: 'Pigeon pathogen prevention', url: 'https://pathogens.sanshibio.net/' },
+      { name: 'Flight Gene Library', desc: 'Flight-ability gene details', url: 'https://genes.sanshibio.net/' },
+      { name: 'Breeding & Pedigree Library', desc: 'Pedigree & breeding', url: 'https://breeding.sanshibio.net/' },
+      { name: 'Detection Laboratory', desc: 'Molecular testing technology', url: 'https://lab.sanshibio.net/' },
+    ]
+  : [
+      { name: '病原体百科', desc: '赛鸽常见病原防控', url: 'https://pathogens.sanshibio.net/' },
+      { name: '飞行基因库', desc: '飞行能力基因详解', url: 'https://genes.sanshibio.net/' },
+      { name: '育种血统库', desc: '血统鉴定与育种', url: 'https://breeding.sanshibio.net/' },
+      { name: '检测实验室', desc: '分子检测技术', url: 'https://lab.sanshibio.net/' },
+    ];
 ---
 
 <footer class="mt-20 border-t border-slate-200 bg-gradient-to-b from-slate-50 to-white">
   <div class="container-site py-12 lg:py-16">
-    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
       <div class="lg:col-span-2">
         <img src="/images/logo.png" alt="Sanshi Bio" class="mb-4 h-9 w-auto" />
         <p class="max-w-xl text-sm leading-relaxed text-slate-600">{t.about}</p>
@@ -60,9 +76,22 @@ const t = isEn
         </ul>
       </div>
       <div>
+        <h4 class="mb-3 text-sm font-semibold text-slate-900">{t.subsitesTitle}</h4>
+        <ul class="space-y-3 text-sm text-slate-600">
+          {subsites.map((s) => (
+            <li>
+              <a href={s.url} target="_blank" rel="noopener" class="group block transition hover:text-brand-700">
+                <span class="inline-flex items-center gap-1.5 font-medium text-slate-700 group-hover:text-brand-700"><span class="text-brand-300">›</span>{s.name}</span>
+                <span class="mt-0.5 block text-xs text-slate-400">{s.desc}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
         <h4 class="mb-3 text-sm font-semibold text-slate-900">{t.contactTitle}</h4>
         <ul class="space-y-2.5 text-sm text-slate-600">
-          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span><a href="tel:+8615612372623" class="transition hover:text-brand-700">{t.tel}</a></li>
+          <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span><a href="tel:+861****2623" class="transition hover:text-brand-700">{t.tel}</a></li>
           <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✆</span><a href="https://wa.me/8613323237275" target="_blank" rel="noopener" class="transition hover:text-brand-700">{t.whatsapp}</a></li>
           <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">✉</span><a href="mailto:martin@senobiocorp.com" class="transition hover:text-brand-700">{t.email}</a></li>
           <li class="flex items-start gap-2"><span class="mt-0.5 text-brand-500">⌂</span><span class="leading-relaxed">{t.addr}</span></li>
