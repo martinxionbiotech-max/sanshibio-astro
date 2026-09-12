@@ -69,6 +69,12 @@ author: 三狮生物分子诊断技术团队
 ### 单眼伤风反复发作怎么办？
 反复发作提示可能存在慢性感染或混合感染，建议做[病原检测](/virus-detection/)明确病原，结合药敏试验在兽医指导下规范治疗，并加强鸽舍卫生与通风。
 
+## 参考资料
+
+- [鹦鹉热 — 维基百科](https://en.wikipedia.org/wiki/Psittacosis)
+- [鹦鹉热衣原体 — 维基百科](https://en.wikipedia.org/wiki/Chlamydia_psittaci)
+- [支原体 — 维基百科](https://en.wikipedia.org/wiki/Mycoplasma)
+
 ---
 
 > ⚠️ **免责声明**：本文内容仅为科普参考，不构成诊疗或用药建议。赛鸽疾病的诊断与用药请务必咨询专业兽医，切勿自行用药。如需病原检测，请联系三狮生物分子诊断技术团队：微信 15612372623 / 邮箱 martin@senobiocorp.com。

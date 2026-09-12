@@ -96,6 +96,12 @@ tags: [沙门氏菌, 副伤寒, 鸽病, 人畜共患]
 | T. gallinae | 鸽毛滴虫 | Trichomonas gallinae | 毛滴虫属 |
 | C. albicans | 白色念珠菌 | Candida albicans | 念珠菌属 |
 
+## 相关阅读
+
+- [赛鸽沙门氏菌怎么预防](/blog/salmonella-prevention/)
+- [鸽子拉绿便是什么病](/blog/green-droppings/)
+- [鸽子消瘦怎么回事](/blog/pigeon-weight-loss/)
+
 ## 参考资料
 
 - [Salmonelloses in Poultry — MSD Veterinary Manual](https://www.msdvetmanual.com/poultry/salmonelloses/salmonelloses-in-poultry)

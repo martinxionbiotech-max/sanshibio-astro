@@ -2,7 +2,7 @@
 title: 赛鸽免疫抗体水平检测：疫苗效果的科学评估
 description: 讲解赛鸽免疫抗体检测的原理与应用，说明如何通过抗体滴度评估疫苗免疫效果、确定最佳补免时机，实现鸽群精准免疫管理。
 pubDate: 2026-07-20
-category: 病毒检测
+category: 病毒防控
 tags: [抗体检测, 免疫评估, 疫苗, 抗体滴度]
 ---
 
@@ -99,6 +99,12 @@ tags: [抗体检测, 免疫评估, 疫苗, 抗体滴度]
 | Mycoplasma | 支原体 | Mycoplasma | 支原体科 |
 | T. gallinae | 鸽毛滴虫 | Trichomonas gallinae | 毛滴虫属 |
 | C. albicans | 白色念珠菌 | Candida albicans | 念珠菌属 |
+
+## 相关阅读
+
+- [赛鸽疫苗打完几天可以训放](/blog/vaccine-training-gap/)
+- [赛鸽新城疫](/blog/newcastle-disease-control/)
+- [赛鸽禽流感筛查](/blog/avian-influenza-screening/)
 
 ## 参考资料
 

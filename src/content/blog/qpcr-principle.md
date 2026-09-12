@@ -2,7 +2,7 @@
 title: 荧光定量PCR(qPCR)原理与赛鸽病原检测应用
 description: 深入讲解实时荧光定量PCR的技术原理、Ct值与阴阳性判读逻辑，以及其在赛鸽病毒载量评估、病原筛查中的核心应用价值。
 pubDate: 2026-07-17
-category: 检测技术
+category: 检测指南
 tags: [qPCR, 荧光定量, Ct值, 病毒载量]
 ---
 
@@ -110,6 +110,12 @@ SYBR 成本低、适合初筛，但特异性依赖引物；TaqMan 特异性高�
 | 探针 | Probe | 带荧光标记的特异性检测序列 |
 | 多重 PCR | Multiplex PCR | 一次反应同时检测多种病原 |
 | 扩增效率 | Amplification efficiency | 反映每个循环扩增倍数，90–110% 正常 |
+
+## 相关阅读
+
+- [赛鸽分子检测试剂盒全系列](/blog/reagent-kit-overview/)
+- [赛鸽基因检测实验室设备配置指南](/blog/lab-equipment-guide/)
+- [赛鸽采样送检全流程指南](/blog/sample-collection-guide/)
 
 ## 参考资料
 

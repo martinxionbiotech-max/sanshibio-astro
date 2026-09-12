@@ -71,6 +71,12 @@ author: 三狮生物分子诊断技术团队
 ### 鸽子消瘦怎么检测？
 采集咽部拭子、泄殖腔拭子或新鲜粪便送检，可一次性筛查毛滴虫、球虫、沙门氏菌、圆环病毒等多种病原。具体见[采样送检全流程](/blog/sample-collection-guide/)。
 
+## 参考资料
+
+- [鸽毛滴虫 — 维基百科](https://en.wikipedia.org/wiki/Trichomonas_gallinae)
+- [Salmonelloses in Poultry — MSD Veterinary Manual](https://www.msdvetmanual.com/poultry/salmonelloses/salmonelloses-in-poultry)
+- [鸽圆环病毒在单鸽舍鸽群中的重组动态 — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8224587)
+
 ---
 
 > ⚠️ **免责声明**：本文内容仅为科普参考，不构成诊疗或用药建议。赛鸽疾病的诊断与用药请务必咨询专业兽医，切勿自行用药。如需病原检测，请联系三狮生物分子诊断技术团队：微信 15612372623 / 邮箱 martin@senobiocorp.com。

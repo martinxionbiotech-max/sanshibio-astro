@@ -77,6 +77,12 @@ author: 三狮生物分子诊断技术团队
 ### 绿便怎么采样送检？
 采集新鲜泄殖腔拭子或粪便，装入无菌保存管，按冷藏要求尽快寄出。具体操作见[采样送检全流程](/blog/sample-collection-guide/)。
 
+## 参考资料
+
+- [新城疫 — 世界动物卫生组织(WOAH)](https://www.woah.org/en/disease/newcastle-disease/)
+- [Salmonelloses in Poultry — MSD Veterinary Manual](https://www.msdvetmanual.com/poultry/salmonelloses/salmonelloses-in-poultry)
+- [鸽圆环病毒在单鸽舍鸽群中的重组动态 — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8224587)
+
 ---
 
 > ⚠️ **免责声明**：本文内容仅为科普参考，不构成诊疗或用药建议。赛鸽疾病的诊断与用药请务必咨询专业兽医，切勿自行用药。如需病原检测，请联系三狮生物分子诊断技术团队：微信 15612372623 / 邮箱 martin@senobiocorp.com。

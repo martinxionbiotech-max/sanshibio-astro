@@ -8,15 +8,15 @@ tags: [green droppings, adenovirus, Salmonella, digestive signs]
 
 # Pigeon Green Droppings Causes
 
-> **TL;DR**: Green droppings in a pigeon do not equal one specific disease. They may be a physiological sign of hunger or stress, or a signal of adenovirus, Salmonella, Newcastle disease and more. The key is the form of the droppings, the accompanying signs, and **pathogen testing** to confirm the cause before treating.
+> **Short answer**: Green droppings in a pigeon do not equal one specific disease. The green comes from **unabsorbed bile**, and it can be a harmless hunger/stress sign or a marker of adenovirus, Salmonella or Newcastle disease — the last of which can kill **~40% of an infected flock**. The discriminator is not color but **form, duration and accompanying signs**, confirmed by pathogen testing before any treatment.
 
-"What disease causes a pigeon to pass green droppings?" is one of the most common questions in pigeon circles. Many fanciers panic at the first green dropping, but the causes are actually complex — **both physiological and pathological**.
+"What disease causes a pigeon to pass green droppings?" is one of the most common questions in pigeon circles. Many fanciers panic at the first green dropping, but the causes are actually complex — **both physiological and pathological**. The single most useful thing to internalize is that green is a *signal*, not a *diagnosis*: the same color appears in a hungry bird recovering from a long toss and in a bird with fatal Newcastle disease.
 
 ## Where Green Droppings Come From
 
 The green color in pigeon droppings comes mainly from **bile**, produced by the liver to help digest fat. Normally bile is broken down and used in the intestine, so droppings are gray-brown. When a pigeon **eats less or its digestion is abnormal**, bile is not fully used and passes out with the feces, giving a green color.
 
-So green droppings themselves are only a "signal," suggesting the bird may be hungry, stressed or suffering a digestive disturbance.
+So green droppings themselves are only a "signal," suggesting the bird may be hungry, stressed or suffering a digestive disturbance. The reason bile stays green is that it is not being reabsorbed and metabolized — which can happen because there is simply no food in the gut (physiological) or because the gut lining or liver is diseased (pathological).
 
 ## Common Cause Categories
 
@@ -24,7 +24,7 @@ So green droppings themselves are only a "signal," suggesting the bird may be hu
 |------|--------------|-------------------------|--------------------|
 | Physiological | Hunger, fasting, training stress | Small amount, formed, dark green | Normal demeanor, improves after resuming feeding |
 | Bacterial | Salmonella (paratyphoid) | Loose, foamy or mucoid | Diarrhea, wasting, swollen joints |
-| Viral | Adenovirus, Newcastle disease | Watery green, large volume | Vomiting, fever, lethargy |
+| Viral | Adenovirus, Newcastle disease | Watery green, large volume | Vomiting, fever, lethargy, neurological signs |
 | Parasitic | Coccidia, Trichomonas | Pasty or blood-streaked | Wasting, poor appetite |
 | Liver problems | Impaired liver function | Persistent yellow-green, oily | Wasting, ascites |
 
@@ -38,12 +38,16 @@ But watch for pathological green droppings when:
 - Feces are **watery, foul-smelling, mucoid or blood-streaked**
 - Accompanied by **vomiting, fever, ruffled feathers, closed eyes or wasting**
 
+The 24-hour rule is the practical line: a bird that fasted for a day and produces a few formed green droppings before eating normally is very different from a bird producing watery green droppings hour after hour. Duration and form, not color, separate the two.
+
 ## The Common "Culprits" of Pathological Green Droppings
 
-1. **Adenovirus**: often causes "vomiting and watery green droppings" in young pigeons and is highly contagious — see [Pigeon Circovirus and Adenovirus](/en/blog/pigeon-circovirus-adenovirus/).
+1. **Adenovirus**: often causes "vomiting and watery green droppings" in young pigeons (chiefly 3–5 months old) and is highly contagious — see [Pigeon Circovirus and Adenovirus](/en/blog/pigeon-circovirus-adenovirus/).
 2. **Salmonella**: green droppings often foamy and mucoid, sometimes with swollen joints and neurological signs — see [Pigeon Salmonella (Paratyphoid)](/en/blog/salmonella-paratyphoid/).
-3. **Newcastle disease**: watery green droppings with neurological signs — serious and must not be ignored.
+3. **Newcastle disease**: watery green droppings with neurological signs — serious and must not be ignored. Field mortality is commonly **~40%**, and severe outbreaks reach **80–90%** ([MSD Veterinary Manual](https://www.msdvetmanual.com/poultry/newcastle-disease-and-other-avian-paramyxovirus-infections/newcastle-disease-in-poultry)).
 4. **Trichomonas/Coccidia**: intestinal parasites cause poor digestion and absorption, leading to wasting and green droppings.
+
+The key discriminator among the "big three" is what accompanies the green: adenovirus pairs with vomiting in young birds, Salmonella with wasting and joint signs, Newcastle with neurological signs (head tilt, circling). None of these can be reliably distinguished by eye — that is what testing is for.
 
 ## A Scientific Response: Test Before Treating
 
@@ -55,6 +59,14 @@ Green droppings have many causes and overlapping signs, and **blind medication i
 4. **Isolate and disinfect**: isolate sick birds, clean and disinfect the loft to prevent cross-infection.
 
 > 💡 Tip: do not rush to "suppress the symptom with medicine." Run [pathogen detection](/en/virus-detection/) first to identify which pathogen is responsible — targeted treatment is the only effective approach. See the [pathogen encyclopedia](https://pathogens.sanshibio.net/) for more.
+
+## The Author's Take
+
+**Position**: In my view, the worst thing a fancier can do with a green dropping is reach for an antibiotic "just in case" — because the single most common cause is physiological (hunger/stress), and the antibiotic both fails on the viral causes and can trigger a Candida overgrowth on top of the original problem.
+
+**Reasoning**: First, green is a bile signal, not a pathogen ID — a hungry bird and a Newcastle case share the color but not the urgency, so the response must be diagnosis, not reflex. Second, the causes split three ways (physiological, viral, bacterial/parasitic) with different treatments, and an antibiotic only covers one branch. Third, the 24-hour/form/companion-signs framework costs nothing and reliably separates the "wait and watch" cases from the "test now" cases. The sequence is observe, test, then treat — never treat, then wonder.
+
+**Disclosure**: This is my editorial judgment based on the clinical presentation of these pathogens, not a claim that every green dropping resolves without treatment. Persistent or worsening signs should be tested promptly.
 
 ## FAQ
 
@@ -82,10 +94,12 @@ Collect a fresh cloacal swab or feces into a sterile storage tube and ship it ch
 2. Physiological green droppings are small, formed and resolve after feeding — no medication needed.
 3. Pathological green droppings persist and often come with vomiting, fever and wasting.
 4. Adenovirus, Salmonella, Newcastle disease and parasites can all cause green droppings.
-5. Test first to identify the pathogen, then treat under veterinary guidance — never medicate blindly.
+5. Newcastle disease — the most serious cause — kills ~40% of infected flocks, up to 80–90% in severe cases.
+6. Test first to identify the pathogen, then treat under veterinary guidance — never medicate blindly.
 
 ## References
 
+- [Newcastle Disease in Poultry — MSD Veterinary Manual](https://www.msdvetmanual.com/poultry/newcastle-disease-and-other-avian-paramyxovirus-infections/newcastle-disease-in-poultry)
 - [Newcastle disease — Wikipedia](https://en.wikipedia.org/wiki/Newcastle_disease)
 - [Salmonella — Wikipedia](https://en.wikipedia.org/wiki/Salmonella)
 

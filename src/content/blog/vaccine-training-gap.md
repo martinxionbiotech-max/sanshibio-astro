@@ -94,6 +94,12 @@ author: 三狮生物分子诊断技术团队
 4. 弱毒苗与灭活苗、首免与加强免疫的节奏不同。
 5. 用抗体滴度检测确认疫苗是否真正起效——「打了」不等于「有效」。
 
+## 相关阅读
+
+- [赛鸽免疫抗体水平检测](/blog/antibody-titer-test/)
+- [赛鸽新城疫](/blog/newcastle-disease-control/)
+- [赛鸽采样送检全流程指南](/blog/sample-collection-guide/)
+
 ## 参考资料
 
 - [新城疫 — 维基百科](https://en.wikipedia.org/wiki/Newcastle_disease)

@@ -103,6 +103,12 @@ author: 三狮生物分子诊断技术团队
 ### 性别鉴定需要采血吗？
 不需要。拔取胸腹部羽毛即可，无创、操作简单，避免采血带来的应激与损伤。
 
+## 相关阅读
+
+- [幼鸽性别鉴定](/blog/pigeon-sex-identification/)
+- [赛鸽亲子鉴定全指南](/blog/paternity-test-guide/)
+- [赛鸽基因身份证详解](/blog/gene-id-card-guide/)
+
 ## 参考资料
 
 - [CHD1 — 维基百科](https://en.wikipedia.org/wiki/CHD1)

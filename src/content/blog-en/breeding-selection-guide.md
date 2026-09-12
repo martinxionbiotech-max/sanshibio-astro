@@ -8,7 +8,7 @@ tags: [breeding, selection, gene testing, pairing]
 
 # Racing Pigeon Breeding & Selection Guide
 
-> **TL;DR**: Scientific selection is the core of performance improvement. This guide covers how gene testing combines with traditional selection for data-driven breeding.
+> **TL;DR**: Scientific selection combines **gene testing data with race results and experience** — never genes alone. The payoff is speed: racing pigeons have a short generation cycle, so trait improvement from gene-guided pairing typically shows within **1–2 generations (~1–2 years)**, versus the multi-generation guesswork of selection by race results alone.
 
 Racing pigeon breeding is "art + science". Traditionally, fanciers rely on race results, pedigrees and experience; today, **gene testing** adds scientific evidence. This article explains how to combine the two for precise, data-driven selection.
 
@@ -26,6 +26,17 @@ Traditional selection has served fanciers for generations, but it carries struct
 Each weakness costs time and money. The longer you wait for race results to "prove" a bird, the slower your loft improves — and a forged pedigree can quietly corrupt an entire breeding program.
 
 Gene testing addresses each of these weaknesses directly. A flight-ability panel reads a squab's genetic potential before it has ever raced, collapsing the long verification cycle; an objective genotype replaces the fancier's subjective eye; DNA parentage makes pedigree fraud detectable; and early testing removes the talent blind spot by quantifying traits that are invisible in a young bird. Used together, they turn selection from a slow, guesswork-heavy process into a data-driven one.
+
+## What the Genes Can and Cannot Give You
+
+Before building a method on gene data, be clear-eyed about what the data is. The flight-ability genes — LDHA for endurance, DRD4 for homing, CRY1 for navigation, and the rest — are **candidate genes** whose links to performance come from association studies. Researchers observed that certain variants occur more often in high-performing birds, which means a "good" genotype is a *statistical edge*, not a guarantee.
+
+This matters for selection strategy in two ways:
+
+1. **It is heritable, so it compounds.** Because the variants are passed on, selecting for them shifts the flock's average over generations. That is the whole point of gene-guided pairing.
+2. **It is partial, so it must be combined.** A single gene explains only a fraction of performance, and performance itself is the product of genetics × training × health × nutrition. A gene panel is a sharper lens, not a replacement for the race clock.
+
+The correct posture: use genes to decide *which birds to bet on and how to pair them*, then let results and condition confirm the bet.
 
 ## How Gene Testing Helps
 
@@ -50,6 +61,12 @@ Screen pathogens via [virus detection](/en/virus-detection/) to ensure breeder h
 
 Steps two through five repeat every breeding cycle, and each pass adds to the archive, so the method becomes sharper the longer you practice it.
 
+## The Generation Math
+
+Why does this method pay off faster than tradition? Because racing pigeons have a short generation interval. A pair can produce a round of squabs in a single season, and a squab can be tested as soon as it leaves the nest — so the "measure → pair → measure again" loop turns over roughly once a year. That is why gene-guided trait improvement typically becomes visible within **1–2 generations (about 1–2 years)**, compared with the slower multi-generation wait for race results to "prove" a bloodline.
+
+The multiplier is the record-keeping. Each cycle adds genotype + race data to the archive, and the archive is what lets you spot which pairings actually moved a trait — so the method's accuracy improves the longer you run it.
+
 ## Balancing Genes and Experience
 
 Gene testing reveals **genetic potential**, not the final result. Scientific selection should be:
@@ -60,6 +77,21 @@ Gene testing reveals **genetic potential**, not the final result. Scientific sel
 
 > 💡 Tip: Selection is a long-term project. Start by building a gene archive and accumulate data gradually, moving selection from "gut feeling" to "evidence-based".
 
+## Building the Archive: What to Record
+
+The gene archive is the compounding asset of a data-driven loft, and its value depends entirely on *what you record* and *how consistently*. A useful archive links, for every bird, four layers of data:
+
+| Data layer | What to record | Why it matters |
+|------------|----------------|----------------|
+| Identity | Gene ID card (58 SNP loci), ring number | Anchors every other record to the right bird |
+| Genotype | Flight-ability panel results (8 genes) | The genetic potential you are selecting on |
+| Parentage | Paternity test results | Confirms the bloodline is what the papers say |
+| Performance | Race results, condition notes | The ground truth that validates the genes |
+
+The magic is in the linkage: genotype without race results is theory, and race results without genotype is anecdote. Only when both sit on the same bird's record can you see *which pairings actually moved a trait* — and that is the insight that makes selection scientific rather than lucky.
+
+Start small and let it compound. Profile the core breeders first, add each season's squabs, and record every race result. Within a couple of generations the archive stops being an administrative chore and becomes the loft's most valuable piece of "equipment" — a record of what your bloodlines actually are, not what you hope they are.
+
 ## FAQ
 
 ### Can gene testing replace race results?
@@ -69,7 +101,10 @@ No. Genes reveal potential; results reflect overall performance. Combine "genes 
 The earlier the better. Start breeders with a [gene ID card](/en/blog/gene-id-card-guide/) and run [flight ability testing](/en/flight-ability/) on squabs, accumulating data so selection shifts from "gut feeling" to "evidence-based".
 
 ### Can gene testing predict results?
-It cannot predict rankings, but it assesses genetic potential, guiding pairing and training to avoid blind breeding.
+It cannot predict rankings, but it assesses genetic potential, guiding pairing and training to avoid blind breeding. The flight-ability genes are candidate genes from association studies — a statistical edge, not a guarantee.
+
+### How long before gene-guided selection shows results?
+Pigeons have a short generation cycle (roughly one breeding round per season), so gene-guided pairing typically shows trait movement within 1–2 generations — about 1–2 years — with consistent record-keeping.
 
 ### Does gene selection conflict with traditional selection?
 No — it is a data supplement to traditional bloodline selection, sharpening the identification of superior breeders.
@@ -92,3 +127,5 @@ Pigeons have a short generation cycle. With gene-based pairing, trait improvemen
 
 - [Rock dove — Wikipedia](https://en.wikipedia.org/wiki/Rock_dove)
 - [Racing pigeon — Wikipedia](https://en.wikipedia.org/wiki/Racing_pigeon)
+- [LDHA genotype and racing performance — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9365715)
+- [DRD4 polymorphism and racing performance — Animal Genetics](https://avian2.animalgenetics.com/Avian/Performance/DRD4.asp)

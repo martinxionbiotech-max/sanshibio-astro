@@ -95,6 +95,12 @@ tags: [鹦鹉热衣原体, 人畜共患, 鸽病, 公共卫生]
 | T. gallinae | 鸽毛滴虫 | Trichomonas gallinae | 毛滴虫属 |
 | C. albicans | 白色念珠菌 | Candida albicans | 念珠菌属 |
 
+## 相关阅读
+
+- [赛鸽支原体和衣原体的区别](/blog/mycoplasma-vs-chlamydia/)
+- [鸽子单眼伤风是什么病](/blog/one-eye-cold/)
+- [赛鸽禽流感筛查](/blog/avian-influenza-screening/)
+
 ## 参考资料
 
 - [鹦鹉热衣原体 — 维基百科](https://en.wikipedia.org/wiki/Chlamydia_psittaci)

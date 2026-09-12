@@ -91,6 +91,12 @@ author: 三狮生物分子诊断技术团队
 ### 确诊后用药要注意什么？
 务必在兽医指导下规范用药，并参考**药敏试验**结果选择方向，按疗程足量使用，治疗后再复测确认转阴，避免耐药。
 
+## 参考资料
+
+- [支原体 — 维基百科](https://en.wikipedia.org/wiki/Mycoplasma)
+- [鹦鹉热衣原体 — 维基百科](https://en.wikipedia.org/wiki/Chlamydia_psittaci)
+- [鹦鹉热 — 维基百科](https://en.wikipedia.org/wiki/Psittacosis)
+
 ---
 
 > ⚠️ **免责声明**：本文内容仅为科普参考，不构成诊疗或用药建议。赛鸽疾病的诊断与用药请务必咨询专业兽医，切勿自行用药。如需病原检测，请联系三狮生物分子诊断技术团队：微信 15612372623 / 邮箱 martin@senobiocorp.com。
