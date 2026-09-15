@@ -6,7 +6,6 @@ category: Virus Control
 tags: [avian influenza, virus screening, quarantine, PCR]
 ---
 
-# Avian Influenza Screening for Racing Pigeons
 
 > **Short answer**: Racing pigeons are **largely resistant to highly pathogenic avian influenza (HPAI)** — most experimental infections are subclinical and transmission is poor — but fatal infections with clade **2.3.4.4b H5N1 have been confirmed in pigeons since 2022**, and pigeons still act as potential mechanical vectors near poultry. That mismatch between "resistant" and "not zero-risk" is exactly why targeted PCR screening, not blanket panic, is the right posture.
 

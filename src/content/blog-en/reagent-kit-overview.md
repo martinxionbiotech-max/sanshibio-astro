@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [reagent kits, DNA extraction, PCR reagents, consumables]
 ---
 
-# Racing Pigeon Molecular Testing Reagent Kits
 
 > **TL;DR**: Reagents are the invisible pipeline of molecular testing — they decide result reliability. The two facts that matter most: extraction and PCR reagents must be stored at **-20°C** and survive only a **limited number of freeze-thaw cycles**, while rapid test cards are shelf-stable at room temperature for about **12 months**. This guide covers the four reagent categories for a complete pigeon testing workflow.
 

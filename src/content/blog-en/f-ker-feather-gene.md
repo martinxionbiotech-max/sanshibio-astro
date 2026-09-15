@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [F-KER, feather, keratin, flight ability]
 ---
 
-# Racing Pigeon Feather Gene F-KER
 
 **Short answer:** F-KER encodes feather keratin, the structural protein behind feather quality. The studied marker is a **Cys83Gly substitution (g.710T>G)** — swapping a disulfide-forming cysteine for glycine. In a study of **123 pigeons across 2,589 race records**, the **TT genotype scored best in long races (500 km+), while GT birds scored best in sprints** — so the "best" feather genotype depends on race distance.
 

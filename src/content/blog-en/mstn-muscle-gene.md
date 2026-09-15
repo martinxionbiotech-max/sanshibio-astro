@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [MSTN, muscle, myostatin, flight ability]
 ---
 
-# Racing Pigeon Muscle Gene MSTN
 
 **Short answer:** MSTN encodes myostatin — a protein that *limits* muscle growth. Knock out or weaken it, and muscle mass rises; in pigeons, the studied marker is a **silent C→T mutation (g.11440232C>T)** where the T allele is **more common in higher-muscle-mass birds**. It is the "power" gene for sprint racing, but the price of extra muscle is extra weight.
 

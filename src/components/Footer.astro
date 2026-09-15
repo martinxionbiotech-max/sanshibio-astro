@@ -60,7 +60,7 @@ const subsites = isEn
   <div class="container-site py-12 lg:py-16">
     <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
       <div class="lg:col-span-2">
-        <img src="/images/logo.png" alt="Sanshi Bio" class="mb-4 h-9 w-auto" />
+        <img src="/images/logo.png" alt="Sanshi Bio" class="mb-4 h-9 w-auto"  width="269" height="69" loading="lazy" decoding="async" />
         <p class="max-w-xl text-sm leading-relaxed text-slate-600">{t.about}</p>
       </div>
       <div>
@@ -106,6 +106,14 @@ const subsites = isEn
           <a href="/disclaimer" class="hover:text-brand-600">免责声明</a>
           <span class="mx-1">·</span>
           <a href="/privacy-policy" class="hover:text-brand-600">隐私政策</a>
+        </>
+      )}
+      {isEn && (
+        <>
+          <span class="mx-1">·</span>
+          <a href="/en/disclaimer" class="hover:text-brand-600">Disclaimer</a>
+          <span class="mx-1">·</span>
+          <a href="/en/privacy-policy" class="hover:text-brand-600">Privacy Policy</a>
         </>
       )}
     </div>

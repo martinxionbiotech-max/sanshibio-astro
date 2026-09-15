@@ -1,4 +1,6 @@
 ---
+import { getCollection } from 'astro:content';
+
 const lang = Astro.currentLocale ?? 'zh';
 const isEn = lang === 'en';
 const base = isEn ? '/en' : '';
@@ -30,13 +32,22 @@ const navLinks = [
 
 const pathname = Astro.url.pathname;
 const zhPath = pathname.replace(/^\/en/, '') || '/';
-const enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/' : `/en${pathname}`);
+
+// 语言切换兜底：目标语言若没有该文章，退回到对应语言的知识库索引，避免切换链接 404
+const enSlugs = new Set((await getCollection('blogEn')).map((p) => p.id));
+const zhSlugs = new Set((await getCollection('blog')).map((p) => p.id));
+const enArticleSlug = pathname.startsWith('/blog/') ? pathname.replace(/^\/blog\//, '').replace(/\/$/, '') : null;
+const zhArticleSlug = pathname.startsWith('/en/blog/') ? pathname.replace(/^\/en\/blog\//, '').replace(/\/$/, '') : null;
+let enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/' : `/en${pathname}`);
+if (enArticleSlug && !enSlugs.has(enArticleSlug)) enPath = '/en/blog/';
+let zhPathFinal = zhPath;
+if (zhArticleSlug && !zhSlugs.has(zhArticleSlug)) zhPathFinal = '/blog/';
 ---
 
 <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 shadow-[0_1px_0_0_rgba(15,23,42,0.02)] backdrop-blur-md">
   <div class="container-site flex h-16 items-center justify-between gap-4 lg:h-20">
     <a href={base + '/'} class="flex shrink-0 items-center gap-2" aria-label={t.logoAlt}>
-      <img src="/images/logo.png" alt={t.logoAlt} class="h-9 w-auto lg:h-10" />
+      <img src="/images/logo.png" alt={t.logoAlt} width="269" height="69" decoding="async" class="h-9 w-auto lg:h-10" />
     </a>
     <nav class="hidden items-center gap-6 text-sm font-medium text-slate-600 lg:flex">
       {navLinks.map((l) => (
@@ -57,7 +68,7 @@ const enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/
         </a>
       ))}
       <div class="flex items-center rounded-full border border-slate-200 bg-slate-50 p-0.5" role="group" aria-label="Language">
-        <a href={zhPath} class:list={['rounded-full px-3 py-1 text-xs font-semibold transition', !isEn ? 'bg-brand-600 text-white shadow-sm' : 'text-slate-500 hover:text-brand-700']} lang="zh-CN">中文</a>
+        <a href={zhPathFinal} class:list={['rounded-full px-3 py-1 text-xs font-semibold transition', !isEn ? 'bg-brand-600 text-white shadow-sm' : 'text-slate-500 hover:text-brand-700']} lang="zh-CN">中文</a>
         <a href={enPath} class:list={['rounded-full px-3 py-1 text-xs font-semibold transition', isEn ? 'bg-brand-600 text-white shadow-sm' : 'text-slate-500 hover:text-brand-700']} lang="en">EN</a>
       </div>
       <a href={base + '/contact'} class="btn-primary !px-4 !py-2 !text-xs">{t.cta}</a>
@@ -88,7 +99,7 @@ const enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/
         </a>
       ))}
       <div class="flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 p-1" role="group" aria-label="Language">
-        <a href={zhPath} class:list={['flex-1 rounded-full px-3 py-2 text-center text-xs font-semibold transition', !isEn ? 'bg-brand-600 text-white shadow-sm' : 'text-slate-500 hover:text-brand-700']} lang="zh-CN">中文</a>
+        <a href={zhPathFinal} class:list={['flex-1 rounded-full px-3 py-2 text-center text-xs font-semibold transition', !isEn ? 'bg-brand-600 text-white shadow-sm' : 'text-slate-500 hover:text-brand-700']} lang="zh-CN">中文</a>
         <a href={enPath} class:list={['flex-1 rounded-full px-3 py-2 text-center text-xs font-semibold transition', isEn ? 'bg-brand-600 text-white shadow-sm' : 'text-slate-500 hover:text-brand-700']} lang="en">EN</a>
       </div>
       <a href={base + '/contact'} class="btn-primary mt-2 w-full">{t.cta}</a>

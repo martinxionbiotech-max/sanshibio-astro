@@ -6,7 +6,6 @@ category: Virus Control
 tags: [mycoplasma, CRD, breeder purification, detection]
 ---
 
-# Mycoplasma (CRD) Detection in Racing Pigeons
 
 > **Short answer**: Mycoplasmosis (chronic respiratory disease, CRD) is the most common hidden respiratory infection in racing pigeons — a Polish survey found **92% of racing pigeons** carried *Mycoplasma* spp., with *M. columborale* at **79%** prevalence and *M. columbinum* at **49%**. Because it is carried silently and transmitted vertically, eradication is a **breeder-purification program**, not a single treatment.
 

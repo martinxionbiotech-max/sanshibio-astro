@@ -6,7 +6,6 @@ category: Bloodline
 tags: [gene ID, SNP loci, individual identification, NGS]
 ---
 
-# Racing Pigeon Gene ID Card
 
 > **TL;DR**: A racing pigeon gene ID card uses 58 SNP loci to give every pigeon a unique, traceable genetic identity. The math behind "unique": 58 biallelic markers produce **2⁵⁸ ≈ 2.9 × 10¹⁷ possible profiles** — hundreds of thousands of times more combinations than there are pigeons on Earth — making a coincidental match between two unrelated birds effectively impossible.
 

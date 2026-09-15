@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [Pigeon Circovirus, Ct value, positive interpretation, test report]
 ---
 
-# Pigeon Circovirus Positive Value: How to Read Ct Values
 
 > **TL;DR**: Whether a pigeon is infected with Pigeon Circovirus (PiCV) comes down to the **Ct value** on your report, not a fixed "number." A lower Ct means a higher viral load — every drop of roughly **3.3 cycles equals 10× more virus** — and judging positivity also needs the kit's **cut-off threshold** and the clinical picture.
 
@@ -78,7 +77,7 @@ Pigeon Circovirus is a classic **immunosuppressive pathogen** — even a weak po
 3. **Control secondary infection**: Circovirus has no specific cure — focus on nutrition, stress reduction and controlling secondary infections.
 4. **Veterinary guidance**: provide supportive care under veterinary guidance, never self-medicate.
 
-> 💡 Tip: do not fixate on a single number. Read the conclusion with the help of [test report interpretation](/en/blog/test-report-interpretation/), and check the Circovirus entry in the [pathogen encyclopedia](https://pathogens.sanshibio.net/) if needed.
+> 💡 Tip: do not fixate on a single number. Read the conclusion with the help of [test report interpretation](/en/blog/gene-test-report-guide/), and check the Circovirus entry in the [pathogen encyclopedia](https://pathogens.sanshibio.net/) if needed.
 
 ## Tracking the Ct Trend Is More Useful Than Any Single Number
 

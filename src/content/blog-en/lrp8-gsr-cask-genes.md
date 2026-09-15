@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [LRP8, GSR, CASK, cognition, flight ability]
 ---
 
-# Memory, Weather Orientation & Intelligence Genes
 
 **Short answer:** LRP8, GSR and CASK are the three "cognitive" genes in the flight-ability panel — memory, bad-weather orientation and cognition. They are the least deterministic of the eight: cognition is the most plastic trait tested, and the 2018 genome-wide scan that surfaced them examined **17.4 million variants and found no single diagnostic allele**, with the brain showing only **29 differentially expressed transcripts vs 213 in muscle**.
 

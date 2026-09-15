@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Privacy Policy | Sanshi Bio';
+const description = 'How Hebei Sanshi Biotechnology collects, uses and protects your personal information and sample data when providing testing services.';
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Privacy Policy' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Privacy Policy" description="We respect and protect your personal information and sample data" breadcrumb="Privacy Policy" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <h2 class="text-xl font-bold">1. Information We Collect</h2>
+      <p>
+        When you enquire about or commission a testing service we may collect: your name, contact details
+        (telephone / email), shipping address, and the sample information needed to run the test (such as the
+        pigeon's identification or ring number). We collect only what is necessary to deliver the service.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">2. How We Use Information</h2>
+      <p>
+        The information we collect is used only to <b>complete the testing service you commissioned</b>, issue the
+        test report, and communicate with you about the test. We do not use your personal information for purposes
+        unrelated to the service without your consent.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">3. Samples and Data Protection</h2>
+      <p>
+        Your samples and genetic data are handled under strict protection. Test reports are issued only to the
+        commissioning party; we do not disclose your results or personal information to unrelated third parties,
+        except where required by law or regulation.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">4. Information Security</h2>
+      <p>
+        Sanshi Bio applies reasonable technical and organisational measures to protect your personal information
+        against unauthorised access, use, disclosure or alteration.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Your Rights</h2>
+      <p>
+        You have the right to access and correct your personal information, or to request its deletion (except where
+        retention is required by law or regulation). To exercise these rights, contact us using the details published
+        on this website.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">6. Policy Updates</h2>
+      <p>
+        This privacy policy may be updated from time to time; the updated version will be published on this page.
+        Please review it periodically for the current version.
+      </p>
+    </div>
+  </section>
+</Layout>

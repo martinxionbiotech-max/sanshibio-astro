@@ -4,7 +4,7 @@ import PageBanner from '../../components/PageBanner.astro';
 
 const title = 'Products | Pigeon Testing Equipment & Reagents - Sanshi Bio';
 const description =
-  'Sanshi Bio products: portable real-time PCR system Q162D, automated nucleic acid extractor ES08, hot-start Taq polymerase, qPCR kits and molecular diagnostic reagents for pigeon gene and pathogen testing.';
+  'Portable real-time PCR system Q162D, automated nucleic acid extractor ES08, hot-start Taq polymerase, qPCR kits and reagents for gene and pathogen testing.';
 
 const devices = [
   {
@@ -64,7 +64,25 @@ const productLd = devices.map((d) => ({
   name: d.name,
   description: d.desc,
   image: `https://sanshibio.net${d.img}`,
-  offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', priceCurrency: 'CNY', url: 'https://sanshibio.net/en/contact' },
+  '@id': `https://sanshibio.net/en/products/#product-${d.sku}`,
+  url: 'https://sanshibio.net/en/products/',
+  brand: { '@type': 'Brand', name: 'Sanshi Bio' },
+  category: 'Molecular diagnostics equipment',
+  audience: {
+    '@type': 'BusinessAudience',
+    audienceType: 'Pigeon testing laboratories, breeders and testing service providers',
+  },
+  mainEntityOfPage: { '@id': 'https://sanshibio.net/en/products/#webpage' },
+  // Equipment is quote-based (B2B — no published price on site): no price field
+  offers: {
+    '@type': 'Offer',
+    '@id': `https://sanshibio.net/en/products/#offer-${d.sku}`,
+    availability: 'https://schema.org/InStock',
+    itemCondition: 'https://schema.org/NewCondition',
+    businessFunction: 'http://purl.org/goodrelations/v1#Sell',
+    url: 'https://sanshibio.net/en/contact',
+    seller: { '@id': 'https://sanshibio.net/#organization' },
+  },
   manufacturer: { '@type': 'Organization', name: 'Hebei Sanshi Biotechnology Co., Ltd.' },
 }));
 ---
@@ -82,7 +100,7 @@ const productLd = devices.map((d) => ({
         <div class="card overflow-hidden p-0">
           <div class="flex flex-col sm:flex-row">
             <div class="shrink-0 bg-slate-50 p-4 sm:w-52">
-              <img src={d.img} alt={d.name} class="h-44 w-full object-contain" loading="lazy" />
+              <img src={d.img} alt={d.name} width="500" height="400" class="h-44 w-full object-contain" loading="lazy" decoding="async" />
             </div>
             <div class="flex-1 p-6">
               <span class="font-mono text-xs text-brand-600">{d.sku}</span>

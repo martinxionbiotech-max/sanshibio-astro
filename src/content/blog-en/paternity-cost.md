@@ -6,7 +6,6 @@ category: Bloodline
 tags: [paternity test, cost, testing process, bloodline certification]
 ---
 
-# Pigeon Paternity Test Cost
 
 > **TL;DR**: A pigeon paternity test has no standard price — the fee varies with the number of individuals, locus coverage and report turnaround, and commercially the ballpark sits in the **tens of dollars per bird**. Contact the Sanshi Bio team for official pricing. This article explains the cost structure, process and considerations so you can avoid pitfalls.
 

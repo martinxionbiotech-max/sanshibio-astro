@@ -6,7 +6,6 @@ category: Bloodline
 tags: [gender identification, sexing, genetic testing, bloodline]
 ---
 
-# How to Tell Pigeon Gender
 
 > **TL;DR**: Judging a pigeon's sex by appearance alone is error-prone — visual tricks typically land between **50% and 80% accuracy** depending on skill, and squabs are nearly impossible to read. **Genetic sexing** detects sex-chromosome markers (CHD1) to determine sex with **near-100% accuracy**, making it the only reliable method today.
 

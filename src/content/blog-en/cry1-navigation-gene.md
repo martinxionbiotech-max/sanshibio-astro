@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [CRY1, navigation, magnetic sensing, flight ability]
 ---
 
-# Racing Pigeon Navigation Gene CRY1
 
 **Short answer:** CRY1 encodes cryptochrome 1, a light-sensitive protein proposed as the molecule behind a pigeon's magnetic compass. In a 2021 study of 129 pigeons, birds carrying the **AG/TT genotype scored significantly higher ace points than AG/AG birds (p ≤ 0.05) over 100–400 km races** — but whether CRY1 is *the* magnetoreceptor is still actively debated.
 

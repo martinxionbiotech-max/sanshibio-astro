@@ -6,7 +6,6 @@ category: Bloodline
 tags: [paternity, bloodline, SNP, parentage]
 ---
 
-# Racing Pigeon Paternity Test Guide
 
 > **TL;DR**: A pigeon paternity test compares alleles across 58 SNP loci to produce a **combined parentage probability of 99.99% or higher** when the evidence is decisive — but that number is a population statistic, not a literal "99.99% accuracy" guarantee. This guide explains the science, the math and where the limits actually are.
 

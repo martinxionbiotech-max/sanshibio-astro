@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [LDHA, endurance, lactic acid, flight ability]
 ---
 
-# Racing Pigeon Endurance Gene LDHA
 
 **Short answer:** LDHA (lactate dehydrogenase A) is the enzyme behind a pigeon's ability to clear lactic acid, and its "favorable" A allele is rare — roughly **1 in 8 pigeons carries it, and only about 1 in 100 is homozygous AA** (Dybus et al. 2006). It is the strongest single marker for long-distance endurance in the flight-ability panel, but it is a tendency, not a verdict.
 

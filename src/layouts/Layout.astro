@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -8,9 +9,11 @@ interface Props {
   description?: string;
   jsonLd?: Record<string, any>[];
   ogImage?: string;
+  /** true = 输出 noindex（用于 404 等不应被索引的页面） */
+  noindex?: boolean;
 }
 
-const { title, description, jsonLd = [], ogImage = '/images/banner-home.png' } = Astro.props;
+const { title, description, jsonLd = [], ogImage = '/images/banner-home.png', noindex = false } = Astro.props;
 
 const lang = Astro.currentLocale ?? 'zh';
 const isEn = lang === 'en';
@@ -20,7 +23,15 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 
 const pathname = Astro.url.pathname;
 const zhPath = pathname.replace(/^\/en/, '') || '/';
-const enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/' : `/en${pathname}`);
+// hreflang 兜底：目标语言没有该文章时指向对应语言的知识库索引，避免 alternate 指向 404
+const enSlugs = new Set((await getCollection('blogEn')).map((p) => p.id));
+const zhSlugs = new Set((await getCollection('blog')).map((p) => p.id));
+const enArticleSlug = pathname.startsWith('/blog/') ? pathname.replace(/^\/blog\//, '').replace(/\/$/, '') : null;
+const zhArticleSlug = pathname.startsWith('/en/blog/') ? pathname.replace(/^\/en\/blog\//, '').replace(/\/$/, '') : null;
+let enPath = pathname.startsWith('/en') ? pathname : (pathname === '/' ? '/en/' : `/en${pathname}`);
+if (enArticleSlug && !enSlugs.has(enArticleSlug)) enPath = '/en/blog/';
+let zhPathFinal = zhPath;
+if (zhArticleSlug && !zhSlugs.has(zhArticleSlug)) zhPathFinal = '/blog/';
 
 const orgSchema = {
   '@context': 'https://schema.org',
@@ -85,10 +96,11 @@ const webpageSchema = {
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="zh-CN" href={new URL(zhPath, Astro.site)} />
+    <link rel="alternate" hreflang="zh-CN" href={new URL(zhPathFinal, Astro.site)} />
     <link rel="alternate" hreflang="en" href={new URL(enPath, Astro.site)} />
-    <link rel="alternate" hreflang="x-default" href={new URL(zhPath, Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL(zhPathFinal, Astro.site)} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={title} />

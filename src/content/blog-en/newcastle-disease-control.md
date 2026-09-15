@@ -6,7 +6,6 @@ category: Virus Control
 tags: [Newcastle disease, virus, pigeon disease, PCR]
 ---
 
-# Racing Pigeon Newcastle Disease Control Guide
 
 > **Short answer**: Newcastle disease in racing pigeons — technically pigeon paramyxovirus type 1 (PPMV-1) — kills on average roughly **40% of infected birds**, with experimental and severe outbreaks reported as high as **80–100%**. The incubation window runs **2–15 days**, and infected birds shed virus *before* symptoms show, which is why pre-race PCR screening, not symptom-watching, is the only control that actually works.
 

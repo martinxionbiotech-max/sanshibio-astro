@@ -6,7 +6,6 @@ category: Virus Control
 tags: [Trichomonas, Candida, crop, digestive, pigeon disease]
 ---
 
-# Pigeon Trichomonas & Candida Control
 
 > **Short answer**: *Trichomonas gallinae* (canker) and *Candida albicans* are the two most common crop/digestive pathogens in racing pigeons. Field surveys put *T. gallinae* prevalence at **~34% overall and ~49–70% in squabs**, with a virulent strain able to kill **up to 90% of squabs** — and *Candida* is usually an opportunistic overgrowth triggered by antibiotic overuse. They co-infect often and cannot be told apart by eye.
 

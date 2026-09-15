@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [test report, genotype, report interpretation, breeding advice]
 ---
 
-# How to Read a Pigeon Gene Test Report?
 
 > **TL;DR**: Reading a pigeon gene test report comes down to "three steps" — first confirm the sample and items, then read the genotype and indicator interpretation, and finally land on the breeding advice. The critical mindset: **a genotype is a probability, not a prophecy** — it shows potential direction, while training, health and nutrition decide the actual result.
 
@@ -73,7 +72,7 @@ Besides the flight ability report, two other report types are common:
 
 Paternity reports are read by "parentage probability," pathogen reports by "positive/negative + Ct value" — different logic, don't mix them up.
 
-For the paternity report, the number scales on a known ladder: a **combined paternity index (CPI)** of 99 → 99% probability, 999 → 99.9%, and 9,999 → **99.99%**. For the pathogen report, a Ct shift of roughly **3.3 cycles equals a 10-fold** change in viral load, and anything in the 35–40 range is a gray zone that warrants re-testing. See [report interpretation](/en/blog/test-report-interpretation/) for more.
+For the paternity report, the number scales on a known ladder: a **combined paternity index (CPI)** of 99 → 99% probability, 999 → 99.9%, and 9,999 → **99.99%**. For the pathogen report, a Ct shift of roughly **3.3 cycles equals a 10-fold** change in viral load, and anything in the 35–40 range is a gray zone that warrants re-testing. See [report interpretation](/en/blog/gene-test-report-guide/) for more.
 
 ## Three Common Mistakes When Reading Reports
 
@@ -108,7 +107,7 @@ No. The flight-ability genes are candidate genes from association studies — th
 No. One "average" indicator does not mean the pigeon is poor. Evaluate the 8 genes together with race results and health — never judge in isolation.
 
 ### How do I tell a flight ability report from a paternity report?
-A flight ability report shows ability indicators per genotype; a paternity report shows parentage probability. Different purposes and indicators — see [report interpretation](/en/blog/test-report-interpretation/).
+A flight ability report shows ability indicators per genotype; a paternity report shows parentage probability. Different purposes and indicators — see [report interpretation](/en/blog/gene-test-report-guide/).
 
 ### What does a parentage probability of 99.99% correspond to?
 A combined paternity index of roughly 10,000 — meaning the DNA evidence is about 10,000× more likely under the parent hypothesis than a random-bird hypothesis.

@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [molting, feed ratio, nutrition, health management]
 ---
 
-# Pigeon Molting Feed Ratio
 
 > **TL;DR**: Molting is one of the highest-nutrition stages of a pigeon's year, and new feather quality directly affects later flight and racing. The anchor numbers: adult pigeons need roughly **12–18% crude protein** at maintenance, breeding pushes it toward **18–20%**, and molt raises protein demand because feathers are almost pure **keratin**. There is no one-size-fits-all formula — the ratio adjusts by individual and molt stage.
 

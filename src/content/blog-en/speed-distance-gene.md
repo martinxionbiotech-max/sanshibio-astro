@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [gene breeding, speed, endurance, flight genes]
 ---
 
-# Speed vs Endurance Racing Pigeons: Gene-Based Breeding
 
 **Short answer:** Sprint and endurance pigeons run on two different physiological engines — anaerobic burst vs aerobic oxidation — and the gene panels that select them are nearly opposite. The core split: **MSTN + F-KER for sprints (200–400 km), LDHA + CRY1 + DRD4 for endurance (700 km+)**. No gene decides the result on its own: the 2018 whole-genome scan screened **17.4 million variants and found no single diagnostic allele**.
 

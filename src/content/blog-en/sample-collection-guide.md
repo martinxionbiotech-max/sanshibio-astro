@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [sampling, testing workflow, feather, swab]
 ---
 
-# Sample Collection Guide for Racing Pigeons
 
 > **TL;DR**: Half of a reliable result depends on proper sampling. The three sample types map to three purposes — **feather for genes, swab for pathogens, blood for antibodies** — and each has its own storage rule: feathers dry at room temperature, swabs and blood chilled at **2–8°C**, all shipped ideally within **48 hours**.
 

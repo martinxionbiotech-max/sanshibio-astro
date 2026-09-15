@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [breeding, selection, gene testing, pairing]
 ---
 
-# Racing Pigeon Breeding & Selection Guide
 
 > **TL;DR**: Scientific selection combines **gene testing data with race results and experience** — never genes alone. The payoff is speed: racing pigeons have a short generation cycle, so trait improvement from gene-guided pairing typically shows within **1–2 generations (~1–2 years)**, versus the multi-generation guesswork of selection by race results alone.
 

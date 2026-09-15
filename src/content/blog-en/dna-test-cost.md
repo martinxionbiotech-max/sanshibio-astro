@@ -6,7 +6,6 @@ category: Bloodline
 tags: [DNA test, cost, paternity test, sex identification]
 ---
 
-# Pigeon DNA Test Cost
 
 > **TL;DR**: How much a pigeon DNA test costs "per run" depends on the item — paternity testing, sex identification, gene ID cards and flight ability gene testing are each priced differently. As a market reference, commercial pigeon DNA typing and parentage testing typically lands in the **tens of dollars per bird**, with high-volume sexing falling toward the low end. Contact the Sanshi Bio team for official pricing.
 

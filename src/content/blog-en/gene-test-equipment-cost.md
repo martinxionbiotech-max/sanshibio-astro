@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [gene testing equipment, equipment cost, real-time PCR, lab setup]
 ---
 
-# How Much Does Pigeon Gene Testing Equipment Cost?
 
 > **TL;DR**: There is no single answer to "how much does pigeon gene testing equipment cost" — prices vary with throughput, automation and configuration. The real decision is a **breakeven calculation**: a self-built lab pays off only above a threshold annual test volume, below which mail-in testing is cheaper. This article lays out the equipment list and the key price factors so you can budget rationally.
 

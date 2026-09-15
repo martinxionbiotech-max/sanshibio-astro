@@ -6,7 +6,6 @@ category: Virus Control
 tags: [circovirus, adenovirus, immunosuppression, pigeon disease]
 ---
 
-# Pigeon Circovirus & Adenovirus
 
 > **Short answer**: Pigeon circovirus (PiCV) and pigeon adenovirus (PiAdV) are the two immunosuppressive "silent killers" of the racing loft. Neither usually kills directly — PiCV damages the immune system and PiAdV hits the gut and liver — but a documented consequence is that **mortality can reach 100% once secondary infections move in**. The tell-tale clinical picture is "young pigeon disease syndrome" (YPDS): vomiting, watery diarrhea, wasting and poor racing form, mostly in birds **under one year old**.
 

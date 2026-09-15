@@ -6,7 +6,6 @@ category: Virus Control
 tags: [one eye cold, Chlamydia, Mycoplasma, eye signs]
 ---
 
-# Pigeon One Eye Cold (One Eye Infection)
 
 > **Short answer**: "One eye cold" is not a disease — it is a folk term for one-sided tearing, redness and discharge, most often caused by **Chlamydia** or **Mycoplasma** infection, and sometimes by plain dust or trauma. The reason it cannot be shrugged off: if the cause is *Chlamydia psittaci*, the bird's eye problem is a **zoonotic** exposure risk for the keeper, with a human incubation of **5–14 days**. Confirm the pathogen by PCR before reaching for eye drops.
 

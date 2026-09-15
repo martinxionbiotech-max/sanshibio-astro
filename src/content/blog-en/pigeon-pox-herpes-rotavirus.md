@@ -6,7 +6,6 @@ category: Virus Control
 tags: [poxvirus, herpesvirus, rotavirus, pigeon disease]
 ---
 
-# Pigeon Pox, Herpesvirus & Rotavirus
 
 > **Short answer**: Three common pigeon viruses with distinct targets — poxvirus (skin and mouth lesions, **mosquito-borne**), herpesvirus (latent, **stress-triggered** respiratory/neurological disease), and rotavirus (enteric, the now-confirmed driver of **young pigeon disease syndrome**, with flock mortality ranging from **none to over 50%**). They are confusable in mixed infections, so molecular differential diagnosis is the only reliable way to know which one you are fighting.
 

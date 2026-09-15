@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [sampling, feather, report, gene testing]
 ---
 
-# Racing Pigeon Feather Sampling Guide
 
 > **TL;DR**: A single feather follicle typically yields **10–100 ng of DNA** — several times what a PCR assay needs — so 3–5 freshly plucked breast feathers are more than enough. The rule is simple: **freshly plucked works (>95% success), shed feathers fail (<10%)**. This guide covers proper technique, storage and common mistakes.
 

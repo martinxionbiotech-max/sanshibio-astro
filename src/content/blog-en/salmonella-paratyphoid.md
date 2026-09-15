@@ -6,7 +6,6 @@ category: Virus Control
 tags: [Salmonella, paratyphoid, pigeon disease, zoonotic]
 ---
 
-# Racing Pigeon Salmonella (Paratyphoid)
 
 > **Short answer**: Pigeon paratyphoid is caused by *Salmonella enterica* (most often *S.* Typhimurium in pigeons) and carries a triple threat: it **persists in carriers**, it **transmits vertically through the egg**, and it **infects humans**. The CDC estimates *Salmonella* causes roughly **1.35 million illnesses, 26,500 hospitalizations and 420 deaths** in the US each year alone — and a documented Iranian racing-pigeon outbreak killed **21% of the flock**.
 

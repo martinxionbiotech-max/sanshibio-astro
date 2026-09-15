@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [breeding, gene testing, breeder pairing, selection]
 ---
 
-# Gene Testing for Pigeon Breeding: How Much Does It Help?
 
 **Short answer:** Gene testing helps breeding "a lot, but with limits." Its single biggest lever is early selection — screening a squab's flight genes weeks after leaving the nest instead of waiting **1–2 years** for race results — and it typically shows a trait-improvement trend within **1–2 generations** of consistent selection. It cannot replace feeding, training or race validation.
 

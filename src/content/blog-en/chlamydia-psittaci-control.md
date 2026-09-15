@@ -6,7 +6,6 @@ category: Virus Control
 tags: [Chlamydia psittaci, zoonotic, pigeon disease, public health]
 ---
 
-# Chlamydia Psittaci Control
 
 > **Short answer**: *Chlamydia psittaci* is an obligate intracellular bacterium that infects pigeons and **also infects people** — in humans it causes psittacosis, with an incubation period of **5–14 days** and a presentation that runs from mild flu-like illness to severe pneumonia. It is estimated to cause roughly **1% of community-acquired pneumonia** worldwide, and it cannot be cultured in routine practice — **real-time PCR is the practical gold standard** for diagnosis.
 

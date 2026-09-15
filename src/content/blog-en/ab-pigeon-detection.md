@@ -6,7 +6,6 @@ category: Bloodline
 tags: [AB pigeon, individual identification, anti-cheating, fairness]
 ---
 
-# Racing Pigeon AB Pigeon Detection
 
 > **TL;DR**: AB pigeons (substituted birds) are a cheating tactic in pigeon racing — two look-alike birds sharing one ring identity. DNA comparison makes the fraud impossible: a 58-locus profile yields **2⁵⁸ ≈ 2.9 × 10¹⁷ possible combinations**, so a substituted bird's genotype mismatch is caught with certainty on re-sampling.
 

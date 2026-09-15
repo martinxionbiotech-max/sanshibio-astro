@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [lab equipment, PCR cycler, nucleic acid extractor, setup]
 ---
 
-# Racing Pigeon Lab Equipment Guide
 
 > **TL;DR**: A pigeon testing lab should be sized to your needs, not to the priciest gear. The honest rule: a **16-well instrument runs about 15 samples per batch**, so a professional loft doing a few hundred tests a year rarely needs a 96-channel lab. This guide gives three tiered setups with budget references for rational purchasing.
 

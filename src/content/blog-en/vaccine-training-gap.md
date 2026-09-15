@@ -6,7 +6,6 @@ category: Virus Control
 tags: [vaccine, training, immunity, antibody titer]
 ---
 
-# How Long After Pigeon Vaccine Can Training Start?
 
 > **Short answer**: After vaccination, pigeons are in a stress-and-immune-gap window and antibodies need time to build — for Newcastle disease, a protective HI titre is only considered reached at **log₂ 4 (1:16)**, and the standard for assessing response is to sample **2–4 weeks** post-vaccination. In practice: rest 1–2 days, free-fly for a few days, and only return to full intensity after roughly **2–4 weeks** — or better, after a titre test confirms the vaccine actually took.
 

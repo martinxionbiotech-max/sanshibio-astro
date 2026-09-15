@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [DRD4, homing, dopamine, flight ability]
 ---
 
-# Racing Pigeon Homing Gene DRD4
 
 **Short answer:** DRD4 encodes the dopamine D4 receptor — the brain's "persistence dial." In a 2025 study of 137 homing pigeons, birds carrying the **DRD4 T/T genotype emerged from shelter significantly faster (bolder)**, while **C/C birds were slower to recover from social-isolation stress** — direct evidence that this gene shapes the motivation side of homing, not just raw navigation.
 

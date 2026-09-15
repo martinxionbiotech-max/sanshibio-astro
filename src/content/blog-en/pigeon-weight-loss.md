@@ -6,7 +6,6 @@ category: Virus Control
 tags: [weight loss, Trichomonas, coccidia, Salmonella, immunosuppression]
 ---
 
-# Pigeon Weight Loss Causes
 
 > **Short answer**: Weight loss in pigeons is a shared expression of many diseases, not a single illness. The usual suspects are parasites (*Trichomonas gallinae*, coccidia, roundworm), bacteria (*Salmonella*), and immunosuppressive viruses (PiCV) — and the numbers explain why: *T. gallinae* infects **~34% of pigeons (up to ~70% of squabs)**, and a virulent strain can kill **up to 90% of squabs**. Finding the cause requires **pathogen testing** — blindly "topping up nutrition" treats the symptom, not the cause.
 

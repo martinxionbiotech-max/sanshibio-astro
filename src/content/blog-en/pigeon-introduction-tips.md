@@ -6,7 +6,6 @@ category: Bloodline
 tags: [pigeon introduction, quarantine, pathogen testing, paternity testing]
 ---
 
-# Buying & Importing Racing Pigeons: Essential Introduction Tips
 
 > **TL;DR**: Introduction is key to improving a loft, but it is also the highest-risk moment for disease entry. The quarantine numbers that matter: at least **14 days** as an absolute floor, **30 days** as the widely recommended standard, and up to **six weeks** to fully evaluate a bird's disease status — because a bird can look healthy and still carry disease. Scientific introduction should follow "bloodline first, then health, then quarantine."
 

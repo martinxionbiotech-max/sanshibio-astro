@@ -6,7 +6,6 @@ category: Virus Control
 tags: [green droppings, adenovirus, Salmonella, digestive signs]
 ---
 
-# Pigeon Green Droppings Causes
 
 > **Short answer**: Green droppings in a pigeon do not equal one specific disease. The green comes from **unabsorbed bile**, and it can be a harmless hunger/stress sign or a marker of adenovirus, Salmonella or Newcastle disease — the last of which can kill **~40% of an infected flock**. The discriminator is not color but **form, duration and accompanying signs**, confirmed by pathogen testing before any treatment.
 

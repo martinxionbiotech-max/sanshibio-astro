@@ -6,7 +6,6 @@ category: Virus Control
 tags: [mycoplasma, chlamydia, respiratory disease, pathogen testing]
 ---
 
-# Mycoplasma vs Chlamydia in Pigeons
 
 > **Short answer**: Mycoplasma and Chlamydia both cause respiratory and eye signs in racing pigeons that look almost identical, yet differ fundamentally — Mycoplasma lacks a cell wall and is carried by **~9 in 10 racing pigeons**, while Chlamydia is an obligate intracellular organism and a **zoonotic** pathogen that infects humans (psittacosis, incubation **5–14 days**). They cannot be told apart by eye — **confirm the pathogen by PCR first**, then treat accordingly.
 

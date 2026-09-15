@@ -6,7 +6,6 @@ category: Virus Control
 tags: [Salmonella, paratyphoid, prevention, biosecurity]
 ---
 
-# Pigeon Salmonella Prevention
 
 > **Short answer**: Racing pigeon Salmonella (paratyphoid) prevention rests on a four-in-one approach: **keep it out, block vertical transmission, manage the environment, and test routinely**. Because *Salmonella* can lurk in silent carriers for months, transmit vertically through the egg, and infect humans — the CDC attributes roughly **1.35 million US illnesses a year** to the genus — routine pathogen screening matters more than treating after the fact.
 

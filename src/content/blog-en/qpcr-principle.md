@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [qPCR, Ct value, viral load, pathogen detection]
 ---
 
-# qPCR Principles and Racing Pigeon Pathogen Detection
 
 > **TL;DR**: Real-time qPCR is the gold standard for pigeon pathogen detection, delivering both qualitative and quantitative results. Its core number — the **Ct value** — moves inversely with viral load, and a shift of roughly **3.3 cycles corresponds to a 10-fold change** in starting template. This guide covers the principle, the Ct math and the applications.
 

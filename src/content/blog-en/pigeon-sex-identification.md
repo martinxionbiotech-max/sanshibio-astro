@@ -6,7 +6,6 @@ category: Testing Guide
 tags: [sexing, gender, young pigeon, gene testing]
 ---
 
-# Young Pigeon Sexing
 
 > **TL;DR**: DNA sexing detects sex-chromosome markers (the CHD1 gene) to determine gender with **near-100% accuracy** — a decisive upgrade over visual judgment, which in monomorphic birds like pigeons is often no better than a coin flip. This guide covers the principle and applications.
 

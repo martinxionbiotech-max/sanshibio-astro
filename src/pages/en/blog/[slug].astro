@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
+import contentDates from '../../../data/content-dates.json';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blogEn');
@@ -23,9 +24,12 @@ const articleLd = {
   '@id': `https://sanshibio.net/en/blog/${post.id}/#article`,
   headline: title,
   description,
+  url: `https://sanshibio.net/en/blog/${post.id}/`,
+  articleSection: category,
   image: 'https://sanshibio.net/images/banner-home.png',
   datePublished: pubDate.toISOString(),
-  dateModified: pubDate.toISOString(),
+  // dateModified 取该文件最后一次 git 提交日期（脚本生成，可核验），无则回退 pubDate
+  dateModified: new Date((contentDates as Record<string, string>)[`blog-en/${post.id}`] ?? pubDate).toISOString(),
   author: {
     '@type': 'Organization',
     name: authorName,
@@ -72,9 +76,14 @@ if (faqSection) {
 }
 
 const allJsonLd = [articleLd, ...(faqPage ? [faqPage] : []), breadcrumbLd];
+
+// 标题长度控制：品牌后缀只在合成后不超过 60 字符时追加（Google 标题约 60 字符截断）
+const withBrand = `${title} - Sanshi Bio`;
+const withShortBrand = `${title} | Sanshi`;
+const pageTitle = withBrand.length <= 60 ? withBrand : (withShortBrand.length <= 60 ? withShortBrand : title);
 ---
 
-<Layout title={`${title} - Sanshi Bio`} description={description} jsonLd={allJsonLd}>
+<Layout title={pageTitle} description={description} jsonLd={allJsonLd}>
   <article class="container-site py-12">
     <nav class="mb-6 text-sm text-slate-500">
       <a href="/en/" class="hover:text-brand-700">Home</a> <span class="mx-1">/</span>

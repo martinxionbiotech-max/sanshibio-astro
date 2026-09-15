@@ -6,7 +6,6 @@ category: Virus Control
 tags: [antibody testing, immunity, vaccine, titer]
 ---
 
-# Antibody Titer Testing for Racing Pigeons
 
 > **Short answer**: Antibody titer testing answers with data whether vaccination actually worked. For Newcastle disease, the WOAH treats an HI (haemagglutination-inhibition) titre of **log₂ 4 (1:16)** or higher as positive, and field studies treat anything below **log₂ 4** as non-protective — while flock-level immunity only holds when **more than 85% of birds** carry a protective titre.
 

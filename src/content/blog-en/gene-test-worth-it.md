@@ -6,7 +6,6 @@ category: Flight Genes
 tags: [gene testing, racing pigeon, flight ability, bloodline]
 ---
 
-# Is Pigeon Gene Testing Worth It?
 
 **Short answer:** Gene testing pays off when it converts a *waiting game* into a *decision*. The clearest example: flight-ability testing lets you screen a squab's endurance and power weeks after hatching — instead of waiting 1–2 years for race results to reveal the same bird. But it is selection tooling, not fortune-telling: the 2018 genome-wide scan screened **17.4 million variants and found no single gene that decides a champion**.
 
