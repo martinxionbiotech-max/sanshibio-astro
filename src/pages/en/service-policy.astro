@@ -1,0 +1,110 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Testing Service Policy — Sanshi Bio';
+const description = 'Sanshi Bio testing service policy: sample acceptance, rejection, turnaround, reports, re-testing, refunds, retention and report use.';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Testing Service Policy' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Testing Service Policy" description="Check sample, turnaround, re-test and report-use rules before submission" breadcrumb="Testing Service Policy" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Scope</h2>
+      <p>
+        This policy explains the operational boundaries of Sanshi Bio testing services: racing-pigeon
+        gene testing, pathogen testing, paternity testing, sex identification and related technical
+        services. Price, sample requirements, turnaround and report format are set by the quotation,
+        order or written confirmation. This policy does not replace the
+        <a href="/en/terms-of-service">Terms of Service</a> and is not a veterinary diagnosis or a
+        guarantee of race performance.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">2. Sample acceptance and rejection</h2>
+      <p>
+        On receipt, the laboratory checks sample type, quantity, packaging, labelling and condition.
+        A sample may be rejected or re-sampling requested where:
+      </p>
+      <ul>
+        <li>the sample is insufficient, degraded, contaminated or improperly stored/shipped;</li>
+        <li>the bird ID, ring number or sample ID does not match or the label is unreadable;</li>
+        <li>the sample type does not match the test;</li>
+        <li>required client information, payment or authorisation is missing;</li>
+        <li>an undisclosed biosafety risk is present.</li>
+      </ul>
+      <p>
+        Rejection is a quality-control decision, not a judgement about the client. Re-sampling,
+        re-testing or delay caused by a sample issue follows the order terms.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">3. Turnaround and reports</h2>
+      <p>
+        Turnaround starts when a suitable sample is received and confirmed, and excludes transport,
+        payment, re-sampling, re-testing, holidays or force majeure. Reports are normally delivered
+        electronically; paper or other formats must be agreed in advance. A report applies to the
+        received sample and is limited by sampling time, sample quality, pathogen load and the test
+        method.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">4. Re-testing, cancellation and refunds</h2>
+      <p>
+        If you question a result, contact us promptly with the sample ID, test and specific concern.
+        Whether a re-test is possible, whether a new sample is needed and whether a fee applies depends
+        on the remaining sample, the test type and the order terms.
+      </p>
+      <p>
+        Cancellation before testing begins follows the order terms. If a sample has been received,
+        processed or testing has begun, costs already incurred may apply. A failure caused by the
+        laboratory is handled by a re-test or refund as agreed in the order; a failure caused by
+        sample quality, incorrect information, client action or force majeure is not a laboratory
+        breach. Specific refund and liability terms are governed by the written order and applicable
+        law.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Samples, data and retention</h2>
+      <p>
+        Samples and test data are used only to perform the requested test, support re-testing, keep
+        quality records and communicate about the service. Retention, destruction, re-test use and the
+        involvement of third-party laboratories or service providers follow the project, order and
+        applicable law. We do not use samples or reports for unrelated purposes or disclose them to
+        unrelated third parties.
+      </p>
+      <p>
+        Personal information is handled under the <a href="/en/privacy-policy">Privacy Policy</a>.
+        To access, correct or delete personal information, or to request sample handling, use the
+        <a href="/en/contact">contact page</a>, subject to legal or quality-record retention
+        requirements.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">6. Report-use boundaries</h2>
+      <p>
+        Reports are for the client or a written authorised recipient, for lawful breeding, health
+        management, transaction verification or registration. Do not forge, alter, misquote or use a
+        report to mislead a counterparty. Gene testing describes probability and direction; it does
+        not guarantee race results, breeding outcomes or transaction value. Pathogen results must be
+        interpreted with clinical signs, epidemiology, re-testing and veterinary advice.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">7. Contact and complaints</h2>
+      <p>
+        For questions about this policy, samples, reports or complaints, use the
+        <a href="/en/contact">contact page</a> or email
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>. Related pages:
+        <a href="/en/terms-of-service">Terms of Service</a>,
+        <a href="/en/privacy-policy">Privacy Policy</a>,
+        <a href="/en/disclaimer">Disclaimer</a>.
+      </p>
+    </div>
+  </section>
+</Layout>

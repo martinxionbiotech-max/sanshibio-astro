@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageBanner from '../components/PageBanner.astro';
+
+const title = '检测服务政策 - 三狮生物';
+const description = '三狮生物检测服务政策：样本接收、拒收、检测周期、报告交付、复检、退款、样本保留与报告使用边界。';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.net/' },
+    { '@type': 'ListItem', position: 2, name: '检测服务政策' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="检测服务政策" description="送检前请先确认样本、周期、复检和报告使用规则" breadcrumb="检测服务政策" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>最后更新：2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">一、适用范围</h2>
+      <p>
+        本政策说明三狮生物检测服务的操作边界，适用于赛鸽基因检测、病原检测、亲子鉴定、性别鉴定
+        及相关技术服务。具体项目的价格、样本要求、交期和报告形式以报价单、订单或双方书面确认为准。
+        本政策不替代<a href="/terms-of-service">服务条款</a>，也不构成兽医诊断或比赛结果保证。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">二、样本接收与拒收</h2>
+      <p>
+        样本到达后，实验室会核对样本类型、数量、包装、标识和保存状态。以下情况可能被拒收或要求重采：
+      </p>
+      <ul>
+        <li>样本量不足、明显降解、污染或保存/运输条件不合格；</li>
+        <li>鸽号、足环号、样本编号不一致或标签无法识别；</li>
+        <li>样本类型与检测项目不匹配；</li>
+        <li>缺少必要的委托信息、付款或授权；</li>
+        <li>存在未披露的生物安全风险。</li>
+      </ul>
+      <p>
+        拒收不是对委托人的评价，而是质量控制。因样本问题导致的重采、复检或延迟，按订单约定处理。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">三、检测周期与报告</h2>
+      <p>
+        检测周期从样本接收并确认合格后计算，不包含运输、付款、补样、复检、节假日或不可抗力时间。
+        报告通常以电子文件交付；需要纸质报告或其他格式的，应提前确认。报告只对来样负责，并受采样时间、
+        样本质量、病原载量和检测方法限制。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">四、复检、取消与退款</h2>
+      <p>
+        对结果有疑问的，应在收到报告后及时提出，并说明样本编号、检测项目和具体问题。复检是否可行、
+        是否需要新样本、是否收费，取决于样本剩余量、检测类型和订单约定。
+      </p>
+      <p>
+        检测开始前取消的，按订单约定处理；样本已接收、已处理或检测已开始的，可能产生已发生成本。
+        因实验室原因导致检测失败或无法出报告的，按订单安排复检或退款；因样本质量、信息错误、
+        委托方原因或不可抗力导致的失败，不视为实验室违约。具体退款和赔偿以书面订单及适用法律为准。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">五、样本、数据与保留</h2>
+      <p>
+        样本和检测数据仅用于完成委托检测、复检、质量记录和必要的售后沟通。样本保留期限、销毁方式、
+        是否用于复检以及第三方实验室/服务商的使用，按检测项目、订单约定和适用法律执行。
+        我们不会将样本或报告用于与服务无关的用途，也不会向无关第三方披露。
+      </p>
+      <p>
+        个人信息处理见<a href="/privacy-policy">隐私政策</a>。如需查询、更正、删除个人信息或申请样本处理，
+        请通过<a href="/contact">联系我们</a>提交；法律或质量记录要求保留的除外。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">六、报告使用边界</h2>
+      <p>
+        报告仅供委托人或其书面授权方用于合法的育种、健康管理、交易核验或登记目的。不得伪造、篡改、
+        断章取义或利用报告误导交易相对方。基因检测反映概率和方向，不保证比赛成绩、繁育效果或交易价值；
+        病原检测结果需结合临床症状、流行病学、复检和执业兽医意见解释。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">七、联系与投诉</h2>
+      <p>
+        服务政策、样本、报告或投诉相关问题，请通过<a href="/contact">联系我们</a>或
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>联系。
+        相关页面：<a href="/terms-of-service">服务条款</a>、<a href="/privacy-policy">隐私政策</a>、
+        <a href="/disclaimer">免责声明</a>。
+      </p>
+    </div>
+  </section>
+</Layout>
