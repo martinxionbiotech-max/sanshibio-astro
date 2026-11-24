@@ -1,0 +1,137 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Terms of Service — Sanshi Bio';
+const description = 'Terms for Sanshi Bio pigeon testing services: orders, samples, reports, re-tests, payment, data, intellectual property and liability.';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Terms of Service' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Terms of Service" description="Please read the service scope, sample requirements and report limits before ordering" breadcrumb="Terms of Service" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Scope</h2>
+      <p>
+        These terms apply to testing services provided by Hebei Sanshi Biotechnology Co., Ltd.
+        (“Sanshi Bio”): racing-pigeon gene testing, pathogen testing, paternity testing, sex
+        identification and related technical services. The project scope, sample requirements, price,
+        turnaround and report format are set by the quotation, order or written agreement confirmed by
+        both parties. If there is a conflict, the specific order terms prevail.
+      </p>
+      <p>
+        Testing is a laboratory service and an interpretation of a sample. It is <b>not a veterinary
+        diagnosis, a treatment, or a prediction of race performance</b>. A report does not replace a
+        veterinarian's clinical judgement and does not guarantee racing results, breeding outcomes or
+        transaction value.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">2. Client and samples</h2>
+      <p>
+        The client must provide accurate bird ID, ring number, contact details, sample origin and test
+        purpose, and must be entitled to submit the sample. Samples must be collected, labelled,
+        stored and shipped according to Sanshi Bio's instructions. We may reject a sample or request
+        re-sampling where the sample is insufficient, degraded, contaminated, mislabelled or
+        improperly stored or transported.
+      </p>
+      <p>
+        The client must not submit samples of unknown or unlawful origin, or samples that create an
+        undisclosed laboratory safety risk. The client must disclose known infectious or biosafety
+        risks and comply with applicable law and carrier requirements.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">3. Testing, reports and interpretation</h2>
+      <p>
+        We test according to the confirmed project and laboratory procedures. A report reflects the
+        result <span style="font-weight:600">for the received sample under the testing conditions
+        used</span>. Results can be affected by sampling time, site, sample quality, pathogen load,
+        individual variation and method limits. A negative result does not necessarily exclude
+        infection; a positive result does not necessarily mean clinical disease. Interpret results
+        with clinical signs, epidemiology, re-testing and veterinary advice.
+      </p>
+      <p>
+        The client should read the sample ID, test scope, reference range and limitations in the
+        report. Questions should be raised promptly after receipt. Re-testing follows the agreed
+        re-test plan and fees.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">4. Price, payment and delivery</h2>
+      <p>
+        Test fees, sample handling, re-test fees, rush charges, shipping and taxes are set by the
+        quotation or order. Unless agreed otherwise, payment is due before testing begins. Reports are
+        normally delivered electronically; paper or other formats must be agreed in advance. Turnaround
+        is an estimate and may change because of sample quality, re-testing, holidays, logistics or
+        force majeure.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Cancellation, re-testing and refunds</h2>
+      <p>
+        Cancellation before testing begins is handled under the order terms. If a sample has been
+        received, processed or testing has begun, costs already incurred may apply. If a failure is
+        caused by the laboratory, we will arrange a re-test or refund as agreed in the order. Failures
+        caused by sample quality, incorrect information, client action or force majeure are not a
+        laboratory breach. Specific re-test, refund and liability arrangements are governed by the
+        written order and applicable law.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">6. Report use and intellectual property</h2>
+      <p>
+        Reports are for the client or a written authorised recipient, for lawful breeding, health
+        management, transaction verification or registration. The client must not forge, alter,
+        misquote or use a report to mislead a counterparty, invent a pedigree, impersonate a testing
+        body or infringe another person's rights.
+      </p>
+      <p>
+        Our report templates, methods, databases, text and marks are protected by law. They may not be
+        copied, adapted, published or used for commercial training without written permission. The
+        client may keep and use the original report for their own birds.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">7. Data and samples</h2>
+      <p>
+        Personal information is handled under our <a href="/en/privacy-policy">Privacy Policy</a>.
+        Sample and test-data retention, destruction, and the use of third-party laboratories or service
+        providers follow the project, order and applicable law. You may contact us to request deletion
+        of personal information or samples, except where law or quality-record requirements require
+        retention.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">8. Limits of liability</h2>
+      <p>
+        To the extent permitted by law, Sanshi Bio is not liable for indirect loss, lost profit, lost
+        race results or loss caused by the client's use or misuse of a report, sample problems, the
+        bird's condition, training, transaction decisions or third-party conduct. For a specific
+        testing service we provide, our liability is limited to the testing fee actually received for
+        that order, except where mandatory law prohibits that limitation.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">9. Force majeure and changes</h2>
+      <p>
+        We will notify the client and discuss alternatives where a natural disaster, epidemic,
+        government action, logistics interruption, equipment failure or other event beyond reasonable
+        control causes delay or prevents performance. We may update these terms; the updated version
+        will be published on this page, and a specific order is governed by the version confirmed when
+        the order was placed.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">10. Governing law and contact</h2>
+      <p>
+        These terms are governed by the laws of the People's Republic of China. Disputes should first
+        be addressed by discussion; if unresolved, they are submitted to the competent court at Sanshi
+        Bio's place of operation. For questions about these terms, orders, samples or reports, use the
+        <a href="/en/contact">contact page</a> or email
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>.
+      </p>
+    </div>
+  </section>
+</Layout>

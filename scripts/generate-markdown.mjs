@@ -166,6 +166,30 @@ function main() {
   const full = fullParts.join('\n');
   writeFileSync(join(DIST, 'llms-full.txt'), full, 'utf8');
 
+  // Complete, concise llms.txt index. The previous hand-maintained file only
+  // listed a small subset of the site and drifted out of date.
+  const llms = [
+    '# Sanshi Bio (三狮生物)',
+    '',
+    '> Hebei Sanshi Biotechnology Co., Ltd. — racing pigeon gene testing, pathogen detection, paternity testing and molecular diagnostics.',
+    `> Site: ${SITE} · Pages: ${entries.length} · Generated: ${GENERATED_ON}`,
+    '',
+    '## Markdown',
+    '',
+    `- [Full corpus](/llms-full.txt)`,
+    `- [Mirror index](/markdown/index.md)`,
+    `- Pattern: ${SITE}/markdown/{path}.md`,
+    '',
+  ];
+  for (const lang of Object.keys(byLang).sort()) {
+    llms.push(`## ${lang}`, '');
+    for (const e of byLang[lang]) {
+      llms.push(`- [${e.title || e.rel}](${SITE}/markdown/${e.rel}.md)`);
+    }
+    llms.push('');
+  }
+  writeFileSync(join(DIST, 'llms.txt'), llms.join('\n'), 'utf8');
+
   console.log(
     `[md-gen] ${entries.length} mirrors -> /markdown/ ; llms-full.txt ${(full.length / 1024).toFixed(0)}KB`
   );

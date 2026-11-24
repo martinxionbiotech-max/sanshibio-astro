@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageBanner from '../components/PageBanner.astro';
+
+const title = 'Cookie 政策 - 三狮生物';
+const description = '三狮生物网站 Cookie 政策：本站不使用跟踪、分析或广告 Cookie，并说明服务器日志、浏览器设置与联系方式。';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.net/' },
+    { '@type': 'ListItem', position: 2, name: 'Cookie 政策' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Cookie 政策" description="本站不使用跟踪 Cookie；本页说明服务器日志和浏览器设置" breadcrumb="Cookie 政策" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>最后更新：2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">一、我们的立场</h2>
+      <p>
+        三狮生物网站是一个以知识和检测服务说明为主的静态网站。当前版本<b>不设置分析 Cookie、广告 Cookie、
+        再营销 Cookie 或社交媒体追踪 Cookie</b>，也不使用跨站行为广告。因为不存在需要同意的非必要 Cookie，
+        本站没有 Cookie 弹窗或 Cookie 偏好中心。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">二、Cookie 清单</h2>
+      <table class="mt-4 w-full text-sm">
+        <thead><tr><th class="border p-2 text-left">类别</th><th class="border p-2 text-left">是否设置</th><th class="border p-2 text-left">用途</th></tr></thead>
+        <tbody>
+          <tr><td class="border p-2">必要 Cookie</td><td class="border p-2">无</td><td class="border p-2">无登录、购物车或会话状态</td></tr>
+          <tr><td class="border p-2">分析 Cookie</td><td class="border p-2">无</td><td class="border p-2">不统计访问或建立画像</td></tr>
+          <tr><td class="border p-2">广告 Cookie</td><td class="border p-2">无</td><td class="border p-2">不做广告投放或再营销</td></tr>
+          <tr><td class="border p-2">功能 Cookie</td><td class="border p-2">无</td><td class="border p-2">不保存偏好或账户状态</td></tr>
+        </tbody>
+      </table>
+
+      <h2 class="mt-8 text-xl font-bold">三、服务器日志不是 Cookie</h2>
+      <p>
+        网站托管服务商可能记录标准访问日志，例如 IP 地址、浏览器类型、请求页面和时间戳，用于提供页面、
+        维护安全和防止滥用。这些是服务器端日志，不是放置在您设备上的 Cookie，也不用于跨站广告画像。
+        更多个人信息处理说明见<a href="/privacy-policy">隐私政策</a>。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">四、浏览器设置</h2>
+      <p>
+        您可以在浏览器中阻止或清除 Cookie。由于本站当前不依赖 Cookie 提供核心功能，阻止 Cookie 不会影响
+        阅读页面。浏览器也可能提供“请勿跟踪”（DNT）或全球隐私控制（GPC）信号；本站不进行跨站追踪，
+        因此没有需要关闭的追踪开关。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">五、政策更新</h2>
+      <p>
+        如果未来增加表单、分析、账户或其他需要 Cookie 的功能，我们会在启用前更新本页，说明 Cookie 名称、
+        用途、保存期限和选择方式。当前版本的日期为 2026-11-24。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">六、联系</h2>
+      <p>
+        对 Cookie 或隐私有疑问，请通过<a href="/contact">联系我们</a>或
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>联系。
+        相关页面：<a href="/privacy-policy">隐私政策</a>、<a href="/terms-of-service">服务条款</a>、
+        <a href="/disclaimer">免责声明</a>。
+      </p>
+    </div>
+  </section>
+</Layout>

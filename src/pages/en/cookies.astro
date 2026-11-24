@@ -1,0 +1,77 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Cookie Policy — Sanshi Bio';
+const description = 'How Sanshi Bio uses cookies: no tracking, analytics or advertising cookies; server logs, browser controls and contact details.';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Cookie Policy' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Cookie Policy" description="No tracking cookies; how server logs and browser controls work" breadcrumb="Cookie Policy" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Our position</h2>
+      <p>
+        The Sanshi Bio website is primarily a static knowledge and service-information site. The
+        current version sets <b>no analytics cookies, advertising cookies, retargeting cookies or
+        social-media tracking cookies</b>, and it does not run cross-site behavioural advertising.
+        Because there are no non-essential cookies to consent to, there is no cookie banner or
+        preference centre on this site.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">2. Cookie inventory</h2>
+      <table class="mt-4 w-full text-sm">
+        <thead><tr><th class="border p-2 text-left">Category</th><th class="border p-2 text-left">Set?</th><th class="border p-2 text-left">Purpose</th></tr></thead>
+        <tbody>
+          <tr><td class="border p-2">Strictly necessary</td><td class="border p-2">None</td><td class="border p-2">No login, cart or session state</td></tr>
+          <tr><td class="border p-2">Analytics</td><td class="border p-2">None</td><td class="border p-2">No traffic measurement or profiling</td></tr>
+          <tr><td class="border p-2">Advertising</td><td class="border p-2">None</td><td class="border p-2">No ad delivery or retargeting</td></tr>
+          <tr><td class="border p-2">Functional</td><td class="border p-2">None</td><td class="border p-2">No saved preferences or account state</td></tr>
+        </tbody>
+      </table>
+
+      <h2 class="mt-8 text-xl font-bold">3. Server logs are not cookies</h2>
+      <p>
+        Our hosting provider may record standard access logs — IP address, browser type, requested
+        page and timestamp — to serve pages, maintain security and prevent abuse. These are server-side
+        logs, not cookies placed on your device, and they are not used for cross-site advertising
+        profiles. See the <a href="/en/privacy-policy">Privacy Policy</a> for more on personal data.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">4. Browser controls</h2>
+      <p>
+        You can block or clear cookies in your browser. Because the site does not rely on cookies for
+        its core functions, blocking cookies will not prevent you from reading the pages. Your browser
+        may also offer a “Do Not Track” or Global Privacy Control signal; the site does not run
+        cross-site tracking, so there is no tracking switch to turn off.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Changes</h2>
+      <p>
+        If we add forms, analytics, accounts or another feature that uses cookies, we will update this
+        page before enabling it, describing the cookie name, purpose, duration and choice. The current
+        version is dated 2026-11-24.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">6. Contact</h2>
+      <p>
+        Questions about cookies or privacy: <a href="/en/contact">contact page</a> or
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>. Related pages:
+        <a href="/en/privacy-policy">Privacy Policy</a>,
+        <a href="/en/terms-of-service">Terms of Service</a>,
+        <a href="/en/disclaimer">Disclaimer</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
