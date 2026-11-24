@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'International Sample Shipping — Sanshi Bio';
+const description = 'What to confirm before shipping pigeon samples internationally: sample type, packaging, cold chain, carrier, import permits, declarations and receipt.';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'International Sample Shipping' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="International Sample Shipping" description="Confirm compliance and receipt before collecting or shipping a sample" breadcrumb="International Sample Shipping" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Do not ship first and ask later</h2>
+      <p>
+        International sample shipping involves biological material, animal-derived material, cold chain,
+        carrier rules and destination import requirements. Requirements differ by country, sample type
+        and test. Before collecting or shipping, contact us to confirm:
+      </p>
+      <ul>
+        <li>whether the destination accepts this sample type;</li>
+        <li>which import, veterinary or quarantine documents are required;</li>
+        <li>the accepted sample type, preservation and transport temperature;</li>
+        <li>whether the carrier accepts the sample and packaging;</li>
+        <li>whether the laboratory can receive it, when, and how the report will be issued.</li>
+      </ul>
+      <p>
+        Shipping without confirmation can lead to carrier refusal, customs detention, sample failure or
+        return. We do not guarantee customs clearance and are not responsible for loss caused by
+        declarations, permits or carrier decisions.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">2. Samples and packaging</h2>
+      <p>
+        Common samples include feathers with pulp/root tissue, blood, swabs or other confirmed material.
+        Use the container, label and preservation method confirmed by the laboratory. If cold chain is
+        required, use suitable gel packs/insulation and allow enough transit time. Label each sample
+        separately and prevent leakage and cross-contamination.
+      </p>
+      <p>
+        Mark the package according to the applicable rules. Do not conceal the nature of the sample or
+        use a false description. Packaging, biological-substance declarations and carrier requirements
+        are governed by the carrier and the destination authority.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">3. Documents and responsibility</h2>
+      <table class="mt-4 w-full text-sm">
+        <thead><tr><th class="border p-2 text-left">Item</th><th class="border p-2 text-left">Normally confirmed</th></tr></thead>
+        <tbody>
+          <tr><td class="border p-2">Order details</td><td class="border p-2">Bird ID, ring number, sample type, test, contact</td></tr>
+          <tr><td class="border p-2">Import/quarantine</td><td class="border p-2">Destination permit, veterinary/quarantine documents, declaration</td></tr>
+          <tr><td class="border p-2">Carrier</td><td class="border p-2">Acceptance confirmation, tracking, transit time</td></tr>
+          <tr><td class="border p-2">Packaging</td><td class="border p-2">Leak-proof, contamination-safe, temperature, labels</td></tr>
+          <tr><td class="border p-2">Costs</td><td class="border p-2">Freight, duty, return, re-test/re-sampling</td></tr>
+        </tbody>
+      </table>
+
+      <h2 class="mt-8 text-xl font-bold">4. Rejection, delay and re-sampling</h2>
+      <p>
+        A sample may be rejected, delayed or returned because of packaging, temperature, leakage,
+        labelling, permits or customs. A failed test caused by sample or transport problems may require
+        re-sampling; costs and responsibility follow the order and
+        <a href="/en/service-policy">Testing Service Policy</a>.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Contact</h2>
+      <p>
+        Before shipping, send: country, sample type, quantity, test, expected arrival and carrier.
+        Contact us via the <a href="/en/contact">contact page</a> or
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>. Related pages:
+        <a href="/en/regulatory-scope">Regulatory Scope</a>,
+        <a href="/en/partners">Partners</a>,
+        <a href="/en/service-policy">Testing Service Policy</a>.
+      </p>
+    </div>
+  </section>
+</Layout>

@@ -73,6 +73,8 @@ const subsites = isEn
           <li><a href={base + '/services'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.services}</a></li>
           <li><a href={base + '/blog/'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.blog}</a></li>
           <li><a href={base + '/about'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{t.aboutLink}</a></li>
+          <li><a href={base + '/partners'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{isEn ? 'Partners' : '合作伙伴'}</a></li>
+          <li><a href={base + '/international-sample-shipping'} class="inline-flex items-center gap-1.5 transition hover:text-brand-700"><span class="text-brand-300">›</span>{isEn ? 'International Sample Shipping' : '国际样本寄送'}</a></li>
         </ul>
       </div>
       <div>
@@ -112,6 +114,8 @@ const subsites = isEn
           <a href="/cookies" class="hover:text-brand-600">Cookie 政策</a>
           <span class="mx-1">·</span>
           <a href="/service-policy" class="hover:text-brand-600">检测服务政策</a>
+          <span class="mx-1">·</span>
+          <a href="/regulatory-scope" class="hover:text-brand-600">监管范围</a>
         </>
       )}
       {isEn && (
@@ -126,6 +130,8 @@ const subsites = isEn
           <a href="/en/cookies" class="hover:text-brand-600">Cookie Policy</a>
           <span class="mx-1">·</span>
           <a href="/en/service-policy" class="hover:text-brand-600">Testing Service Policy</a>
+          <span class="mx-1">·</span>
+          <a href="/en/regulatory-scope" class="hover:text-brand-600">Regulatory Scope</a>
         </>
       )}
     </div>

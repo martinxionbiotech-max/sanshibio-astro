@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Regulatory Scope — Sanshi Bio';
+const description = 'Sanshi Bio testing is for animals, not human medicine. Import, laboratory and report requirements differ by country; no universal compliance claim.';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Regulatory Scope' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Regulatory Scope" description="Our testing is for animals; local import and laboratory rules still apply" breadcrumb="Regulatory Scope" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Animal testing only</h2>
+      <p>
+        Sanshi Bio provides racing-pigeon gene testing, pathogen testing, paternity testing, sex
+        identification and related technical services. These services are for animals. They are
+        <b>not for human medicine, human genetic testing, diagnosis or treatment</b>. Website content
+        is not human medical advice and is not veterinary advice.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">2. No global compliance conclusion</h2>
+      <p>
+        Testing services, sample import, laboratory qualifications, report use, advertising claims and
+        data protection differ by country. Information on this site about a market is general background,
+        not a statement that a service is “globally available” or “regulator-approved.” A project that
+        can be performed in China is not automatically permitted in another country, and vice versa.
+      </p>
+      <p>
+        Whether a sample can be received, a report can be issued locally, or a report can be used for
+        trade or registration must be confirmed by the local importer, laboratory, lawyer or regulator.
+        We do not promise customs clearance, market access or regulatory approval.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">3. What must be checked</h2>
+      <ul>
+        <li>whether the sample type and origin meet destination import/quarantine rules;</li>
+        <li>whether the carrier accepts the sample, packaging and transport conditions;</li>
+        <li>whether the laboratory qualification, method and report language are accepted locally;</li>
+        <li>whether trade, auction, registration or advertising use needs an additional permit;</li>
+        <li>whether personal information, sample data and cross-border transfer meet applicable law;</li>
+        <li>whether any health, genetic or performance claim is supported and permitted locally.</li>
+      </ul>
+
+      <h2 class="mt-8 text-xl font-bold">4. Market differences</h2>
+      <p>
+        The United States, Canada, the United Kingdom, the European Union, Australia, the Middle East
+        and Southeast Asia may differ in import permits, veterinary/quarantine documents, laboratory
+        oversight, advertising rules and data protection. This site does not give a legal conclusion for
+        each market. Use the destination's official text, local professional advice and the specific
+        order. Before international shipping, read
+        <a href="/en/international-sample-shipping">International Sample Shipping</a> and contact us.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Partner and importer responsibility</h2>
+      <p>
+        Partners, distributors and importers must confirm their own local registration, import,
+        labelling, advertising, tax and data-protection obligations. Sanshi Bio can provide product
+        information, testing descriptions and technical support, but does not replace the partner's
+        local compliance responsibility. See <a href="/en/partners">Partners</a> and the
+        <a href="/en/service-policy">Testing Service Policy</a>.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">6. Contact</h2>
+      <p>
+        For a country- or project-specific question, use the <a href="/en/contact">contact page</a> or
+        email <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>. Include the country,
+        sample type, test, intended report use and import route.
+      </p>
+    </div>
+  </section>
+</Layout>

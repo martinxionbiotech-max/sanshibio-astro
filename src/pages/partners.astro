@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageBanner from '../components/PageBanner.astro';
+
+const title = '合作伙伴 - 三狮生物';
+const description = '三狮生物合作伙伴计划：面向检测实验室、经销商、鸽舍、设备与试剂伙伴的小批量合作、技术支持和培训。';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.net/' },
+    { '@type': 'ListItem', position: 2, name: '合作伙伴' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="合作伙伴" description="检测服务、设备试剂与技术培训的 B2B 合作" breadcrumb="合作伙伴" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>最后更新：2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">一、我们在找什么伙伴</h2>
+      <p>
+        三狮生物面向海外检测实验室、赛鸽经销商、育种机构、鸽舍服务商，以及设备/试剂渠道伙伴，
+        提供小批量检测服务、分子诊断设备、试剂和技术培训。我们不承诺独家代理或固定采购量；
+        合作以实际能力、合规条件和试点结果为基础。
+      </p>
+      <ul>
+        <li><b>检测实验室：</b>样本转介、项目合作、技术培训或试剂供应。</li>
+        <li><b>经销商/渠道：</b>设备、试剂和检测服务的区域推广。</li>
+        <li><b>鸽舍/育种机构：</b>批量检测、基因身份证、亲子鉴定和健康筛查。</li>
+        <li><b>设备/试剂伙伴：</b>产品互补、联合方案或区域服务。</li>
+      </ul>
+
+      <h2 class="mt-8 text-xl font-bold">二、合作流程</h2>
+      <ol>
+        <li><b>需求沟通：</b>说明市场、客户类型、检测项目、预计样本量和交付方式。</li>
+        <li><b>能力匹配：</b>确认产品/服务范围、语言、技术支持和培训需求。</li>
+        <li><b>合规核验：</b>核验营业主体、实验室/进口资质、样本处理和数据处理能力。</li>
+        <li><b>试点：</b>先做小批量样品或单项目验证，不直接承诺长期供应。</li>
+        <li><b>书面协议：</b>明确价格、交期、质量、责任、品牌使用和终止条款。</li>
+      </ol>
+
+      <h2 class="mt-8 text-xl font-bold">三、伙伴需要提供什么</h2>
+      <ul>
+        <li>合法的营业主体和联系方式；</li>
+        <li>目标市场、客户类型和预计需求量；</li>
+        <li>当地实验室、进口、样本运输或广告宣称所需的许可；</li>
+        <li>样本采集、保存、运输和数据处理的基本流程；</li>
+        <li>不冒用三狮生物名义、不伪造报告、不承诺未经验证的检测效果。</li>
+      </ul>
+
+      <h2 class="mt-8 text-xl font-bold">四、我们不承诺什么</h2>
+      <p>
+        合作不等于独家授权、市场准入、监管批准或最低采购承诺。具体产品是否可进入某一国家、
+        样本能否跨境寄送、报告能否用于交易或登记，取决于当地法律、进口要求和双方书面约定。
+        详见<a href="/international-sample-shipping">国际样本寄送</a>和
+        <a href="/regulatory-scope">监管范围</a>。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">五、联系</h2>
+      <p>
+        请通过<a href="/contact">联系我们</a>或
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>提交：
+        公司/机构名称、所在国家、合作类型、目标客户、预计样本量和需要的支持。
+      </p>
+    </div>
+  </section>
+</Layout>

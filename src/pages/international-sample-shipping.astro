@@ -1,0 +1,80 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageBanner from '../components/PageBanner.astro';
+
+const title = '国际样本寄送 - 三狮生物';
+const description = '国际赛鸽样本寄送前要确认什么：样本类型、包装、冷链、承运、进口许可、申报和实验室接收，不保证清关。';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.net/' },
+    { '@type': 'ListItem', position: 2, name: '国际样本寄送' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="国际样本寄送" description="先确认合规与接收条件，再安排采样和运输" breadcrumb="国际样本寄送" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>最后更新：2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">一、先不要直接寄</h2>
+      <p>
+        国际样本寄送涉及生物样本、动物来源材料、冷链、承运政策和目的国进口要求。不同国家/地区、
+        样本类型和检测项目的要求不同。请先通过<a href="/contact">联系我们</a>确认：
+      </p>
+      <ul>
+        <li>目标国家/地区是否接收该类样本；</li>
+        <li>需要哪些进口许可、兽医/检疫文件或申报材料；</li>
+        <li>可接受的样本类型、保存方式和运输温度；</li>
+        <li>承运人是否接受该样本和包装；</li>
+        <li>实验室能否接收、何时接收、如何出具报告。</li>
+      </ul>
+      <p>
+        未确认前自行寄送，可能导致承运拒收、海关扣留、样本失效或退运。我们不承诺清关，
+        也不对因申报、许可或承运问题产生的损失负责。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">二、常见样本与包装</h2>
+      <p>
+        常见样本包括羽毛（含毛囊/羽髓）、血液、拭子或其他经确认的材料。样本应使用实验室确认的容器、
+        标签和保存方式；需要冷链的，应使用符合要求的冰袋/保温包装，并预留运输时间。所有样本应独立编号，
+        避免泄漏和交叉污染。
+      </p>
+      <p>
+        包装外应按规定标识，不要隐瞒样本性质或使用虚假品名。具体包装、危险品/生物样本申报和承运要求，
+        以承运人和目的国官方要求为准。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">三、文件与责任</h2>
+      <table class="mt-4 w-full text-sm">
+        <thead><tr><th class="border p-2 text-left">项目</th><th class="border p-2 text-left">通常需要确认</th></tr></thead>
+        <tbody>
+          <tr><td class="border p-2">委托信息</td><td class="border p-2">鸽号、足环号、样本类型、检测项目、联系人</td></tr>
+          <tr><td class="border p-2">进口/检疫</td><td class="border p-2">目的国许可、兽医/检疫文件、申报</td></tr>
+          <tr><td class="border p-2">承运</td><td class="border p-2">承运人接受确认、 tracking、时效</td></tr>
+          <tr><td class="border p-2">包装</td><td class="border p-2">防漏、防污染、温度要求、标签</td></tr>
+          <tr><td class="border p-2">费用</td><td class="border p-2">运费、关税、退运、复检/重采</td></tr>
+        </tbody>
+      </table>
+
+      <h2 class="mt-8 text-xl font-bold">四、拒收、延误和重采</h2>
+      <p>
+        样本可能因包装、温度、泄漏、标识、许可或海关问题被拒收、延误或退运。因样本质量或运输问题导致的
+        检测失败，可能需要重新采样；费用和责任按订单和<a href="/service-policy">检测服务政策</a>处理。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">五、联系</h2>
+      <p>
+        寄送前请先提交：国家/地区、样本类型、数量、检测项目、期望到达时间和承运方式。
+        联系：<a href="/contact">联系我们</a> 或
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>。
+        相关页面：<a href="/regulatory-scope">监管范围</a>、
+        <a href="/partners">合作伙伴</a>、<a href="/service-policy">检测服务政策</a>。
+      </p>
+    </div>
+  </section>
+</Layout>

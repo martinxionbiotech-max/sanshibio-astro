@@ -1,0 +1,74 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageBanner from '../components/PageBanner.astro';
+
+const title = '监管范围与适用边界 - 三狮生物';
+const description = '三狮生物检测服务的监管范围：仅面向动物检测，不构成人类医疗；不同国家进口、实验室和宣称要求不同。';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首页', item: 'https://sanshibio.net/' },
+    { '@type': 'ListItem', position: 2, name: '监管范围' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="监管范围与适用边界" description="本网站与检测服务仅面向赛鸽等动物检测" breadcrumb="监管范围" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>最后更新：2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">一、仅面向动物检测</h2>
+      <p>
+        三狮生物提供赛鸽基因检测、病原检测、亲子鉴定、性别鉴定和相关技术服务。这些服务面向动物，
+        <b>不面向人类医疗、人类基因检测、疾病诊断或治疗</b>。网站内容不是人类医疗建议，也不是兽医诊疗建议。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">二、没有全球通用的合规结论</h2>
+      <p>
+        检测服务、样本进口、实验室资质、报告用途、广告宣称和数据保护要求因国家/地区而异。
+        本网站对不同市场的说明是一般背景，不是“全球可售”或“已获监管批准”的声明。
+        某一项目在中国可执行，不代表在另一个国家可执行；反之亦然。
+      </p>
+      <p>
+        具体项目是否可以接收样本、是否可以在当地出具报告、报告能否用于交易或登记，必须由当地进口商、
+        实验室、律师或监管机构确认。我们不会承诺清关、市场准入或监管批准。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">三、需要逐项确认的事项</h2>
+      <ul>
+        <li>样本类型和来源是否符合目的国进口/检疫要求；</li>
+        <li>承运人是否接受该样本、包装和运输条件；</li>
+        <li>实验室资质、检测方法和报告语言是否被当地接受；</li>
+        <li>报告用于交易、拍卖、登记或广告时，是否需要额外许可；</li>
+        <li>个人信息、样本数据和跨境传输是否满足适用法律；</li>
+        <li>任何健康、遗传或性能宣称是否有证据并被当地允许。</li>
+      </ul>
+
+      <h2 class="mt-8 text-xl font-bold">四、市场差异</h2>
+      <p>
+        对美国、加拿大、英国、欧盟、澳大利亚、中东、东南亚等市场，进口许可、兽医/检疫文件、
+        实验室监管、广告规则和数据保护均可能不同。本网站不逐一给出法律结论；请以目的国官方文本、
+        当地专业意见和具体订单为准。国际样本寄送前请先阅读
+        <a href="/international-sample-shipping">国际样本寄送</a>并联系我们确认。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">五、伙伴与进口商责任</h2>
+      <p>
+        合作伙伴、经销商或进口商应自行确认当地注册、进口、标签、广告、税务和数据保护义务。
+        三狮生物可以提供产品资料、检测说明和技术支持，但不替代伙伴的本地合规责任。
+        详见<a href="/partners">合作伙伴</a>和<a href="/service-policy">检测服务政策</a>。
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">六、联系</h2>
+      <p>
+        对具体国家/项目有疑问，请通过<a href="/contact">联系我们</a>或
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>提交：
+        国家/地区、样本类型、检测项目、报告用途和进口方式。
+      </p>
+    </div>
+  </section>
+</Layout>

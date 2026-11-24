@@ -1,0 +1,75 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+
+const title = 'Partners — Sanshi Bio';
+const description = 'Sanshi Bio partner programme for laboratories, distributors, lofts and equipment/reagent partners: small-batch testing, training and support.';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sanshibio.net/en/' },
+    { '@type': 'ListItem', position: 2, name: 'Partners' },
+  ],
+};
+---
+
+<Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
+  <PageBanner title="Partners" description="B2B collaboration in testing, equipment, reagents and training" breadcrumb="Partners" />
+
+  <section class="container-site py-16">
+    <div class="prose-sanshi mx-auto max-w-3xl">
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Who we work with</h2>
+      <p>
+        Sanshi Bio works with overseas testing laboratories, pigeon distributors, breeding organisations,
+        loft-service providers, and equipment or reagent channel partners. We offer small-batch testing
+        services, molecular diagnostics equipment, reagents and technical training. We do not promise
+        exclusivity or a fixed purchase volume; collaboration is based on capability, compliance and a
+        pilot result.
+      </p>
+      <ul>
+        <li><b>Testing laboratories:</b> sample referral, project collaboration, training or reagent supply.</li>
+        <li><b>Distributors and channels:</b> regional promotion of equipment, reagents and testing services.</li>
+        <li><b>Lofts and breeding organisations:</b> batch testing, gene ID cards, paternity and health screening.</li>
+        <li><b>Equipment and reagent partners:</b> complementary products, joint solutions or local service.</li>
+      </ul>
+
+      <h2 class="mt-8 text-xl font-bold">2. Collaboration process</h2>
+      <ol>
+        <li><b>Needs discussion:</b> market, customer type, tests, expected sample volume and delivery model.</li>
+        <li><b>Capability fit:</b> product/service scope, language, technical support and training needs.</li>
+        <li><b>Compliance check:</b> legal entity, laboratory/import qualifications, sample handling and data protection.</li>
+        <li><b>Pilot:</b> a small-batch sample or single-project validation before any long-term supply commitment.</li>
+        <li><b>Written agreement:</b> price, turnaround, quality, responsibility, brand use and termination terms.</li>
+      </ol>
+
+      <h2 class="mt-8 text-xl font-bold">3. What a partner should provide</h2>
+      <ul>
+        <li>A lawful business entity and contact details;</li>
+        <li>Target market, customer type and expected demand;</li>
+        <li>Local laboratory, import, sample-transport or advertising permissions where required;</li>
+        <li>A basic process for sample collection, storage, transport and data handling;</li>
+        <li>A commitment not to impersonate Sanshi Bio, forge reports or promise unverified test outcomes.</li>
+      </ul>
+
+      <h2 class="mt-8 text-xl font-bold">4. What collaboration does not mean</h2>
+      <p>
+        Collaboration is not an exclusive licence, market authorisation, regulatory approval or minimum
+        purchase commitment. Whether a product can enter a country, whether a sample can be shipped
+        across a border, and whether a report can be used for trade or registration depend on local law,
+        import requirements and the written agreement. See
+        <a href="/en/international-sample-shipping">International Sample Shipping</a> and
+        <a href="/en/regulatory-scope">Regulatory Scope</a>.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">5. Contact</h2>
+      <p>
+        Use the <a href="/en/contact">contact page</a> or email
+        <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>. Include your organisation,
+        country, partnership type, target customers, expected sample volume and the support you need.
+      </p>
+    </div>
+  </section>
+</Layout>
