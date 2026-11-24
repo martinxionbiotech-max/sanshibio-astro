@@ -148,3 +148,12 @@
 - 5 组双语文章：基因互作、遗传 vs 训练、SNP 面板、样本质量、qPCR 误读。
 - 文章清单与结构见 `docs/content-batch-01-2026-11-24.md`。
 - 中文/英文博客文件数：48 / 48。
+
+## 10. Pillar Hubs 已建立
+
+- `/blog/category/testing-workflow/` + `/en/blog/category/testing-workflow/`
+- `/blog/category/pathogen-health/` + `/en/blog/category/pathogen-health/`
+- `/blog/category/flight-genetics/` + `/en/blog/category/flight-genetics/`
+- `/blog/category/bloodline-identity/` + `/en/blog/category/bloodline-identity/`
+
+四个 hub 已从知识库首页加入主题入口，并接入对应的服务页。

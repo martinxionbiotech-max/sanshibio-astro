@@ -15,6 +15,16 @@ const description =
 <Layout title={title} description={description}>
   <PageBanner title="赛鸽基因检测知识库" description="聚焦赛鸽育种基因、疫病防控与血统鉴定的专业科普，助力科学养鸽。" breadcrumb="知识库" />
 
+  <section class="container-site pt-10">
+    <div class="flex flex-wrap gap-2 text-sm">
+      <span class="py-2 pr-1 font-medium text-slate-500">按主题：</span>
+      <a href="/blog/category/testing-workflow/" class="rounded-full border border-slate-200 px-3 py-1.5 text-slate-700 hover:border-brand-300 hover:text-brand-700">检测流程与报告</a>
+      <a href="/blog/category/pathogen-health/" class="rounded-full border border-slate-200 px-3 py-1.5 text-slate-700 hover:border-brand-300 hover:text-brand-700">病原与健康</a>
+      <a href="/blog/category/flight-genetics/" class="rounded-full border border-slate-200 px-3 py-1.5 text-slate-700 hover:border-brand-300 hover:text-brand-700">飞行基因</a>
+      <a href="/blog/category/bloodline-identity/" class="rounded-full border border-slate-200 px-3 py-1.5 text-slate-700 hover:border-brand-300 hover:text-brand-700">血统与身份</a>
+    </div>
+  </section>
+
   <section class="container-site py-16">
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {posts.map((post) => (

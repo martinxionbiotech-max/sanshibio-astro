@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import CategoryHub from '../../../../components/CategoryHub.astro';
+
+export function getStaticPaths() {
+  const categories = [
+    {
+      slug: 'testing-workflow',
+      category: 'Testing Guide',
+      title: 'Testing Workflow & Reports — Sanshi Bio',
+      description: 'Pigeon sample collection, shipping, testing workflow, report interpretation and re-test boundaries.',
+      bannerTitle: 'Testing Workflow & Reports',
+      bannerDescription: 'From sample to report: quality control, interpretation and the next decision.',
+      breadcrumb: 'Testing Guide',
+      serviceHref: '/en/services/',
+      serviceLabel: 'View testing services',
+      intro: [
+        'A test is not “send a sample and wait for a sheet.” The value of a report depends on whether the sample is traceable, whether the test matches the question, whether the report is read correctly, and whether the result changes the next decision.',
+        'This hub follows the chain: sampling and sample quality, shipping and chain of custody, laboratory testing and controls, report interpretation and re-testing. Each step can change the conclusion; the laboratory is not the only place where quality is made.',
+        'If this is your first test, start with sample collection and report interpretation. If you already have a result that does not fit the clinical picture, read the false-negative/false-positive guide before ordering another test.',
+      ],
+    },
+    {
+      slug: 'pathogen-health',
+      category: 'Virus Control',
+      title: 'Pathogens & Health — Sanshi Bio',
+      description: 'Pigeon virus, bacterial and parasite testing, loft health and the boundary between evidence and diagnosis.',
+      bannerTitle: 'Pathogens & Health',
+      bannerDescription: 'From pathogen detection to loft management: a result is evidence, not the end of diagnosis.',
+      breadcrumb: 'Virus Control',
+      serviceHref: '/en/virus-detection/',
+      serviceLabel: 'View virus detection',
+      intro: [
+        'Health problems in racing pigeons are rarely explained by one pathogen alone. Viruses, bacteria, parasites, environmental stress and management can overlap; the same positive report can mean something different with different signs, groups and sampling times.',
+        'This hub focuses on three questions: when testing is worth doing, what a result can actually support, and who should make the next call. Laboratory results belong inside clinical signs, epidemiology and veterinary judgement, not in place of them.',
+        'Start with the pathogen closest to the current signs. If the result and the clinical picture disagree, read the false-negative/false-positive and re-testing material before expanding treatment.',
+      ],
+    },
+    {
+      slug: 'flight-genetics',
+      category: 'Flight Genes',
+      title: 'Flight Genetics — Sanshi Bio',
+      description: 'Pigeon endurance, homing, navigation and muscle genes: scientific interpretation and breeding limits.',
+      bannerTitle: 'Flight Genetics',
+      bannerDescription: 'Genes give direction; training and environment decide expression. Potential is not performance.',
+      breadcrumb: 'Flight Genes',
+      serviceHref: '/en/flight-ability/',
+      serviceLabel: 'View flight-gene testing',
+      intro: [
+        'Flight ability is not controlled by one gene. LDHA, DRD4, CRY1, MSTN and other markers can suggest a direction, but endurance, homing, navigation and muscle power also depend on training, health, nutrition, weather and race conditions.',
+        'The purpose of this hub is not to turn a gene report into a champion prediction. It is to explain what a marker can suggest, what cannot be inferred from one marker, and how to place genetic information beside pedigree, race record and offspring data.',
+        'For a first report, start with gene interactions and polygenic limits. Before pairing, read genetics versus training. If the report and the race record disagree, exclude management, health and sample problems first.',
+      ],
+    },
+    {
+      slug: 'bloodline-identity',
+      category: 'Bloodline',
+      title: 'Bloodline & Identity — Sanshi Bio',
+      description: 'Pigeon paternity testing, gene ID cards, AB detection, sex identification and the evidence chain.',
+      bannerTitle: 'Bloodline & Identity',
+      bannerDescription: 'A bloodline is not a piece of paper: connect sample, markers, probability and transaction evidence.',
+      breadcrumb: 'Bloodline',
+      serviceHref: '/en/paternity/',
+      serviceLabel: 'View paternity testing',
+      intro: [
+        'The point of a paternity test is not a prettier percentage. It is whether the sample can be attributed, whether the marker panel is adequate, how the probability is calculated, and whether the report can be reviewed in a sale or registration.',
+        'This hub covers parentage, gene ID cards, AB detection and sex identification. We keep “exclusion” separate from “support,” probability separate from certainty, and the laboratory report separate from a pedigree or transaction record.',
+        'If you are buying or selling a bird, start with the sample chain and SNP-panel limits. If you are building an identity record, start with the gene ID card and sampling workflow.',
+      ],
+    },
+  ];
+  return categories.map((category) => ({ params: { category: category.slug }, props: category }));
+}
+
+const category = Astro.props;
+const posts = (await getCollection('blogEn'))
+  .filter((post) => post.data.category === category.category)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<CategoryHub
+  title={category.title}
+  description={category.description}
+  bannerTitle={category.bannerTitle}
+  bannerDescription={category.bannerDescription}
+  breadcrumb={category.breadcrumb}
+  intro={category.intro}
+  posts={posts}
+  base="/en"
+  lang="en"
+  serviceHref={category.serviceHref}
+  serviceLabel={category.serviceLabel}
+/>

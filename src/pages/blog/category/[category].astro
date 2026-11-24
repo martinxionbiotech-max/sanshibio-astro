@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import CategoryHub from '../../../components/CategoryHub.astro';
+
+export function getStaticPaths() {
+  const categories = [
+    {
+      slug: 'testing-workflow',
+      category: '检测指南',
+      title: '检测流程与报告 - 三狮生物',
+      description: '赛鸽样本采集、送检、检测流程、报告解读与复检边界。',
+      bannerTitle: '检测流程与报告',
+      bannerDescription: '从样本到报告：把检测流程、质量控制和结果解释放在同一条线上。',
+      breadcrumb: '检测指南',
+      serviceHref: '/services/',
+      serviceLabel: '查看检测服务',
+      intro: [
+        '检测不是“把样本寄出去，等一张纸”。真正影响报告价值的，是样本是否可追溯、检测项目是否匹配问题、报告是否被正确解释，以及结果是否进入了下一步决策。',
+        '这个 hub 把检测流程拆成四段：采样与样本质量、送检与链式保管、实验室检测与质控、报告解读与复检。每一段都可能改变结论，而不是只有实验室那一步重要。',
+        '如果你正在第一次送检，先读样本采集和报告解读；如果你已经做过检测，先看假阴性/假阳性和复检边界，再决定是否需要第二次检测。',
+      ],
+    },
+    {
+      slug: 'pathogen-health',
+      category: '病毒防控',
+      title: '病原与健康 - 三狮生物',
+      description: '赛鸽病毒、细菌、寄生虫检测与鸽舍健康管理，强调证据、复检和兽医边界。',
+      bannerTitle: '病原与健康',
+      bannerDescription: '从病原检测到鸽舍管理：结果只是证据，不是诊断终点。',
+      breadcrumb: '病毒防控',
+      serviceHref: '/virus-detection/',
+      serviceLabel: '查看病毒检测',
+      intro: [
+        '赛鸽健康问题很少由一个病原单独解释。病毒、细菌、寄生虫、环境应激和管理因素会叠加；同一份阳性报告，在不同症状、不同群体和不同时间点，意义可能完全不同。',
+        '这个 hub 关注三件事：什么时候值得检测、检测结果能说明什么、下一步应该由谁判断。我们把实验室结果放在临床症状、流行病学和兽医判断的框架里，而不是把它当成一张“确诊单”。',
+        '先读与当前症状最接近的病原文章；如果结果与临床表现不一致，优先看假阴/假阳和复检逻辑，而不是直接扩大用药。',
+      ],
+    },
+    {
+      slug: 'flight-genetics',
+      category: '飞行能力基因',
+      title: '飞行基因 - 三狮生物',
+      description: '赛鸽耐力、归巢、导航、肌力等飞行相关基因的科学解释与选育边界。',
+      bannerTitle: '飞行基因',
+      bannerDescription: '基因给方向，训练和环境决定表达；不要把潜力当成成绩。',
+      breadcrumb: '飞行能力基因',
+      serviceHref: '/flight-ability/',
+      serviceLabel: '查看飞行能力检测',
+      intro: [
+        '飞行能力不是单个基因决定的性状。LDHA、DRD4、CRY1、MSTN 等位点可以提供方向，但耐力、归巢、导航和肌力还受到训练、健康、营养、天气和比赛条件的影响。',
+        '这个 hub 的目标不是把基因报告做成“冠军预测”，而是帮助鸽友理解：位点提示了什么、哪些结论不能从单基因推出、如何把基因信息和血统、赛绩、子代记录放在一起。',
+        '第一次看报告，先读基因互作与遗传限制；准备配对，先读遗传潜力和训练的关系；如果报告与赛绩冲突，先排除管理、健康和样本问题。',
+      ],
+    },
+    {
+      slug: 'bloodline-identity',
+      category: '血统鉴定',
+      title: '血统与身份 - 三狮生物',
+      description: '赛鸽亲子鉴定、基因身份证、AB 鸽、性别鉴定和血统证据链。',
+      bannerTitle: '血统与身份',
+      bannerDescription: '血统不是一张纸：把样本、位点、概率和交易证据连起来。',
+      breadcrumb: '血统鉴定',
+      serviceHref: '/paternity/',
+      serviceLabel: '查看亲子鉴定',
+      intro: [
+        '血统鉴定的核心不是“百分比越高越好看”，而是样本能否归属、位点是否足够、概率如何计算，以及报告能否在交易或登记中被复核。',
+        '这个 hub 覆盖亲子关系、基因身份证、AB 鸽检测和性别鉴定。我们尽量把“排除”和“支持”的逻辑分开，把概率和确定性分开，也把实验室结果和血统书、交易记录分开。',
+        '如果你要买鸽或卖鸽，先看样本链和 SNP 面板边界；如果只是建立身份档案，先看基因身份证和采样流程。',
+      ],
+    },
+  ];
+  return categories.map((category) => ({ params: { category: category.slug }, props: category }));
+}
+
+const category = Astro.props;
+const posts = (await getCollection('blog'))
+  .filter((post) => post.data.category === category.category)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<CategoryHub
+  title={category.title}
+  description={category.description}
+  bannerTitle={category.bannerTitle}
+  bannerDescription={category.bannerDescription}
+  breadcrumb={category.breadcrumb}
+  intro={category.intro}
+  posts={posts}
+  base=""
+  lang="zh"
+  serviceHref={category.serviceHref}
+  serviceLabel={category.serviceLabel}
+/>
