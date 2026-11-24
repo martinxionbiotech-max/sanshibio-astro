@@ -1,0 +1,31 @@
+pillar,pillar_page_status,existing_zh,existing_en,missing_cluster,priority,intent,target_url,notes
+Flight Genetics,Commercial /flight-ability/ exists; no editorial hub,6,7,Gene interactions and polygenic limits,P1,Informational,/blog/gene-interactions-polygenic-traits/,Explain why 8 genes are not a deterministic score
+Flight Genetics,Commercial /flight-ability/ exists; no editorial hub,6,7,Genetics vs environment / training,P1,Informational,/blog/genetics-vs-training/,Set expectations; avoid performance guarantees
+Flight Genetics,Commercial /flight-ability/ exists; no editorial hub,6,7,Juvenile selection decision matrix,P2,Commercial investigation,/blog/juvenile-selection-matrix/,Use genes + pedigree + health + budget
+Bloodline & Identity,Commercial /paternity/ exists; no editorial hub,3,3,SNP panel limits and probability,P1,Informational,/blog/snp-panel-limits/,Explain CPI/PI and exclusion vs confirmation
+Bloodline & Identity,Commercial /paternity/ exists; no editorial hub,3,3,Sample types for parentage,P1,Informational,/blog/parentage-sample-types/,Feather/blood/swab; chain of custody
+Bloodline & Identity,Commercial /paternity/ exists; no editorial hub,3,3,Pedigree paper vs DNA evidence,P2,Commercial investigation,/blog/pedigree-vs-dna/,Auction and import use cases
+Pathogen & Health,Commercial /virus-detection/ exists; no editorial hub,14,14,Vaccination schedule and timing,P1,Informational,/blog/pigeon-vaccination-schedule/,Avoid prescribing; cite veterinary sources
+Pathogen & Health,Commercial /virus-detection/ exists; no editorial hub,14,14,Biosecurity and quarantine protocol,P1,Informational,/blog/pigeon-biosecurity-quarantine/,Loft-level practical controls
+Pathogen & Health,Commercial /virus-detection/ exists; no editorial hub,14,14,Coinfection testing algorithm,P1,Informational,/blog/pigeon-coinfection-testing/,When to test single vs panel
+Testing Workflow & Reports,No editorial hub; blog index only,7,5,Sample rejection and quality control,P1,Informational,/blog/sample-rejection-quality/,"Haemolysis, contamination, insufficient DNA"
+Testing Workflow & Reports,No editorial hub; blog index only,7,5,False negative / false positive interpretation,P1,Informational,/blog/false-negative-false-positive/,"Ct, sampling time, test limits"
+Testing Workflow & Reports,No editorial hub; blog index only,7,5,How to choose a testing laboratory,P2,Commercial investigation,/blog/how-to-choose-lab/,"Accreditation, controls, reporting, turnaround"
+Breeding & Selection,No pillar page,3,3,Pairing by genotype,P1,Commercial investigation,/blog/pairing-by-genotype/,Avoid deterministic claims; use selection goals
+Breeding & Selection,No pillar page,3,3,Inbreeding and genetic diversity,P1,Informational,/blog/inbreeding-genetic-diversity/,Pedigree + DNA; practical limits
+Breeding & Selection,No pillar page,3,3,Multi-trait selection index,P2,Informational,/blog/pigeon-selection-index/,"Combine flight, health, pedigree"
+"Lab, Equipment & Reagents",No pillar page,4,4,Lab setup tiers,P1,Commercial investigation,/blog/lab-setup-tiers/,Entry/medium/pro; no fake costs
+"Lab, Equipment & Reagents",No pillar page,4,4,qPCR validation and contamination control,P1,Informational,/blog/qpcr-validation-contamination/,"Controls, amplicon contamination, workflow"
+"Lab, Equipment & Reagents",No pillar page,4,4,Reagent storage and supply chain,P2,Informational,/blog/reagent-storage-supply/,"Cold chain, expiry, batch records"
+"Nutrition, Molting & Training",No pillar page,2,2,Race-season nutrition,P1,Informational,/blog/race-season-nutrition/,No medical claims; practical feeding
+"Nutrition, Molting & Training",No pillar page,2,2,Recovery and training load,P1,Informational,/blog/recovery-training-load/,Avoid overtraining; observation
+"Nutrition, Molting & Training",No pillar page,2,2,"Water, electrolytes and supplements",P2,Informational,/blog/water-electrolytes-supplements/,Evidence boundaries
+"Trade, Quarantine & Race Integrity",No pillar page,2,2,Import quarantine workflow,P1,Commercial investigation,/blog/import-quarantine-workflow/,Country-specific; verify official rules
+"Trade, Quarantine & Race Integrity",No pillar page,2,2,Auction fraud and AB verification,P1,Commercial investigation,/blog/auction-fraud-ab-verification/,"Identity, sample chain, report"
+"Trade, Quarantine & Race Integrity",No pillar page,2,2,Transport and insurance,P2,Informational,/blog/pigeon-transport-insurance/,Air/road; welfare and documents
+Service & Pricing,No pillar page,2,2,Sample shipping and chain of custody,P1,Commercial investigation,/blog/sample-shipping-chain-of-custody/,Domestic/international; customs
+Service & Pricing,No pillar page,2,2,"Turnaround, retest and refund policy",P1,Commercial investigation,/service-policy/,"Service terms page, not blog"
+Service & Pricing,No pillar page,2,2,"Consent, sample retention and privacy",P1,Commercial investigation,/sample-consent-retention/,Legal/ops page
+International / English B2B,No pillar page,0,0,Export sample shipping and importer rules,P1,Commercial investigation,/en/international-sample-shipping/,Country-specific; no universal claim
+International / English B2B,No pillar page,0,0,English B2B/partner page,P1,Commercial,/en/partners/,Distributor/lab partnership
+International / English B2B,No pillar page,0,0,Country availability / regulatory scope,P1,Commercial,/en/regulatory-scope/,Mirror of Chinese scope statement
