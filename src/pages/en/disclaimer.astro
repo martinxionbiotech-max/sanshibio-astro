@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import PageBanner from '../../components/PageBanner.astro';
 
 const title = 'Disclaimer | Sanshi Bio';
-const description = 'Website disclaimer for Hebei Sanshi Biotechnology: interpretation of test reports, veterinary advice, content accuracy and external links.';
+const description = 'Sanshi Bio website and testing disclaimer: report limits, no veterinary advice, no performance guarantee, sample limits and third parties.';
 
 const breadcrumbLd = {
   '@context': 'https://schema.org',
@@ -16,44 +16,99 @@ const breadcrumbLd = {
 ---
 
 <Layout title={title} description={description} jsonLd={[breadcrumbLd]}>
-  <PageBanner title="Disclaimer" description="Please read the following before using this website or our testing services" breadcrumb="Disclaimer" />
+  <PageBanner title="Disclaimer" description="Read the report limits and responsibility boundaries before using the site or testing services" breadcrumb="Disclaimer" />
 
   <section class="container-site py-16">
     <div class="prose-sanshi mx-auto max-w-3xl">
-      <h2 class="text-xl font-bold">1. Interpretation of Test Results</h2>
+      <p class="text-sm text-slate-500"><em>Last updated: 2026-11-24</em></p>
+
+      <h2 class="mt-8 text-xl font-bold">1. Nature of the website</h2>
       <p>
-        Genetic test reports provided by this website and by Sanshi Bio describe the genetic information of the
-        sample under current technical conditions. They reveal <b>genetic potential</b> and the
-        <b>presence of pathogens</b> — they <b>cannot on their own serve as the sole basis for a disease diagnosis
-        or a prediction of race performance</b>. A pigeon's final performance also depends on management, training,
-        nutrition and environmental conditions.
+        The Sanshi Bio website provides general information about racing-pigeon gene testing, pathogen
+        testing, paternity testing, breeding and loft management. It is not legal, tax, investment,
+        veterinary or race-strategy advice. Technology, products, prices and services may change; the
+        quotation, order or written agreement controls the specific service.
       </p>
 
-      <h2 class="mt-8 text-xl font-bold">2. No Veterinary Advice</h2>
+      <h2 class="mt-8 text-xl font-bold">2. Limits of test reports</h2>
       <p>
-        Content on this website about disease prevention and control is for general reference only and
-        <b>does not constitute veterinary advice</b>. If a bird shows symptoms of illness, consult a licensed
-        veterinarian for diagnosis and treatment; do not medicate based on this website alone.
+        A genetic report describes the received sample under the testing conditions used. It reveals
+        genetic potential or the presence of a pathogen; it <b>cannot by itself be the sole basis for a
+        disease diagnosis, a race prediction or a transaction price</b>. Performance also depends on
+        training, nutrition, health, stress, weather and race conditions. A negative pathogen result
+        does not necessarily exclude infection; a positive result does not necessarily mean clinical
+        disease. Interpret results with signs, epidemiology, re-testing and veterinary advice.
       </p>
 
-      <h2 class="mt-8 text-xl font-bold">3. Accuracy of Content</h2>
+      <h2 class="mt-8 text-xl font-bold">3. No veterinary advice</h2>
       <p>
-        Sanshi Bio makes every effort to keep the information on this website accurate and current, but technology,
-        product specifications and services may change. We do not warrant that all information is at all times
-        complete, accurate or up to date. Product specifications are governed by the delivered goods.
+        Content about disease, vaccines, medication and control is general information, not
+        <b>veterinary advice</b>. If a bird shows signs of illness, consult a licensed veterinarian.
+        Do not medicate or change a vaccination programme based only on this website. Vaccine, drug and
+        isolation decisions must follow local law, the product label and the actual flock situation.
       </p>
 
-      <h2 class="mt-8 text-xl font-bold">4. External Links</h2>
+      <h2 class="mt-8 text-xl font-bold">4. No guarantee of performance, breeding or trade outcome</h2>
       <p>
-        This website may contain links to third-party websites for your convenience. Sanshi Bio is not responsible
-        for the content or privacy practices of those third-party sites.
+        Gene and pathogen testing are decision tools, not guarantees. We do not guarantee race ranking,
+        homing performance, breeding success, offspring quality, bloodline transaction value, auction
+        outcome or a third party's acceptance of a report. A report does not replace training, health
+        management, transaction due diligence or legal review.
       </p>
 
-      <h2 class="mt-8 text-xl font-bold">5. Intellectual Property</h2>
+      <h2 class="mt-8 text-xl font-bold">5. Sample and testing limits</h2>
       <p>
-        Copyright and related rights in the content of this website (text, images, marks and other materials)
-        belong to Hebei Sanshi Biotechnology Co., Ltd. Reproduction, excerpting or commercial use without written
-        permission is not permitted.
+        A result applies only to the received sample. Insufficient, degraded, contaminated or
+        mislabelled samples, wrong sampling time or site, or poor storage and transport can cause
+        failure, delay, false negative, false positive or an unattributable result. Acceptance,
+        rejection, re-test and refund rules are in the
+        <a href="/en/service-policy">Testing Service Policy</a> and the specific order. The client must
+        ensure the sample is lawfully obtained, the information is accurate and the client is entitled
+        to submit it.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">6. Third-party laboratories, links and providers</h2>
+      <p>
+        We may use laboratories, logistics, payment, cloud hosting or other providers to deliver the
+        service. Third-party sites, tools and links are operated by their own providers; we are not
+        responsible for their content, availability, privacy practices or accuracy. A link is not an
+        endorsement, and third-party services are governed by their own terms.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">7. Accuracy and updates</h2>
+      <p>
+        We try to keep content accurate and current, but do not warrant that all information is complete,
+        accurate or up to date at all times. Research, regulation, products and services change. For
+        numbers, methods and conclusions, use the original source and the latest official text. Report
+        errors through the <a href="/en/contact">contact page</a>.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">8. Intellectual property and report use</h2>
+      <p>
+        Website text, images, marks, report templates, methods and databases are protected by law. They
+        may not be copied, adapted, published or used for commercial training without written
+        permission. Reports are for the client or a written authorised recipient for lawful purposes;
+        they must not be forged, altered, misquoted or used to mislead a transaction.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">9. Liability and governing law</h2>
+      <p>
+        To the extent permitted by law, Sanshi Bio is not liable for indirect loss, lost profit or lost
+        race results caused by use or misuse of the website, sample problems, the bird's condition,
+        training, transaction decisions or third-party conduct. Liability, refund and re-test terms for
+        a specific service are governed by the <a href="/en/terms-of-service">Terms of Service</a>, the
+        order and applicable law, except where mandatory law prohibits a limitation. This disclaimer is
+        governed by the laws of the People's Republic of China.
+      </p>
+
+      <h2 class="mt-8 text-xl font-bold">10. Contact</h2>
+      <p>
+        Questions about this disclaimer, a report or the service: <a href="/en/contact">contact page</a>
+        or <a href="mailto:martin@senobiocorp.com">martin@senobiocorp.com</a>. Related pages:
+        <a href="/en/terms-of-service">Terms of Service</a>,
+        <a href="/en/service-policy">Testing Service Policy</a>,
+        <a href="/en/privacy-policy">Privacy Policy</a>,
+        <a href="/en/cookies">Cookie Policy</a>.
       </p>
     </div>
   </section>
