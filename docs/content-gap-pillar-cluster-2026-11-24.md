@@ -157,3 +157,8 @@
 - `/blog/category/bloodline-identity/` + `/en/blog/category/bloodline-identity/`
 
 四个 hub 已从知识库首页加入主题入口，并接入对应的服务页。
+
+## 11. Batch 02 已完成
+
+- 5 组双语文章：基因型配对、近交/多样性、疫苗、生物安全、实验室配置。
+- 文章清单见 `docs/content-batch-02-2026-11-24.md`。
