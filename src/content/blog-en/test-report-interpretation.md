@@ -1,5 +1,5 @@
 ---
-title: "Reading a Pigeon Gene Test Report: Genotype to Breeding Action"
+title: "Reading a Pigeon Gene Test Report: Genotype to Action"
 description: "How to read a pigeon gene test report: sample identity, flight-gene genotypes, pathogen Ct values, paternity CPI, and the limits of each result."
 pubDate: 2026-06-28
 category: "Testing Guide"
