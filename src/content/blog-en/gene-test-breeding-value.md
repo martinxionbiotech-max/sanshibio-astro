@@ -78,8 +78,6 @@ No. It evaluates genetic potential; a champion needs genes, training, health and
 ### When is the best time to do flight ability gene testing?
 The earlier the better. Squabs can be tested right after leaving the nest — see [flight ability gene testing](/en/flight-ability/).
 
-### How much earlier can I select birds with testing?
-You can screen a squab shortly after leaving the nest — roughly 1–2 years before race results would reveal the same bird's potential. Early selection is the core economic benefit.
 
 ### How long before gene-based pairing shows results?
 Pigeons have a short breeding cycle; persisting with gene-based selection usually shows trait-improvement trends within 1–2 generations, even better with race-result review.

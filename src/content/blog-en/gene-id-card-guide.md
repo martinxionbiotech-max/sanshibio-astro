@@ -7,7 +7,7 @@ tags: [gene ID, SNP loci, individual identification, NGS]
 ---
 
 
-> **TL;DR**: A racing pigeon gene ID card uses 58 SNP loci to give every pigeon a unique, traceable genetic identity. The math behind "unique": 58 biallelic markers produce **2⁵⁸ ≈ 2.9 × 10¹⁷ possible profiles** — hundreds of thousands of times more combinations than there are pigeons on Earth — making a coincidental match between two unrelated birds effectively impossible.
+> **TL;DR**: A racing pigeon gene ID card uses 58 SNP loci to give every pigeon a unique, traceable genetic identity. The math behind "unique": 58 biallelic markers produce **at least 2⁵⁸ ≈ 2.9 × 10¹⁷ allele combinations**, and **3⁵⁸ ≈ 4.7 × 10²⁷ genotype combinations** when AA/AG/GG states are counted. The exact match probability also depends on allele frequencies and the panel.
 
 Just like a human ID, a racing pigeon needs a unique identity. The **gene ID card** uses DNA testing to establish a unique, traceable genetic identity for every pigeon.
 
@@ -94,7 +94,7 @@ Each of these uses draws on the same one-time profile, which is what makes the c
 A leg ring is a wearable identity that can be swapped or forged; a gene ID card is DNA-based and unforgeable. The two together provide true identity security.
 
 ### How unlikely is a coincidental match between two pigeons?
-Astronomically unlikely. Fifty-eight biallelic loci produce 2⁵⁸ ≈ 2.9 × 10¹⁷ possible profiles — far more than the total number of pigeons alive — so two unrelated birds matching by chance is effectively impossible.
+Astronomically unlikely. Fifty-eight biallelic loci produce at least 2⁵⁸ ≈ 2.9 × 10¹⁷ allele combinations (3⁵⁸ ≈ 4.7 × 10²⁷ genotype combinations), far more than the total number of pigeons alive. The practical match probability still depends on allele frequencies and the marker panel.
 
 ### Does the gene ID card need periodic renewal?
 No. Once established, it is valid long-term with no renewal needed. It is advisable to profile every breeder and key racer into a complete loft gene archive.
@@ -103,7 +103,7 @@ No. Once established, it is valid long-term with no renewal needed. It is advisa
 A gene ID establishes individual identity; a paternity test verifies parentage. Use both for full bloodline management.
 
 ### Why can SNP loci uniquely identify an individual?
-The combination of 58 SNP loci is astronomically large — 2⁵⁸ or more possible profiles — making identical matches between two pigeons virtually impossible.
+The combination is astronomically large — at least 2⁵⁸ allele combinations, or 3⁵⁸ genotype combinations — making an identical match between two unrelated pigeons extremely unlikely. Do not treat the raw combination count as a measured probability without the panel's allele frequencies.
 
 ### How long is a gene ID card valid?
 Valid for life once established. A pigeon's genotype never changes, so the gene ID card can be used throughout the bird's lifetime.
