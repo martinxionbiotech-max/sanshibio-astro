@@ -35,7 +35,7 @@ npm run preview  # 预览构建产物
 - 框架预设：Astro
 - 构建命令：`npm run build`
 - 输出目录：`dist`
-- 域名：`sanshibio.com`（可自行调整，同时更新 `astro.config.mjs` 的 `site`、`public/sitemap.xml`、`public/llms.txt`、`public/robots.txt` 中的域名）
+- 域名：`sanshibio.net`（可自行调整，同时更新 `astro.config.mjs` 的 `site`、`public/sitemap.xml`、`public/llms.txt`、`public/robots.txt` 中的域名）
 
 ## 图片
 
